@@ -11,6 +11,8 @@
     --accent-strong: #ad2f08;
     --success: #2f8f50;
     --success-strong: #20693a;
+    --info: #2d73c9;
+    --info-strong: #1e4f91;
     --button-text: #fff7f0;
     --shadow: 0 24px 60px rgba(95, 34, 14, 0.18);
 }
@@ -180,6 +182,15 @@ h1 {
 
 .button-duolingo:focus-visible {
     outline-color: rgba(47, 143, 80, 0.24);
+}
+
+.button-play-books {
+    background: linear-gradient(180deg, var(--info), var(--info-strong));
+    box-shadow: 0 14px 28px rgba(30, 79, 145, 0.24);
+}
+
+.button-play-books:focus-visible {
+    outline-color: rgba(45, 115, 201, 0.24);
 }
 
 .meta {
