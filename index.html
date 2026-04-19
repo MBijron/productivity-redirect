@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Open Elevate</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg-1: #fff8ef;
+            --bg-2: #ffd8a8;
+            --bg-3: #f58549;
+            --panel: rgba(255, 252, 246, 0.84);
+            --panel-border: rgba(117, 53, 26, 0.14);
+            --text-1: #2d160d;
+            --text-2: #744633;
+            --accent: #d64b1a;
+            --accent-strong: #ad2f08;
+            --button-text: #fff7f0;
+            --shadow: 0 24px 60px rgba(95, 34, 14, 0.18);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            max-width: 100vw;
+            max-height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            font-family: "Aptos Display", "Trebuchet MS", "Segoe UI", sans-serif;
+            background:
+                radial-gradient(circle at top left, rgba(255, 255, 255, 0.9), transparent 34%),
+                radial-gradient(circle at bottom right, rgba(247, 149, 80, 0.34), transparent 24%),
+                linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 48%, var(--bg-3) 100%);
+            color: var(--text-1);
+        }
+
+        body {
+            position: relative;
+            display: grid;
+            place-items: center;
+        }
+
+        body::before,
+        body::after {
+            content: "";
+            position: absolute;
+            inset: auto;
+            border-radius: 999px;
+            pointer-events: none;
+            filter: blur(10px);
+        }
+
+        body::before {
+            width: 42vmax;
+            height: 42vmax;
+            top: -16vmax;
+            right: -12vmax;
+            background: rgba(255, 250, 243, 0.48);
+        }
+
+        body::after {
+            width: 34vmax;
+            height: 34vmax;
+            bottom: -10vmax;
+            left: -8vmax;
+            background: rgba(213, 75, 26, 0.16);
+        }
+
+        .shell {
+            position: relative;
+            z-index: 1;
+            width: min(92vw, 720px);
+            max-width: 92vw;
+            max-height: min(92vh, 92dvh);
+            padding: clamp(1.4rem, 3vw, 2.6rem);
+        }
+
+        .card {
+            display: grid;
+            gap: 1.5rem;
+            padding: clamp(1.4rem, 3.2vw, 2.5rem);
+            border: 1px solid var(--panel-border);
+            border-radius: 28px;
+            background: var(--panel);
+            backdrop-filter: blur(18px);
+            box-shadow: var(--shadow);
+            max-height: min(84vh, 84dvh);
+            overflow: hidden;
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.95rem;
+        }
+
+        .brand-mark {
+            width: clamp(56px, 10vw, 74px);
+            aspect-ratio: 1;
+            flex: 0 0 auto;
+            display: grid;
+            place-items: center;
+            border-radius: 22px;
+            background: linear-gradient(145deg, #ffd4b0, #f15d27);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 0 12px 24px rgba(181, 73, 31, 0.22);
+        }
+
+        .brand-mark svg {
+            width: 62%;
+            height: 62%;
+        }
+
+        .brand-copy {
+            display: grid;
+            gap: 0.2rem;
+        }
+
+        .eyebrow {
+            margin: 0;
+            font-size: 0.78rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-2);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(2rem, 5.4vw, 3.5rem);
+            line-height: 0.96;
+            letter-spacing: -0.04em;
+        }
+
+        .lede {
+            margin: 0;
+            max-width: 34rem;
+            font-size: clamp(1rem, 2.4vw, 1.14rem);
+            line-height: 1.55;
+            color: var(--text-2);
+        }
+
+        .actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.9rem;
+        }
+
+        .button,
+        .ghost {
+            appearance: none;
+            border: 0;
+            border-radius: 999px;
+            font: inherit;
+            text-decoration: none;
+            transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.95rem 1.4rem;
+            min-height: 3.2rem;
+            background: linear-gradient(180deg, var(--accent), var(--accent-strong));
+            color: var(--button-text);
+            box-shadow: 0 14px 28px rgba(173, 47, 8, 0.24);
+            font-weight: 700;
+        }
+
+        .ghost {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.95rem 1.2rem;
+            min-height: 3.2rem;
+            background: rgba(255, 255, 255, 0.64);
+            color: var(--text-1);
+            border: 1px solid rgba(117, 53, 26, 0.12);
+            font-weight: 600;
+        }
+
+        .button:hover,
+        .button:focus-visible,
+        .ghost:hover,
+        .ghost:focus-visible {
+            transform: translateY(-1px);
+        }
+
+        .button:focus-visible,
+        .ghost:focus-visible {
+            outline: 3px solid rgba(214, 75, 26, 0.22);
+            outline-offset: 3px;
+        }
+
+        .meta {
+            display: grid;
+            gap: 0.8rem;
+            padding: 1rem 1.1rem;
+            border-radius: 22px;
+            background: rgba(255, 247, 240, 0.74);
+            border: 1px solid rgba(117, 53, 26, 0.1);
+        }
+
+        .meta-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.9rem;
+            color: var(--text-2);
+            font-size: 0.95rem;
+        }
+
+        .pill {
+            padding: 0.35rem 0.7rem;
+            border-radius: 999px;
+            background: rgba(214, 75, 26, 0.12);
+            color: var(--accent-strong);
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .fine-print {
+            margin: 0;
+            font-size: 0.92rem;
+            line-height: 1.5;
+            color: var(--text-2);
+        }
+
+        @media (max-width: 640px) {
+            .shell {
+                width: 100vw;
+                max-width: 100vw;
+                max-height: 100vh;
+                padding: 1rem;
+            }
+
+            .card {
+                gap: 1.2rem;
+                max-height: calc(100vh - 2rem);
+                max-height: calc(100dvh - 2rem);
+                border-radius: 24px;
+            }
+
+            .meta-row {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            .actions {
+                flex-direction: column;
+            }
+
+            .button,
+            .ghost {
+                width: 100%;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .button,
+            .ghost {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="shell">
+        <section class="card" aria-labelledby="title">
+            <div class="brand" aria-label="Elevate logo and name">
+                <div class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 64 64" role="img" aria-hidden="true" focusable="false">
+                        <defs>
+                            <linearGradient id="logo-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#fff1dd"></stop>
+                                <stop offset="100%" stop-color="#fffaf5"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path fill="url(#logo-fill)" d="M18 42.5 32 17l14 25.5h-7.7L32 31.8 25.7 42.5z"></path>
+                        <rect x="18" y="46" width="28" height="5" rx="2.5" fill="rgba(255,250,245,0.92)"></rect>
+                    </svg>
+                </div>
+                <div class="brand-copy">
+                    <p class="eyebrow">Productivity App</p>
+                    <h1 id="title">Open Elevate</h1>
+                </div>
+            </div>
+
+            <p class="lede">
+                Elevate helps you jump straight into your focused workflow. This page will open the app almost immediately, or you can launch it yourself below.
+            </p>
+
+            <div class="actions">
+                <a class="button" id="open-elevate" href="tasker://assistantactions?task=OpenProductivity">Open Elevate</a>
+                <a class="ghost" href="tasker://assistantactions?task=OpenProductivity">Try again</a>
+            </div>
+
+            <div class="meta" aria-label="Redirect details">
+                <div class="meta-row">
+                    <span>Automatic redirect is enabled</span>
+                    <span class="pill">50 ms</span>
+                </div>
+                <p class="fine-print">
+                    If your device asks for permission, allow the prompt to continue into Elevate. If nothing happens, use the button above to trigger the same deep link manually.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        (function () {
+            var targetUrl = "tasker://assistantactions?task=OpenProductivity";
+            window.setTimeout(function () {
+                window.location.href = targetUrl;
+            }, 50);
+        }());
+    </script>
+</body>
+</html>
