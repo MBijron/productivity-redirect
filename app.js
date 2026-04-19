@@ -2,6 +2,8 @@
     const defaultTargetUrl = "tasker://assistantactions?task=OpenProductivity";
     const redirectDelayMs = 1000;
     const actionLinks = globalThis.document.querySelectorAll("[data-target]");
+    const searchParams = new URLSearchParams(globalThis.location.search);
+    const isPreviewMode = searchParams.get("preview") === "1";
     let redirectHandle = null;
 
     function cancelRedirect() {
@@ -23,7 +25,9 @@
         });
     });
 
-    redirectHandle = globalThis.setTimeout(function () {
-        openTarget(defaultTargetUrl);
-    }, redirectDelayMs);
+    if (!isPreviewMode) {
+        redirectHandle = globalThis.setTimeout(function () {
+            openTarget(defaultTargetUrl);
+        }, redirectDelayMs);
+    }
 }());

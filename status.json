@@ -1,0 +1,9 @@
+{
+  "deployVersion": "2026-04-19T12:56:14.9342484+02:00",
+  "redirectDelayMs": 1000,
+  "defaultTarget": "tasker://assistantactions?task=OpenProductivity",
+  "secondaryTargets": [
+    "tasker://assistantactions?task=OpenDuolingo",
+    "tasker://assistantactions?task=OpenBooks"
+  ]
+}
