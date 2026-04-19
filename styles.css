@@ -275,6 +275,59 @@ h1 {
     color: var(--text-2);
 }
 
+.watch-popup {
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding: 1.5rem;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 180ms ease, visibility 180ms ease;
+    z-index: 3;
+}
+
+.watch-popup::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(72, 41, 20, 0.16);
+    backdrop-filter: blur(10px);
+}
+
+.watch-popup.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.watch-popup-card {
+    position: relative;
+    min-width: min(90vw, 19rem);
+    display: grid;
+    gap: 0.35rem;
+    padding: 1.2rem 1.35rem;
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(255, 248, 239, 0.72), rgba(244, 221, 186, 0.6));
+    box-shadow: 0 24px 60px rgba(95, 34, 14, 0.22);
+    color: var(--text-1);
+    text-align: center;
+    backdrop-filter: blur(18px);
+}
+
+.watch-popup-card strong {
+    font-size: clamp(1.15rem, 2.8vw, 1.45rem);
+    letter-spacing: -0.03em;
+}
+
+.watch-popup-label {
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-2);
+}
+
 @media (max-width: 640px) {
     .shell {
         width: 100vw;
@@ -311,7 +364,8 @@ h1 {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .button {
+    .button,
+    .watch-popup {
         transition: none;
     }
 }
