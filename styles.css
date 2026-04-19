@@ -13,6 +13,8 @@
     --success-strong: #20693a;
     --info: #2d73c9;
     --info-strong: #1e4f91;
+    --wiki: #596777;
+    --wiki-strong: #343d48;
     --button-text: #fff7f0;
     --shadow: 0 24px 60px rgba(95, 34, 14, 0.18);
 }
@@ -142,10 +144,8 @@ h1 {
 }
 
 .actions {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.9rem;
 }
 
@@ -162,8 +162,6 @@ h1 {
     gap: 0.68rem;
     padding: 0.95rem 1.4rem;
     min-height: 3.2rem;
-    flex: 1 1 0;
-    min-width: 0;
     background: linear-gradient(180deg, var(--accent), var(--accent-strong));
     color: var(--button-text);
     box-shadow: 0 14px 28px rgba(173, 47, 8, 0.24);
@@ -212,6 +210,15 @@ h1 {
 
 .button-play-books:focus-visible {
     outline-color: rgba(45, 115, 201, 0.24);
+}
+
+.button-wikipedia {
+    background: linear-gradient(180deg, var(--wiki), var(--wiki-strong));
+    box-shadow: 0 14px 28px rgba(52, 61, 72, 0.22);
+}
+
+.button-wikipedia:focus-visible {
+    outline-color: rgba(89, 103, 119, 0.24);
 }
 
 .meta {
@@ -268,12 +275,12 @@ h1 {
         flex-direction: column;
     }
 
-    .actions {
-        flex-direction: column;
-    }
-
     .button {
         width: 100%;
+    }
+
+    .actions {
+        grid-template-columns: 1fr;
     }
 }
 
