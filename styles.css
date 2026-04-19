@@ -13,6 +13,8 @@
     --success-strong: #20693a;
     --info: #2d73c9;
     --info-strong: #1e4f91;
+    --breathing: #b4872e;
+    --breathing-strong: #7e5520;
     --wiki: #596777;
     --wiki-strong: #343d48;
     --button-text: #fff7f0;
@@ -145,8 +147,17 @@ h1 {
 
 .actions {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 0.9rem;
+}
+
+.actions > .button {
+    grid-column: span 2;
+}
+
+.actions > .button:nth-last-child(2),
+.actions > .button:last-child {
+    grid-column: span 3;
 }
 
 .button {
@@ -210,6 +221,15 @@ h1 {
 
 .button-play-books:focus-visible {
     outline-color: rgba(45, 115, 201, 0.24);
+}
+
+.button-breathing {
+    background: linear-gradient(180deg, var(--breathing), var(--breathing-strong));
+    box-shadow: 0 14px 28px rgba(126, 85, 32, 0.24);
+}
+
+.button-breathing:focus-visible {
+    outline-color: rgba(180, 135, 46, 0.24);
 }
 
 .button-wikipedia {
@@ -282,10 +302,87 @@ h1 {
     .actions {
         grid-template-columns: 1fr;
     }
+
+    .actions > .button,
+    .actions > .button:nth-last-child(2),
+    .actions > .button:last-child {
+        grid-column: auto;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
     .button {
+        transition: none;
+    }
+}
+
+body.wikipedia-page {
+    display: block;
+    background: #ede7dc;
+}
+
+body.wikipedia-page::before,
+body.wikipedia-page::after {
+    display: none;
+}
+
+.wiki-shell {
+    position: fixed;
+    inset: 0;
+}
+
+.wiki-frame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    background: #ffffff;
+}
+
+.wiki-refresh {
+    position: fixed;
+    right: clamp(1rem, 3vw, 1.75rem);
+    bottom: calc(env(safe-area-inset-bottom, 0px) + clamp(1rem, 3vw, 1.75rem));
+    width: 3.75rem;
+    height: 3.75rem;
+    border: 0;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, var(--wiki), var(--wiki-strong));
+    color: var(--button-text);
+    box-shadow: 0 20px 36px rgba(52, 61, 72, 0.3);
+    cursor: pointer;
+    z-index: 2;
+    transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.wiki-refresh:hover,
+.wiki-refresh:focus-visible {
+    transform: translateY(-1px) scale(1.02);
+    box-shadow: 0 24px 42px rgba(52, 61, 72, 0.34);
+}
+
+.wiki-refresh:focus-visible {
+    outline: 3px solid rgba(89, 103, 119, 0.24);
+    outline-offset: 3px;
+}
+
+.wiki-refresh svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media (max-width: 640px) {
+    .wiki-refresh {
+        width: 3.4rem;
+        height: 3.4rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .wiki-refresh {
         transition: none;
     }
 }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#596777">
+    <title>Random Wikipedia</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="wikipedia-page">
+    <main class="wiki-shell">
+        <iframe
+            id="wiki-frame"
+            class="wiki-frame"
+            title="Random Wikipedia article"
+            src="https://en.wikipedia.org/wiki/Special:Random"
+            referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+        <button class="wiki-refresh" id="wiki-refresh" type="button" aria-label="Load another random Wikipedia article">
+            <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+                <path fill="currentColor" d="M17.7 6.3A8 8 0 1 0 20 12h-2a6 6 0 1 1-1.8-4.3L13 11h8V3z"></path>
+            </svg>
+        </button>
+    </main>
+
+    <script src="./wikipedia.js" defer></script>
+</body>
+</html>
