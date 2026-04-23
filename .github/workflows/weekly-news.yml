@@ -158,6 +158,8 @@ jobs:
       - name: Commit and push
         run: |
           set -euo pipefail
+          branch="${{ github.event.repository.default_branch }}"
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add weekly-news.jsonl news-summary.json
@@ -168,4 +170,11 @@ jobs:
           fi
 
           git commit -m "Update weekly news summary"
-          git push origin "HEAD:${{ github.event.repository.default_branch }}"
+
+          if git push origin "HEAD:${branch}"; then
+            exit 0
+          fi
+
+          echo "Initial push was rejected; rebasing onto origin/${branch} and retrying"
+          git pull --rebase origin "${branch}"
+          git push origin "HEAD:${branch}"
