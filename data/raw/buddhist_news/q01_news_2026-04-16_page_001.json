@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "uuid": "8c671eff-a3b7-4e67-836b-00cd55a073e4",
+      "title": "Gwyneth Paltrow going back to her roots as star brings Goop Kitchen to NYC: ‘Feeding most of Manhattan’",
+      "published_at": "2026-04-17T15:00:00.000Z",
+      "publisher": "New York Post"
+    },
+    {
+      "uuid": "2bc60b1d-ac01-40a3-aa82-2c24b1d582b8",
+      "title": "I asked every county if they will paywall live streams – here’s what they said",
+      "published_at": "2026-04-17T10:00:00.000Z",
+      "publisher": "The i Paper"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 2,
+    "has_more": false,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-16T20:32:46Z",
+      "published_before": "2026-04-17T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": "dalai lama",
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": null,
+    "next_cursor": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "ed6710d3-4484-4470-95af-c28a0ff422b6",
+      "title": "Sven Mijnans wordt direct na wedstrijd AZ geconfronteerd met interesse AC Milan",
+      "published_at": "2026-04-23T19:19:00.000Z",
+      "publisher": "Voetbalzone"
+    },
+    {
+      "uuid": "31937bee-60c8-4586-af84-65a47db037be",
+      "title": "'Dick Advocaat pusht Feyenoord om Emmanuel Fernandez te halen'",
+      "published_at": "2026-04-23T19:17:00.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "19c8de46-906d-4939-9fe0-def99693e35e",
+      "title": "Woonbond vindt dat huurder weinig opschiet met energiesteun",
+      "published_at": "2026-04-23T19:16:58.000Z",
+      "publisher": "nieuws.nl"
+    },
+    {
+      "uuid": "5e18ae19-7ede-43b1-8061-02ae6edc4022",
+      "title": "Grote brand, cyberaanval op Epe en Maxim nog altijd spoorloos op 23 april",
+      "published_at": "2026-04-23T19:16:42.000Z",
+      "publisher": "Omroep Gelderland"
+    },
+    {
+      "uuid": "9197aa1e-99b8-4d2b-b5fa-f043afca231a",
+      "title": "EU-voorzitters willen tempo maken nu Hongaarse blokkade uit de weg is",
+      "published_at": "2026-04-23T19:13:49.000Z",
+      "publisher": "Het Financieele Dagblad"
+    },
+    {
+      "uuid": "475985db-a20c-43b8-9600-7a05f268f078",
+      "title": "Patiëntportalen Adrz weer in de lucht na maatregelen cyberaanval",
+      "published_at": "2026-04-23T19:08:49.000Z",
+      "publisher": "Omroep Zeeland"
+    },
+    {
+      "uuid": "02a98b2c-c7c5-431c-808f-5c860c77ec6c",
+      "title": "Landskampioen PSV steekt Schouten hart onder de riem • Blessure Saibari wordt onderzocht",
+      "published_at": "2026-04-23T19:07:06.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "8c075ba6-0f32-4d58-98b4-aa1aa39e3295",
+      "title": "Mijnans houdt lippen op elkaar na transfergeruchten: 'Genoeg berichten ontvangen'",
+      "published_at": "2026-04-23T19:02:00.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "eb3ce1ba-f39f-46b7-9909-c412dff903b4",
+      "title": "Welke films zie jij in april 2026 in de bioscoop?",
+      "published_at": "2026-04-23T18:56:48.000Z",
+      "publisher": "Sortir à Paris"
+    },
+    {
+      "uuid": "cd77ab08-97ef-4c9a-be40-c398d9bacf32",
+      "title": "PSV zonder Saibari, maar met Van den Berg • PEC mist smaakmaker Namli",
+      "published_at": "2026-04-23T18:52:00.000Z",
+      "publisher": "NOS"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-22T20:32:46Z",
+      "published_before": "2026-04-23T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImFiYTBjYjhmZmMzZmJlZTJkNjg2MGY1YWNkMTYxZjJhOWUzZDU5YTUzMTNjMTkwOTRlYzkyODRmMGVmY2ZjNTAiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjNUMTg6NTI6MDAuMDAwWiIsImxhc3RfaWQiOjMwMjc2Mzl9"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "207f5f9b-fcd9-4063-aabc-edcbfb980bd1",
+      "title": "UK to permanently ban future generations from buying cigarettes: ‘It will save lives’",
+      "published_at": "2026-04-21T20:12:00.000Z",
+      "publisher": "New York Post"
+    },
+    {
+      "uuid": "f2ead97f-2133-4492-a15e-39460b137a08",
+      "title": "Tanzania answers Ruto, says claim that Kenya leads region in tarmac roads not true",
+      "published_at": "2026-04-21T20:11:58.000Z",
+      "publisher": "The Eastleigh Voice"
+    },
+    {
+      "uuid": "f9fef975-b0a6-426b-9d9f-34e8f556bca6",
+      "title": "The end of oil? As fuel shocks cascade, 53 nations gather to plan a fossil fuel phaseout",
+      "published_at": "2026-04-21T20:10:58.000Z",
+      "publisher": "The Conversation"
+    },
+    {
+      "uuid": "22f2ec60-aed9-40e6-8de3-b55cbf937795",
+      "title": "Uncertainty hangs over U.S.-Iran talks as ceasefire deadline looms",
+      "published_at": "2026-04-21T20:10:53.000Z",
+      "publisher": "NPR"
+    },
+    {
+      "uuid": "fa063491-91f3-4a2b-b5bf-16d9dc26bdc0",
+      "title": "With 3 resignations in a week, Congress faces scrutiny for how it handles misconduct",
+      "published_at": "2026-04-21T20:10:43.000Z",
+      "publisher": "NPR"
+    },
+    {
+      "uuid": "876439ad-07f5-44a7-8235-aa0795db8d0c",
+      "title": "Trump has destroyed the norms of White House reporting",
+      "published_at": "2026-04-21T20:10:39.000Z",
+      "publisher": "NPR"
+    },
+    {
+      "uuid": "ffe19333-f68b-4c8a-8fc8-6fba044881ae",
+      "title": "Peters says Luxon didn't warn him about leadership vote, Mooney denies leaking",
+      "published_at": "2026-04-21T20:10:16.000Z",
+      "publisher": "RNZ"
+    },
+    {
+      "uuid": "7b55492e-4229-4e12-85c1-15e7535267f2",
+      "title": "UPS, FedEx and DHL are seeking tariff refunds. Here's what it means for consumers.",
+      "published_at": "2026-04-21T20:08:16.000Z",
+      "publisher": "CBS News"
+    },
+    {
+      "uuid": "0a627561-bf50-4a3c-9036-cd6c5538ef5d",
+      "title": "US stresses effectiveness of blockade based on impact to Iran’s economy",
+      "published_at": "2026-04-21T20:05:53.000Z",
+      "publisher": "Lloyd's List"
+    },
+    {
+      "uuid": "0d23c1a3-89f8-4633-841a-d08b21a37f22",
+      "title": "Stepbrother pleads not guilty to murder, sex abuse charges in teen's cruise ship death",
+      "published_at": "2026-04-21T20:04:32.000Z",
+      "publisher": "ABC News - Breaking News, Latest News and Videos"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-20T20:32:46Z",
+      "published_before": "2026-04-21T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjU2Y2UyMzUyMTYwY2RkOTFlYWE4MWJiOWYyODExMjJiN2JhNDExYmFmMjY5ZDExZTAwZTQ5YmU1MjQ3MTgwY2MiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjFUMjA6MDQ6MzIuMDAwWiIsImxhc3RfaWQiOjI2NzQ3OTh9"
+  }
+}

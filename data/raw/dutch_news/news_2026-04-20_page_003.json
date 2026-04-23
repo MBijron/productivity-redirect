@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "7ec034c5-5152-44b6-9b71-874f05dd0038",
+      "title": "Xbox Game Pass Ultimate wordt fors goedkoper, maar Call of Duty verdwijnt bij launch",
+      "published_at": "2026-04-21T20:03:45.000Z",
+      "publisher": "PU.nl"
+    },
+    {
+      "uuid": "736758b8-ba1e-4be0-a3a3-ed0c5c811093",
+      "title": "Marko ziet Wolff nog een grote troef achter de hand hebben",
+      "published_at": "2026-04-21T20:01:00.000Z",
+      "publisher": "GPblog"
+    },
+    {
+      "uuid": "8a3b71a9-31e8-4ab4-b1f9-ba460ddd1985",
+      "title": "Stroomnet in regio Groot-Utrecht gaat op slot, nieuwe aanvragers moeten wachten",
+      "published_at": "2026-04-21T20:01:00.000Z",
+      "publisher": "Nederlands Dagblad"
+    },
+    {
+      "uuid": "69d6b864-e9ee-48fe-81ce-7b9ca4a9402b",
+      "title": "Aanslag op tempel brengt Mexico opnieuw in lastig parket in aanloop naar WK",
+      "published_at": "2026-04-21T20:00:42.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "4735f40a-dd7e-4da2-96f4-206efb748945",
+      "title": "Predikant over familie Babayants: opluchting bij gezin na asielstemming",
+      "published_at": "2026-04-21T20:00:30.000Z",
+      "publisher": "RTV Drenthe"
+    },
+    {
+      "uuid": "9e577f3a-1a5e-431a-8b81-62069776cb50",
+      "title": "Kijkers van De Bondegenoten kijken uit naar familiebezoek: 'Ben benieuwd'",
+      "published_at": "2026-04-21T19:59:57.000Z",
+      "publisher": "Shownieuws"
+    },
+    {
+      "uuid": "9fc1450a-4ade-44ac-b6e4-2e49f0b340ef",
+      "title": "Justitie in Florida onderzoekt ChatGPT voor advies aan moordenaar",
+      "published_at": "2026-04-21T19:55:51.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "d89a78b1-fdaa-461d-b772-133a480e2a43",
+      "title": "‘Feyenoord-target ziet transfer wel zitten’",
+      "published_at": "2026-04-21T19:52:59.000Z",
+      "publisher": "Soccernews.nl"
+    },
+    {
+      "uuid": "0499c3f9-5185-4319-83ae-e22b953bd183",
+      "title": "Windrose: NPC-locaties en rekrutering",
+      "published_at": "2026-04-21T19:52:07.000Z",
+      "publisher": "games.gg"
+    },
+    {
+      "uuid": "f65598b4-9d12-4365-9eba-bb0f8dc32950",
+      "title": "Troy Parrott hoopt na bekerwinst het schier onmogelijke te doen in de Eredivisie",
+      "published_at": "2026-04-21T19:49:32.000Z",
+      "publisher": "FCUpdate.nl"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-20T20:32:46Z",
+      "published_before": "2026-04-21T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImE0ZDNlZWMzM2E4YTMzZDQ0NTk1OTlhZGJiZTU1YzQ2OTBmMGI3YzRkZGM1MGJkYjM2ZjM1ZmE2ODY4MGQzOTkiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjFUMTk6NDk6MzIuMDAwWiIsImxhc3RfaWQiOjI4MjAwOTN9"
+  }
+}

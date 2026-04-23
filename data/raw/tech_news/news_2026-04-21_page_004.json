@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "70fc5615-6691-46a7-8ef4-4ab758de289c",
+      "title": "Hellforged Announced for PC",
+      "published_at": "2026-04-22T20:10:02.000Z",
+      "publisher": "IGN Africa"
+    },
+    {
+      "uuid": "24b2725a-1505-4504-80cf-ab21f25ce091",
+      "title": "Older Call of Duty games are coming to Game Pass in 2026",
+      "published_at": "2026-04-22T20:09:47.000Z",
+      "publisher": "Yahoo Tech"
+    },
+    {
+      "uuid": "5d3fb031-1506-4a8f-b449-338b98b4bd5f",
+      "title": "Did Apple Just Fix the iPhone Bug That Let the FBI Recover Deleted Signal Messages?",
+      "published_at": "2026-04-22T20:07:59.000Z",
+      "publisher": "Lifehacker"
+    },
+    {
+      "uuid": "31aa0ee7-ed83-4831-adda-0e9cbe8f3077",
+      "title": "The 32\" revolution requires reinventing more than the wheel",
+      "published_at": "2026-04-22T20:07:15.000Z",
+      "publisher": "Escape Collective"
+    },
+    {
+      "uuid": "cd8cb374-5fb8-4dff-bfa3-1b43b94e5552",
+      "title": "iOS 26.4.2: Apple Issues Unexpected iPhone Update To Block FBI Data Extraction Method",
+      "published_at": "2026-04-22T20:05:52.000Z",
+      "publisher": "Forbes"
+    },
+    {
+      "uuid": "edc7c752-798e-45ab-b286-9234abcb42cd",
+      "title": "iOS 26.4.2: Apple Issues Unexpected iPhone Update To Block FBI Data Extraction Method",
+      "published_at": "2026-04-22T20:05:52.000Z",
+      "publisher": "Yahoo News Singapore"
+    },
+    {
+      "uuid": "80321c14-b85d-4692-a91c-b54ec7b76c17",
+      "title": "New Vampire Survivors Game is an Instant Hint & Devs Confirm There’s More to Come",
+      "published_at": "2026-04-22T20:05:32.000Z",
+      "publisher": "ComicBook.com"
+    },
+    {
+      "uuid": "4a4135f4-9294-4718-9525-dc9a8a2f4acd",
+      "title": "Vivo X300 FE Leaks, Carrying Zeiss G2 Lens and Snapdragon Flagship",
+      "published_at": "2026-04-22T20:05:00.000Z",
+      "publisher": "VOI.id"
+    },
+    {
+      "uuid": "5d953fad-f3f5-4503-a888-1b80adaaec65",
+      "title": "WW1 FPS Gallipoli Launches 21 May on <br> PC, PS5 and Xbox Series X|S with Full Crossplay",
+      "published_at": "2026-04-22T20:03:45.000Z",
+      "publisher": "Games Press"
+    },
+    {
+      "uuid": "5ca1c1c0-1b6a-47c3-9c86-736e41440b2d",
+      "title": "Dive Into Tides of Tomorrow: Narrative Adventure from Award-Winning Road 96 Creators Is Out Now",
+      "published_at": "2026-04-22T20:03:45.000Z",
+      "publisher": "Games Press"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImExYWQ0ZmFkZTA0OWYxOGYzMGY1OWZhZmMxNTE1MGRlYzRlMTMyOGE3NDk4NzM4MjdjMzQ3NGIxMzU5NTQ2ZjciLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjJUMjA6MDM6NDUuMDAwWiIsImxhc3RfaWQiOjI4MzY4ODd9"
+  }
+}

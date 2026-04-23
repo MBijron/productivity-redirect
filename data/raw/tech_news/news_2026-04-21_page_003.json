@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "c944dd07-ad78-41c4-9233-9bc7c1b0bca9",
+      "title": "Trouble Ahead? Samsung MX Could Lose Money for the First Time in 2026",
+      "published_at": "2026-04-22T20:14:52.000Z",
+      "publisher": "SammyGuru"
+    },
+    {
+      "uuid": "8f597dce-861a-4180-b6da-7e49645cb9eb",
+      "title": "Panasonic LUMIX S 40mm F2 targets everyday shooting",
+      "published_at": "2026-04-22T20:12:48.000Z",
+      "publisher": "Camera Jabber"
+    },
+    {
+      "uuid": "7df902e2-cfab-457c-befa-06b97a5c85b2",
+      "title": "New approach for diabetes program six years on",
+      "published_at": "2026-04-22T20:11:55.000Z",
+      "publisher": "The Coonamble Times"
+    },
+    {
+      "uuid": "cb5bdd7c-540b-44c8-9505-d9cc6e0e3aad",
+      "title": "Apple rolls out iOS 26.4.2 to fix a flaw that allowed the FBI to access push notifications",
+      "published_at": "2026-04-22T20:11:53.000Z",
+      "publisher": "Yahoo News Singapore"
+    },
+    {
+      "uuid": "f3bd6aa6-6ee3-446a-8904-ad8e55f74d35",
+      "title": "Apple rolls out iOS 26.4.2 to fix a flaw that allowed the FBI to access push notifications",
+      "published_at": "2026-04-22T20:11:53.000Z",
+      "publisher": "Engadget"
+    },
+    {
+      "uuid": "ac4def5b-f576-4404-a049-7758aa5413e4",
+      "title": "Apple rolls out iOS 26.4.2 to fix a flaw that allowed the FBI to access push notifications",
+      "published_at": "2026-04-22T20:11:53.000Z",
+      "publisher": "Yahoo News Canada"
+    },
+    {
+      "uuid": "2628f6e1-0259-416c-8ffb-3a4f050a5a6f",
+      "title": "Inside Tiffany & Co.’s Grand Return to Luxury Watches",
+      "published_at": "2026-04-22T20:11:17.000Z",
+      "publisher": "Sharp Magazine"
+    },
+    {
+      "uuid": "6bbd0a38-5d01-4643-85be-4adfa5a34378",
+      "title": "Yoshi and the Mysterious Book Preview: It’s More for Kids Than for You and That’s OK",
+      "published_at": "2026-04-22T20:10:02.000Z",
+      "publisher": "IGN Africa"
+    },
+    {
+      "uuid": "91dd8eaf-3321-4be2-a89a-5e620b3f4d69",
+      "title": "Helldivers 2 Exo Experts Warbond Revealed",
+      "published_at": "2026-04-22T20:10:02.000Z",
+      "publisher": "IGN Africa"
+    },
+    {
+      "uuid": "b400e186-dd01-4b3d-b0e0-8a093f3def51",
+      "title": "Marathon Changes Announced",
+      "published_at": "2026-04-22T20:10:02.000Z",
+      "publisher": "IGN Africa"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImExYWQ0ZmFkZTA0OWYxOGYzMGY1OWZhZmMxNTE1MGRlYzRlMTMyOGE3NDk4NzM4MjdjMzQ3NGIxMzU5NTQ2ZjciLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjJUMjA6MTA6MDIuMDAwWiIsImxhc3RfaWQiOjI4NDkzMTN9"
+  }
+}

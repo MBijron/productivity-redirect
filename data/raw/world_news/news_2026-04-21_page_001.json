@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "a3b8919f-af25-4861-bba4-da1d84614d51",
+      "title": "Govt urges mental readiness for 2026 hajj pilgrims",
+      "published_at": "2026-04-22T20:32:22.000Z",
+      "publisher": "ANTARA News"
+    },
+    {
+      "uuid": "ac67e719-30f4-469b-9093-f110e20b9f99",
+      "title": "Two more arrests over alleged arson plot on Jewish site",
+      "published_at": "2026-04-22T20:32:07.000Z",
+      "publisher": "BBC"
+    },
+    {
+      "uuid": "3cf07238-42f8-4ec4-8267-6bb858ade6d9",
+      "title": "Global Brief: Darfur Unrest, Landmine Risks, Singapore Pause",
+      "published_at": "2026-04-22T20:32:00.000Z",
+      "publisher": "Mirage News"
+    },
+    {
+      "uuid": "8687b8a5-5bdc-46a0-bcf6-54fb30cd877d",
+      "title": "Teenagers Discuss Social Media Ban in UK Debate",
+      "published_at": "2026-04-22T20:30:56.000Z",
+      "publisher": "Oz Arab Media"
+    },
+    {
+      "uuid": "925c9128-57b7-4b60-85bf-39e2d08825dd",
+      "title": "Is Trump heading to a Pyrrhic victory in Iran?",
+      "published_at": "2026-04-22T20:30:50.000Z",
+      "publisher": "Asia Times"
+    },
+    {
+      "uuid": "d69e201f-bcc7-42e9-9fdd-5e0d478c843e",
+      "title": "Morocco Puts Hospitality at Heart of Tourism Vision",
+      "published_at": "2026-04-22T20:30:01.000Z",
+      "publisher": "Barlaman Today"
+    },
+    {
+      "uuid": "d0d50783-3002-472e-bc78-48b4d7079b7a",
+      "title": "Live Updates: Iran attacks ships in Strait of Hormuz as thousands more U.S. forces head for Middle East",
+      "published_at": "2026-04-22T20:30:00.000Z",
+      "publisher": "CBS News"
+    },
+    {
+      "uuid": "ed364ade-734d-49f0-8a90-a82e94bfde75",
+      "title": "Pope Leo on cinematic last day in Africa",
+      "published_at": "2026-04-22T20:29:34.000Z",
+      "publisher": "The Canberra Times"
+    },
+    {
+      "uuid": "113dff46-53f0-4b6b-a3fd-2b35dbe662bf",
+      "title": "UAE Airlines Restore Post-Ceasefire Network to 420 Destinations Worldwide",
+      "published_at": "2026-04-22T20:28:13.000Z",
+      "publisher": "VisaHQ"
+    },
+    {
+      "uuid": "10ed1457-a12a-4663-8795-07dad1b29841",
+      "title": "U.S. Embassy to its citizens: Leave Lebanon or prepare emergency plans!",
+      "published_at": "2026-04-22T20:27:05.000Z",
+      "publisher": "MTV Lebanon"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjAzZTdkZTcwZGVmMWE2N2M4ZmRlZjgwOGY5NWIyMjAwOTdlZDE4ZTBmZTM0ODM3NzdhNjQ5NTFkNDA0MjJhYTAiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjJUMjA6Mjc6MDUuMDAwWiIsImxhc3RfaWQiOjI4NDgyNDJ9"
+  }
+}

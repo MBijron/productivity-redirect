@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "cb33da08-d4f5-418b-9394-4bf62ac3d1a1",
+      "title": "Max Verstappen deelt eerlijke mening over nieuwe Formule E-auto",
+      "published_at": "2026-04-22T19:50:10.000Z",
+      "publisher": "GP33"
+    },
+    {
+      "uuid": "fdae1116-52b6-45a6-94c2-5d62b64f0ea7",
+      "title": "Red Bull moet vrezen voor problemen na onderzoek van Italiaanse belastingdienst",
+      "published_at": "2026-04-22T19:50:10.000Z",
+      "publisher": "GP33"
+    },
+    {
+      "uuid": "6bb97ddf-ad6c-4c2c-950b-f23a79c6669a",
+      "title": "Reactie op berichtgeving over rechter die Woo-verzoeken deed",
+      "published_at": "2026-04-22T19:49:12.000Z",
+      "publisher": "De Rechtspraak"
+    },
+    {
+      "uuid": "eb4c850d-e8b0-4fec-803e-dd78e3672a72",
+      "title": "Bedrijf van MrBeast aangeklaagd door voormalige werkneemster",
+      "published_at": "2026-04-22T19:47:01.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "c64a825f-5704-4833-9bc0-82cb202b1c1a",
+      "title": "Telstar op 4-1 tegen Sparta • Telstar virtueel op de veertiende plek",
+      "published_at": "2026-04-22T19:45:36.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "5bcc2cb1-5c93-4f26-9b84-a426c037868b",
+      "title": "'Onderhandelingen met Bayern over Read stilgelegd: Feyenoord zit te hoog in de boom'",
+      "published_at": "2026-04-22T19:45:11.000Z",
+      "publisher": "1908.nl"
+    },
+    {
+      "uuid": "9d6c2c43-bb89-4c2c-82a4-327ad6a0d594",
+      "title": "Sliedrecht vecht zich terug in titelrace na overtuigende winst",
+      "published_at": "2026-04-22T19:44:11.000Z",
+      "publisher": "Volleybal"
+    },
+    {
+      "uuid": "01cbc4a5-c684-4779-953c-565e0844845e",
+      "title": "Deze topvoetballers duiken op in het escortschandaal in Italië",
+      "published_at": "2026-04-22T19:43:43.000Z",
+      "publisher": "FCUpdate.nl"
+    },
+    {
+      "uuid": "5fd29aa1-14b6-4548-9326-e6642221c073",
+      "title": "F1 in het kort | Weer een exit bij Red Bull, bekend gezicht heeft het team verlaten",
+      "published_at": "2026-04-22T19:40:59.000Z",
+      "publisher": "F1 Maximaal.nl"
+    },
+    {
+      "uuid": "0552f7e0-9485-46e4-a40c-304ca981ac53",
+      "title": "Waalse Pijl eindigt in mineur: ex-winnaar Marc Hirschi houdt sleutelbeenbreuk over aan valpartij",
+      "published_at": "2026-04-22T19:39:00.000Z",
+      "publisher": "sporza.be"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjA2MTQ4MmE4ZGMxN2YwNTdiZGEzYWE1YjVjZTgyNjFlZGFiYzgyMzJkZDcxNWI5MGYzYTkzMGVhM2M0NzFhYTEiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjJUMTk6Mzk6MDAuMDAwWiIsImxhc3RfaWQiOjI4MzIyODd9"
+  }
+}

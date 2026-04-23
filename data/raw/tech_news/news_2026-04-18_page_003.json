@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "a175547f-4bdf-4404-be30-d8878c2faa0d",
+      "title": "Smash burgers and coffee: behind the scenes at the new option opening this week",
+      "published_at": "2026-04-19T19:30:31.000Z",
+      "publisher": "Daily Liberal"
+    },
+    {
+      "uuid": "40a794de-58f7-4f10-af1f-4b7e117a7289",
+      "title": "SIRUI Wins 'Best of Show', Unveils New Cine Lenses at NAB Show 2026",
+      "published_at": "2026-04-19T19:30:15.000Z",
+      "publisher": "The Manila Times"
+    },
+    {
+      "uuid": "6e2d9034-e3b9-4e3a-908f-d6a34b80a7e4",
+      "title": "Samsung R95H and Samsung R85H Debut with Micro RGB Tech, Up to 165Hz Refresh Rate",
+      "published_at": "2026-04-19T19:20:59.000Z",
+      "publisher": "Sangri Today"
+    },
+    {
+      "uuid": "88b5abd4-33d1-47b9-a0ed-c7eb9c379cea",
+      "title": "Ghost of Yotei Legends Patch Adds Hell Mode and Raid Matchmaking",
+      "published_at": "2026-04-19T19:16:31.000Z",
+      "publisher": "eTeknix"
+    },
+    {
+      "uuid": "0be91a21-bc4b-4d5b-a950-ae6309b89235",
+      "title": "GNOME Fixes Screencasting Issue With H.264 Recordings Being ~18x Larger Than VP8",
+      "published_at": "2026-04-19T19:14:00.000Z",
+      "publisher": "Phoronix"
+    },
+    {
+      "uuid": "dd02b530-3519-4e90-b7c9-7d3673d7f507",
+      "title": "Open-Source Cultist Simulator game launches demo, kickstarter, thanks to unique & permissive license",
+      "published_at": "2026-04-19T19:07:30.000Z",
+      "publisher": "Games Press"
+    },
+    {
+      "uuid": "b85e4dd1-13ed-4222-9041-c65fb08946d5",
+      "title": "White Knuckle Reaches New Heights with Massive Anniversary Update, Available Today!",
+      "published_at": "2026-04-19T19:07:30.000Z",
+      "publisher": "Games Press"
+    },
+    {
+      "uuid": "14a631e8-c2ca-4c81-a26e-b9e9e9cabfff",
+      "title": "Field of Vision Launches ClipKit, a Native Quest App for Fast In-Headset Video Editing",
+      "published_at": "2026-04-19T19:07:30.000Z",
+      "publisher": "Games Press"
+    },
+    {
+      "uuid": "0f6e6c02-1b9a-4655-9285-3af311fd8022",
+      "title": "Sci-fi Survival Game Blind Descent Reveals First Story Trailer",
+      "published_at": "2026-04-19T19:07:30.000Z",
+      "publisher": "Games Press"
+    },
+    {
+      "uuid": "45cabbcd-41fd-4896-8541-f20ec576ee81",
+      "title": "OWC Introduces the First Certified Thunderbolt 5 Four-Slot NVMe M.2 SSD Enclosure at NAB 2026",
+      "published_at": "2026-04-19T19:06:41.000Z",
+      "publisher": "No Film School"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-18T20:32:46Z",
+      "published_before": "2026-04-19T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImU0NTg0YTZiOTUyNWNlMzIxNWE4OTE4OGNkOWM1ODQ1ZTNmYWRhMDQxY2JlNzkyYzdiNThhNDQ3YzJlMTI2Y2YiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTlUMTk6MDY6NDEuMDAwWiIsImxhc3RfaWQiOjIyNTE1ODd9"
+  }
+}

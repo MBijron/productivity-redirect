@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "2052c7e4-0f73-4720-b380-6a4d7e124e26",
+      "title": "Xbox Leadership Issues Massive Statement On The Future Of The Brand",
+      "published_at": "2026-04-23T19:25:00.000Z",
+      "publisher": "Pure Xbox"
+    },
+    {
+      "uuid": "7f341e15-38de-4a66-b4aa-f504060dc96e",
+      "title": "Xbox Outlines New Strategy Focused on Growth and Players",
+      "published_at": "2026-04-23T19:22:27.000Z",
+      "publisher": "TwistedVoxel"
+    },
+    {
+      "uuid": "8cedc51a-9c2a-4b0a-819c-eab19542a05c",
+      "title": "No more extra fingers? The good, bad and ugly of ChatGPT Images 2.0",
+      "published_at": "2026-04-23T19:20:00.000Z",
+      "publisher": "USA Today"
+    },
+    {
+      "uuid": "07f70923-23f0-4956-bbbd-4107a5e2662b",
+      "title": "Microsoft Gaming Rebrands to Xbox, Aims to “Lead in Performance” With Project Helix",
+      "published_at": "2026-04-23T19:18:19.000Z",
+      "publisher": "GamingBolt"
+    },
+    {
+      "uuid": "4f139415-68e3-4050-8030-e2d3fbb07a68",
+      "title": "Ford Mustang Dark Horse vs Nissan Z Nismo comparison: hero heritage coupes",
+      "published_at": "2026-04-23T19:17:42.000Z",
+      "publisher": "Driven Car Guide"
+    },
+    {
+      "uuid": "7d4b137e-cbb6-458a-a528-0a18e2632a25",
+      "title": "The World’s Best Runners Are Pushing the Limits of Human Performance. Have You Found Yours?",
+      "published_at": "2026-04-23T19:17:00.000Z",
+      "publisher": "Runner's World"
+    },
+    {
+      "uuid": "510b9142-2a8d-4c67-90ad-f56de2033ec1",
+      "title": "Xbox confirms it’s ‘reevaluating’ exclusivity as it shares future mission statement",
+      "published_at": "2026-04-23T19:16:24.000Z",
+      "publisher": "Video Games Chronicle"
+    },
+    {
+      "uuid": "143e5651-bb0a-487c-b57d-0e75cbbfc520",
+      "title": "Infinix Note 60 Ultra review",
+      "published_at": "2026-04-23T19:14:17.000Z",
+      "publisher": "GSMArena.com"
+    },
+    {
+      "uuid": "28216343-3e1e-4acb-a6b8-efd3ce59318e",
+      "title": "New Xbox CEO Is ‘Revaluating’ Exclusive Games",
+      "published_at": "2026-04-23T19:13:19.000Z",
+      "publisher": "Kotaku"
+    },
+    {
+      "uuid": "acd5d8bc-9e0c-4596-9eaf-9a673e705911",
+      "title": "Xbox Pulls An HBO",
+      "published_at": "2026-04-23T19:08:12.000Z",
+      "publisher": "Aftermath"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-22T20:32:46Z",
+      "published_before": "2026-04-23T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjM4YWYyYzMyMDQyYWM4MDE4ZDg1ZWE5N2MwMTA4YWZjNTFmMDBiZjAyMDdlZWJmNDVlYjBhNGUyZjRmZDg5ODUiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjNUMTk6MDg6MTIuMDAwWiIsImxhc3RfaWQiOjMwMzM2ODd9"
+  }
+}

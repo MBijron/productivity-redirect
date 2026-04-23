@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "9e2c0da6-a1d8-4098-b64c-e3d51d0d02d1",
+      "title": "Wall Street in mineur, ondanks beter dan verwachte kwartaalcijfers",
+      "published_at": "2026-04-23T20:09:33.000Z",
+      "publisher": "Het Financieele Dagblad"
+    },
+    {
+      "uuid": "fed4d593-780e-4aaf-a44c-eed41102e369",
+      "title": "Toestand zieke Jade Kops verslechtert: spraak volledig weg",
+      "published_at": "2026-04-23T19:50:19.000Z",
+      "publisher": "Hart van Nederland"
+    },
+    {
+      "uuid": "325b7471-d621-4c8f-ac9c-a71226a5f2c3",
+      "title": "'Verstandshuwelijk optie voor Feyenoord en Eenhoorn'",
+      "published_at": "2026-04-23T19:46:49.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "c3adb76c-1d0d-477f-9951-fd71c5ad974b",
+      "title": "PSV biedt weinig spektakel na openingstreffer • Kampioen heeft weinig te duchten van PEC",
+      "published_at": "2026-04-23T19:46:37.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "a5e9ea35-37eb-4759-892f-f668603c7341",
+      "title": "INDOPACOM draait bitcoin-node voor cybersecuritytests en netwerkbeveiliging",
+      "published_at": "2026-04-23T19:40:14.000Z",
+      "publisher": "CryptoBenelux"
+    },
+    {
+      "uuid": "72077fcb-4de6-418b-93ef-9b5a28c348ef",
+      "title": "'Colombiaanse huurlingen medeverantwoordelijk voor bloedbad Al-Fasher'",
+      "published_at": "2026-04-23T19:37:39.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "d4c6bf42-1564-4029-84c0-8d76af337d35",
+      "title": "Mijnans kijkt uit naar reisje met AZ en reageert op AC Milan-gerucht",
+      "published_at": "2026-04-23T19:36:00.000Z",
+      "publisher": "Voetbal International"
+    },
+    {
+      "uuid": "62f9b4ef-4949-4efd-97d2-2ee7c28b1002",
+      "title": "Ronald de Boer kampt met schuldgevoel tegenover dochter in Survive Your Family: 'Moet er meer voor haar zijn'",
+      "published_at": "2026-04-23T19:33:50.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "816a061e-9e38-42c9-9c79-274020a8115f",
+      "title": "Bosz moet PSV-uitblinker missen tegen PEC: 'WK komt volgens mij niet in gevaar'",
+      "published_at": "2026-04-23T19:22:20.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "1d51de62-3328-4abb-8e7d-1f6ee6f48cd4",
+      "title": "Geweldig beeld: Hoe Max Verstappen in twintig jaar niks is veranderd",
+      "published_at": "2026-04-23T19:20:11.000Z",
+      "publisher": "GP33"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-22T20:32:46Z",
+      "published_before": "2026-04-23T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImFiYTBjYjhmZmMzZmJlZTJkNjg2MGY1YWNkMTYxZjJhOWUzZDU5YTUzMTNjMTkwOTRlYzkyODRmMGVmY2ZjNTAiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjNUMTk6MjA6MTEuMDAwWiIsImxhc3RfaWQiOjMwMzEzNTJ9"
+  }
+}

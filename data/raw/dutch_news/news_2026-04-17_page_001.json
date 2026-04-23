@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "218f0f10-3908-4c7a-97a3-e68c17dbe00b",
+      "title": "Sarri vergelijkt Taylor met Napoli-legende: 'Alles wat je zoekt in middenvelder'",
+      "published_at": "2026-04-18T20:32:34.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "b8e59f12-40be-4f1e-9dee-ba4450a8fcd8",
+      "title": "Initiatief moet boeren helpen om miljoenen aardappels kwijt te raken",
+      "published_at": "2026-04-18T20:30:44.000Z",
+      "publisher": "Omroep Brabant"
+    },
+    {
+      "uuid": "44550de3-5cb3-4487-9cde-94b9a6a2cabd",
+      "title": "Wolf gespot langs Zuiderzeestraatweg in Oldebroek, locatie dier onbekend",
+      "published_at": "2026-04-18T20:28:21.000Z",
+      "publisher": "Hulz Media"
+    },
+    {
+      "uuid": "92481ba8-c633-4250-be6b-b08f838f3599",
+      "title": "Meerdere gewonden bij ongeval met feestkar",
+      "published_at": "2026-04-18T20:26:58.000Z",
+      "publisher": "Omroep Gelderland"
+    },
+    {
+      "uuid": "1ecbb95e-845b-441c-8c77-b60d939b9353",
+      "title": "24H Nürburgring Qualifiers: Verstappen reageert op dodelijk ongeval Miettinen",
+      "published_at": "2026-04-18T20:25:40.000Z",
+      "publisher": "Motorsport.com"
+    },
+    {
+      "uuid": "cae75136-9e66-438a-a1ab-45588b041f3c",
+      "title": "Vincent en Josephine leggen confirmatie af, Isabella draagt 1e hoed",
+      "published_at": "2026-04-18T20:19:40.000Z",
+      "publisher": "Modekoningin Máxima"
+    },
+    {
+      "uuid": "60455e10-f32c-4e35-8818-52f2596bd648",
+      "title": "Leontien van Moorsel verloor alle glans door eetstoornis: 'Het zit in mijn jeugd'",
+      "published_at": "2026-04-18T20:16:59.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "2852c1c1-80fa-4fc3-8531-82809acf8e4a",
+      "title": "Belgische minister onder vuur om aanschaf duur materiaal dat 'drones' moet bestrijden",
+      "published_at": "2026-04-18T20:12:40.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "8996e8f6-84d5-4f09-8ef9-b6a2d8ad593e",
+      "title": "'PSV zou zeker passen, ik hoop dat Mijnans de stap gaat maken'",
+      "published_at": "2026-04-18T20:12:16.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "44e9f771-fd9b-4db6-8fc1-ac53da982303",
+      "title": "Feyenoord kijkt vooruit in defensie: wie moet Trauner opvolgen?",
+      "published_at": "2026-04-18T20:08:52.000Z",
+      "publisher": "Voetbalflitsen.nl"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-17T20:32:46Z",
+      "published_before": "2026-04-18T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImQ1YzE4Njc1NjQwN2FlZWQ4YWIzZDJmOGM3NGE4NjJmNWFkNTliODY4OTMzNmU2NzllM2NkNTliYmQxNmZhNmEiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMThUMjA6MDg6NTIuMDAwWiIsImxhc3RfaWQiOjIxMTAxMjJ9"
+  }
+}

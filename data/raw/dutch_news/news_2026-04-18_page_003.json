@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "33c6fea8-d425-470d-8589-f931f96dc446",
+      "title": "Nicole uit Over Mijn Lijk vreesde dat haar kinderen haar later niet meer zullen herinneren",
+      "published_at": "2026-04-19T20:01:56.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "d37482aa-c000-4981-bb74-425674575db8",
+      "title": "'De meiden' van overleden manege-eigenaar Martin halen 10.000 euro op voor de Hartstichting",
+      "published_at": "2026-04-19T20:01:00.000Z",
+      "publisher": "RTV Drenthe"
+    },
+    {
+      "uuid": "567e1ccf-32dd-42b8-886b-acfba383caef",
+      "title": "Annie M.G. Schmidtprijs voor beste theaterlied naar cabaretier Ayoub Kharkhach voor lied over vader en zijn zieke zoon",
+      "published_at": "2026-04-19T20:00:00.000Z",
+      "publisher": "NRC"
+    },
+    {
+      "uuid": "608d2258-fabb-460e-bda0-b2c522855990",
+      "title": "AZ wint met 5-1 van NEC in bekerfinale • Eerste prijs sinds 2013",
+      "published_at": "2026-04-19T19:59:21.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "1eeaa938-18e8-4b15-8168-ef8942c43982",
+      "title": "Clasie neemt duidelijk standpunt in over toekomst Echteld bij AZ",
+      "published_at": "2026-04-19T19:58:00.000Z",
+      "publisher": "Voetbal International"
+    },
+    {
+      "uuid": "82b38e35-0eba-4b62-aa1f-f9ef1468eba1",
+      "title": "Engelse pers prijst 'legende' Van Dijk de hemel in, kritiek op andere Nederlander",
+      "published_at": "2026-04-19T19:54:08.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "086db884-340c-45d4-9f9a-0200de18aa54",
+      "title": "Religieuze AI‐chatbots zetten debat over spirituele begeleiding op scherp",
+      "published_at": "2026-04-19T19:53:19.000Z",
+      "publisher": "Newsmonkey -"
+    },
+    {
+      "uuid": "172065bb-8d2b-4466-9645-d0cff19b4cde",
+      "title": "Hélène Hendriks grapt om afwezigheid bij Oranjezondag: 'Was zelf nog nooit op tv, hé'",
+      "published_at": "2026-04-19T19:50:19.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "72eb72ec-a348-47fb-8e8b-68d648dafa9d",
+      "title": "NEC verliest sterkhouder in aanloop naar cruciaal duel met FC Twente",
+      "published_at": "2026-04-19T19:50:13.000Z",
+      "publisher": "Twente Insite"
+    },
+    {
+      "uuid": "59ba0278-5e9e-40ac-8c98-1b8703e6a2f0",
+      "title": "‘Kodai Sano spotgoedkoop naar Ajax’",
+      "published_at": "2026-04-19T19:48:00.000Z",
+      "publisher": "Soccernews.nl"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-18T20:32:46Z",
+      "published_before": "2026-04-19T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjI1NTZiZTAxNWUwMTgzYWM0OTY1Y2Q4MjhmMDVjN2Q2ZjRlMzAzYTFjMDUxNzkxZTIzMDVlODkwMDJlZmI1MjYiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTlUMTk6NDg6MDAuMDAwWiIsImxhc3RfaWQiOjIyNjA1OTl9"
+  }
+}

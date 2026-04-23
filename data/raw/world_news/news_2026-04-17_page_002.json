@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "5c489ac4-0ff9-418f-ae43-9602aabab6dc",
+      "title": "Iranian officials ‘afraid’ to bury assassinated Supreme Leader Khamenei: expert",
+      "published_at": "2026-04-18T20:22:00.000Z",
+      "publisher": "nypost.com"
+    },
+    {
+      "uuid": "57b30200-cd01-431f-a21f-980aa463d058",
+      "title": "Two Indian-flagged ships attacked crossing Strait of Hormuz",
+      "published_at": "2026-04-18T20:22:00.000Z",
+      "publisher": "CNA"
+    },
+    {
+      "uuid": "8d707f3a-584f-47d3-8e71-4579d859bf2c",
+      "title": "Investigators examine whether Ukraine terrorist attack was directed by Russia",
+      "published_at": "2026-04-18T20:19:00.000Z",
+      "publisher": "The Guardian"
+    },
+    {
+      "uuid": "69fa6211-bede-48f3-868a-454f86878fb6",
+      "title": "US-Iran war live updates: Iran ‘can’t blackmail us’, says Trump; Ships attacked as Strait of Hormuz closed again; Iran reviews new US proposals",
+      "published_at": "2026-04-18T20:17:31.000Z",
+      "publisher": "SMH.com.au"
+    },
+    {
+      "uuid": "cbc1f771-ae4a-4c83-953b-e177a531dab4",
+      "title": "Is Trump firing Kash Patel after Pam Bondi? White House spokesperson says no",
+      "published_at": "2026-04-18T20:15:00.000Z",
+      "publisher": "Geo News"
+    },
+    {
+      "uuid": "e0a9105c-b5b2-411c-91b2-ef3aa3432b0b",
+      "title": "10th Indian ship crosses Strait amid firing by Iranian gunboats",
+      "published_at": "2026-04-18T20:13:00.000Z",
+      "publisher": "The Times of India"
+    },
+    {
+      "uuid": "75be53d4-16a4-4394-b16d-abcdda157cb5",
+      "title": "One of world’s most wanted cartel leaders captured",
+      "published_at": "2026-04-18T20:11:00.000Z",
+      "publisher": "New York Post"
+    },
+    {
+      "uuid": "d9291fcb-c7e0-4bf7-8d48-c0a250abc978",
+      "title": "Inside Kenya’s Ksh12 Billion Club: 16 Super-Rich Individuals Revealed",
+      "published_at": "2026-04-18T20:09:13.000Z",
+      "publisher": "viraltea.co.ke"
+    },
+    {
+      "uuid": "d0164f20-6b1d-4248-9eaf-02ba461cc444",
+      "title": "Oil Tankers Alter Course Near Strait of Hormuz Amid Uncertainty",
+      "published_at": "2026-04-18T20:05:59.000Z",
+      "publisher": "India News Network"
+    },
+    {
+      "uuid": "ae97d42b-6557-4757-b8c5-d89bf48e99fd",
+      "title": "Political Delegation Stopped at Noida Border Amid Tensions",
+      "published_at": "2026-04-18T20:03:45.000Z",
+      "publisher": "India News Network"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-17T20:32:46Z",
+      "published_before": "2026-04-18T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImZmODYyNjg2Y2E2OTY3NTU0MGNmNTkxNGRlOTFlNTZmOWVlMjBkZmM5OGZiODY5ZGYwOWU3YjZmYTg3YjQ4YWMiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMThUMjA6MDM6NDUuMDAwWiIsImxhc3RfaWQiOjIxMDY4OTF9"
+  }
+}

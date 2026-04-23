@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "d8cd68bf-0132-45c7-a9d7-8d78ada80e74",
+      "title": "Milei, Netanyahu announce Tel Aviv-Buenos Aires flights, ink strategic Isaac Accords",
+      "published_at": "2026-04-19T20:30:42.000Z",
+      "publisher": "The Times of Israel"
+    },
+    {
+      "uuid": "c97860f7-2121-4f70-a1fa-35f29e728669",
+      "title": "Why women should become ‘fundable’",
+      "published_at": "2026-04-19T20:30:00.000Z",
+      "publisher": "Trinidad Express Newspapers"
+    },
+    {
+      "uuid": "7db4a594-0962-4880-84da-e44727d96fcf",
+      "title": "One of vessels fired at in Hormuz Strait belonged to France’s CMA CGM",
+      "published_at": "2026-04-19T20:29:48.000Z",
+      "publisher": "GMA Network"
+    },
+    {
+      "uuid": "73881385-aa2b-47fc-b413-562f1bfa1c64",
+      "title": "Eight children killed in shooting spree in Louisiana",
+      "published_at": "2026-04-19T20:26:39.000Z",
+      "publisher": "The Age"
+    },
+    {
+      "uuid": "26f5786f-5a1e-4bc1-bdd4-649eb42bd111",
+      "title": "Lawyer predicts 'messy' Trump cabinet member is next to go: 'May bite the dust soon'",
+      "published_at": "2026-04-19T20:26:00.000Z",
+      "publisher": "rawstory.com"
+    },
+    {
+      "uuid": "07b20cd8-4121-4ed9-a2e1-90d2f376dac9",
+      "title": "Iran daily briefing: Why JD Vance might have no-one to talk to, plus Israel's new 'yellow line'",
+      "published_at": "2026-04-19T20:24:38.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    },
+    {
+      "uuid": "b8214da2-6935-4e61-b292-822059b878ac",
+      "title": "Pezeshkian: The U.S. Seeks to Repeat Past Patterns and Betray Diplomacy",
+      "published_at": "2026-04-19T20:22:23.000Z",
+      "publisher": "WANA News Agency"
+    },
+    {
+      "uuid": "95ce7c01-6b56-4ebe-9906-95c4dd9de668",
+      "title": "Trump Humiliated as Iran Blows Off His Peace Talks",
+      "published_at": "2026-04-19T20:21:00.000Z",
+      "publisher": "The Daily Beast"
+    },
+    {
+      "uuid": "9c03e3ff-c6b1-4199-baa1-215f5a3c5c49",
+      "title": "H1B Fraud: Two Telugu Folks Face 5 Years In Prison",
+      "published_at": "2026-04-19T20:20:38.000Z",
+      "publisher": "Gulte"
+    },
+    {
+      "uuid": "0ff4a552-de29-469a-bbb3-247b5f5dfce3",
+      "title": "Iran war: Everything you need to know about peace talks",
+      "published_at": "2026-04-19T20:18:31.000Z",
+      "publisher": "Roch Valley Radio"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-18T20:32:46Z",
+      "published_before": "2026-04-19T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjhhNTI1YmUxZjY4MjI0ZDNiNzcxMDkzOTJmMDcxZWJkYTAzNzA5YWZiOWNkODk1ZWU4OTgxYjI3ZDcyZGU1MzciLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTlUMjA6MTg6MzEuMDAwWiIsImxhc3RfaWQiOjIyNjI3Nzl9"
+  }
+}

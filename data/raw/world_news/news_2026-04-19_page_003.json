@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "51154b30-7d55-4409-a3cc-1b34f2b379b9",
+      "title": "Mexico's Sheinbaum demands explanation after US officials die assisting operation in Chihuahua",
+      "published_at": "2026-04-20T20:19:28.000Z",
+      "publisher": "CityNews Halifax"
+    },
+    {
+      "uuid": "1777399a-1d49-4854-bc5d-108999a75540",
+      "title": "Trump cites defense production act to call for expansion of domestic petroleum production",
+      "published_at": "2026-04-20T20:19:08.000Z",
+      "publisher": "BOE Report"
+    },
+    {
+      "uuid": "2452705f-3338-4e64-8dbe-6b9ce38efb58",
+      "title": "Federal agents detain wife of another US army member: ‘ICE is out of control’",
+      "published_at": "2026-04-20T20:17:00.000Z",
+      "publisher": "The Guardian"
+    },
+    {
+      "uuid": "932de735-a72e-4564-8741-0986849f3308",
+      "title": "One tourist dead and six people injured after gunman opened fire at Mexico’s Teotihuacan pyramids",
+      "published_at": "2026-04-20T20:17:00.000Z",
+      "publisher": "The Independent"
+    },
+    {
+      "uuid": "6b54846f-2e99-4330-b283-4d9dc61d0a5d",
+      "title": "Treasurer warns Australian economy is 'hostage'",
+      "published_at": "2026-04-20T20:16:00.000Z",
+      "publisher": "SMH.com.au"
+    },
+    {
+      "uuid": "4008d1e3-3444-4432-be52-844761c41742",
+      "title": "Gaza needs $71.4B over next decade for recovery, reconstruction",
+      "published_at": "2026-04-20T20:16:00.000Z",
+      "publisher": "Middle East Monitor"
+    },
+    {
+      "uuid": "2b83575d-f188-4a49-a02f-5ed4b6b17d11",
+      "title": "Gunman kills Canadian woman, injures six at Mexico’s Teotihuacan pyramids",
+      "published_at": "2026-04-20T20:15:00.000Z",
+      "publisher": "Al Jazeera"
+    },
+    {
+      "uuid": "0cc9a265-dc2a-4ad1-b26f-1b7e7ac9b23b",
+      "title": "U.K. PM admits mistake in appointing Epstein friend as envoy to U.S. but resists calls to resign",
+      "published_at": "2026-04-20T20:14:26.000Z",
+      "publisher": "NBC News"
+    },
+    {
+      "uuid": "a3acf78e-6d79-4fe4-9292-b06f1d379998",
+      "title": "Burkina Faso military faces criticism over crackdown on civil society groups",
+      "published_at": "2026-04-20T20:13:38.000Z",
+      "publisher": "The Eastleigh Voice"
+    },
+    {
+      "uuid": "8ef659ce-ec07-4045-835e-fab35f87b729",
+      "title": "Doubt looms over war peace talks; truckies to pass on fuel bill on to supermarkets",
+      "published_at": "2026-04-20T20:13:00.000Z",
+      "publisher": "7NEWS"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-19T20:32:46Z",
+      "published_before": "2026-04-20T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjNiZmNjODc4ZjBiYmRkMTQ2NDI5NTdlNmIzZjM5YzNjNWY0OTY5YTk2YjE2MzJjMzMxZWQ4M2U5MzRjYTcyMjYiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjBUMjA6MTM6MDAuMDAwWiIsImxhc3RfaWQiOjI0NjMyNTV9"
+  }
+}

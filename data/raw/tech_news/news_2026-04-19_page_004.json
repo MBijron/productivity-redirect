@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "ce38f7f0-aac0-4b6f-a502-bffd6330814b",
+      "title": "Sony will require age checks in the UK and Ireland to access PlayStation communication features",
+      "published_at": "2026-04-20T19:49:16.000Z",
+      "publisher": "Yahoo News UK"
+    },
+    {
+      "uuid": "78cc8590-abe0-40e9-8e47-4e579ac2e2f4",
+      "title": "Sony will require age checks in the UK and Ireland to access PlayStation communication features",
+      "published_at": "2026-04-20T19:49:16.000Z",
+      "publisher": "Engadget"
+    },
+    {
+      "uuid": "5e167cfe-204e-47c5-9c38-442d945b4c7f",
+      "title": "SRAM Eagle S-Series Combines 9 Groups into 3, Adds New UDH Half Mount",
+      "published_at": "2026-04-20T19:48:24.000Z",
+      "publisher": "Bikerumor"
+    },
+    {
+      "uuid": "582296a2-64bd-413a-822b-12423fd9e803",
+      "title": "Hollyland Kicks Its Wireless Video Transmission Up Another Notch With the New Pyro Ultra 4K",
+      "published_at": "2026-04-20T19:48:18.000Z",
+      "publisher": "No Film School"
+    },
+    {
+      "uuid": "83765899-1b9f-4e26-a94f-b8b47669b5a7",
+      "title": "Ball X Pit The Shadow Update will release on April 27th",
+      "published_at": "2026-04-20T19:48:11.000Z",
+      "publisher": "TheSixthAxis"
+    },
+    {
+      "uuid": "d6546e12-95fd-4aef-a142-5f4e578eb5d3",
+      "title": "Samsung's 5,000mAh ceiling is finally showing signs of cracking",
+      "published_at": "2026-04-20T19:46:43.000Z",
+      "publisher": "Android Police"
+    },
+    {
+      "uuid": "2c56fd36-72fe-406f-ba92-901721e6918f",
+      "title": "Apple Music suffering second outage in two weeks",
+      "published_at": "2026-04-20T19:46:00.000Z",
+      "publisher": "9to5Mac"
+    },
+    {
+      "uuid": "050fdd32-ab6c-4507-b4ec-80c8764e8e1b",
+      "title": "Xbox Project Helix: According to leaks, Microsoft is foregoing custom GPU hardware.",
+      "published_at": "2026-04-20T19:39:29.000Z",
+      "publisher": "PlayFront"
+    },
+    {
+      "uuid": "e77ec942-37d4-4540-b5da-aab69d1ae7d0",
+      "title": "Apple Sports Expands to CarPlay with New Feature Additions",
+      "published_at": "2026-04-20T19:39:00.000Z",
+      "publisher": "Appleosophy"
+    },
+    {
+      "uuid": "e295eb0e-51f2-49e5-8e1f-3e9aab3d2087",
+      "title": "Mustang Dark Horse SC Will Make 795 HP, 660 LB-FT of Torque",
+      "published_at": "2026-04-20T19:36:13.000Z",
+      "publisher": "Hagerty"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-19T20:32:46Z",
+      "published_before": "2026-04-20T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjA0NzExZjUwMGFmNjBhMDY2MDJmNjgyYzY2YTM1MWRjOTFjMWMyYWQ2YzhkZjU5ODVkYTM0NTFjNTcwZGY0MGEiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjBUMTk6MzY6MTMuMDAwWiIsImxhc3RfaWQiOjI0NjE2MTN9"
+  }
+}

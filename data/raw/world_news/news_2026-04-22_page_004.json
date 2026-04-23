@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "68ded8c7-7941-4fdd-aaf7-fcb088d99c70",
+      "title": "What to know about a federal order reclassifying medical marijuana as a less dangerous drug",
+      "published_at": "2026-04-23T18:32:00.000Z",
+      "publisher": "The Independent"
+    },
+    {
+      "uuid": "264bd2f0-8c47-4ad1-8c83-b2bb258df578",
+      "title": "UK prepared to deploy RAF Typhoons to keep strait of Hormuz open after Iran war",
+      "published_at": "2026-04-23T18:28:00.000Z",
+      "publisher": "The Guardian"
+    },
+    {
+      "uuid": "93850a18-8ae8-40e6-a631-ab5f385d7953",
+      "title": "Sowore: Obi’s praise for north contradicts his past actions as governor",
+      "published_at": "2026-04-23T18:28:00.000Z",
+      "publisher": "TheCable"
+    },
+    {
+      "uuid": "1debc9a6-54b2-4038-bf1c-4981fc4083b3",
+      "title": "AfDB approves Shs31.8b for rural electrification project",
+      "published_at": "2026-04-23T18:26:51.000Z",
+      "publisher": "Daily Monitor"
+    },
+    {
+      "uuid": "ac24e262-f214-4dd2-aee4-10ac04350cba",
+      "title": "Weakened by Domestic Crises, Iranian Regime Doubles Down on Global Brinkmanship",
+      "published_at": "2026-04-23T18:26:24.000Z",
+      "publisher": "National Council of Resistance of Iran - NCRI"
+    },
+    {
+      "uuid": "027e37bd-1413-4c18-87c4-eadf8d814d80",
+      "title": "Libyan poachers arrested in Chad for killing 100 gazelles",
+      "published_at": "2026-04-23T18:26:16.000Z",
+      "publisher": "The Tanzania Times"
+    },
+    {
+      "uuid": "f3c702c7-ef51-4427-8abe-e4ea5b205787",
+      "title": "US govt watchdog to review release of Epstein files",
+      "published_at": "2026-04-23T18:26:12.000Z",
+      "publisher": "The Canberra Times"
+    },
+    {
+      "uuid": "19ddd103-df8a-4aa3-9c4c-040f5039d3d5",
+      "title": "Indonesia says Russia will supply 150 mn barrels of oil",
+      "published_at": "2026-04-23T18:23:20.000Z",
+      "publisher": "CNA"
+    },
+    {
+      "uuid": "eaf97f08-d5c2-4aee-aa02-f3514a5db656",
+      "title": "UK lawmakers back smokefree generation laws earlier repealed in NZ",
+      "published_at": "2026-04-23T18:22:11.000Z",
+      "publisher": "1News"
+    },
+    {
+      "uuid": "8ba5443d-be91-42e8-8776-f48550b32d50",
+      "title": "EU naval force raises alarm over suspicious activity off the Somali coast",
+      "published_at": "2026-04-23T18:17:53.000Z",
+      "publisher": "The Eastleigh Voice"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-22T20:32:46Z",
+      "published_before": "2026-04-23T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjE5ODBiMWI0MGM4YjVhNzkzZGE0ZmFlYjdiODMyMDQzYmUxNWJlODk0OGQ2Y2FhNThhOGNjZmM3MjE2NTc3OGEiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjNUMTg6MTc6NTMuMDAwWiIsImxhc3RfaWQiOjMwMzk0Njd9"
+  }
+}

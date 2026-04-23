@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "8b654142-aa84-430e-9d95-2340d4db0e00",
+      "title": "Goudhaantje Postema slaat toe tegen oude club en redt FC Emmen in Kerkrade",
+      "published_at": "2026-04-17T20:18:59.000Z",
+      "publisher": "RTV Drenthe"
+    },
+    {
+      "uuid": "1f267812-f05f-4090-831d-411e9b90b618",
+      "title": "Theologische bommen op het hoofd van paus Leo XIV",
+      "published_at": "2026-04-17T20:16:06.000Z",
+      "publisher": "HP/De Tijd"
+    },
+    {
+      "uuid": "2ba2b96b-e02f-4706-a3f0-a22c4e19f492",
+      "title": "Malgosia uit B&B Vol Liefde duikt als Pools personage op in Flikken Maastricht",
+      "published_at": "2026-04-17T20:13:23.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "995ada5e-d4d1-4ff8-8666-a058c76e5921",
+      "title": "Het is erop of eronder voor de kandidaten tijdens de halve finale van The Voice of Holland",
+      "published_at": "2026-04-17T20:12:29.000Z",
+      "publisher": "Televizier.nl"
+    },
+    {
+      "uuid": "f6bd3d24-491e-4ec1-b903-a2afbb70d7a4",
+      "title": "Roda morst dure punten, VVV kansloos en MVV pakt een knap punt",
+      "published_at": "2026-04-17T20:12:26.000Z",
+      "publisher": "L1 Nieuws"
+    },
+    {
+      "uuid": "71bf83ce-a3a2-4bf5-af81-d7c209bef637",
+      "title": "Vitesse faalt in strijd om vierde periode; ADO Den Haag sloopt pover RKC Waalwijk",
+      "published_at": "2026-04-17T20:11:00.000Z",
+      "publisher": "Voetbalzone"
+    },
+    {
+      "uuid": "5e09d833-bb3d-4a40-8251-9079df1b845b",
+      "title": "Dit is dé gedoodverfde opvolger van Max Verstappen bij Red Bull Racing",
+      "published_at": "2026-04-17T20:10:19.000Z",
+      "publisher": "GP33"
+    },
+    {
+      "uuid": "c39b303f-8429-4dad-88c9-512f5f1843f0",
+      "title": "Bonje in de paddock? Oliver Bearman is nog niet klaar met Franco Colapinto en haalt uit",
+      "published_at": "2026-04-17T20:10:19.000Z",
+      "publisher": "GP33"
+    },
+    {
+      "uuid": "b3720def-6a59-4ceb-8928-81d179ea67d4",
+      "title": "Zien: domper voor Gerard Joling in de jacuzzi",
+      "published_at": "2026-04-17T20:08:46.000Z",
+      "publisher": "Shownieuws"
+    },
+    {
+      "uuid": "a0d2f5ef-7bfe-48d4-be6c-a21bb3ceef5f",
+      "title": "Sterke El Niño: Waarschuwing voor droogte en risico's op zoutwaterindringing.",
+      "published_at": "2026-04-17T20:04:17.000Z",
+      "publisher": "Vietnam.vn"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-16T20:32:46Z",
+      "published_before": "2026-04-17T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImRjZmE1MzcyNzNmODljMGFkOTFjNDRhNjQyOTEzOWM3YWRkZjY1NWM5NGUyNWFlZTQ0ODUxM2Q1Mzk4Zjc1MTciLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTdUMjA6MDQ6MTcuMDAwWiIsImxhc3RfaWQiOjE5NDczMDl9"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "9330a38a-7d6d-4630-8774-61ce75d33b54",
+      "title": "The European Commission’s 2026 Tax Outlook",
+      "published_at": "2026-04-22T20:19:29.000Z",
+      "publisher": "Forbes"
+    },
+    {
+      "uuid": "0007680c-fef6-4338-9097-996f742b7760",
+      "title": "Family names successor to Late Hon. Hellen Nakimuli",
+      "published_at": "2026-04-22T20:19:07.000Z",
+      "publisher": "mbu.ug"
+    },
+    {
+      "uuid": "d10260d9-768b-49a5-ba79-e6774a4d9fe9",
+      "title": "Tanzania Election Violence Inquiry: Final Report to Land on President Samia’s Desk Amid Accountability Test",
+      "published_at": "2026-04-22T20:18:28.000Z",
+      "publisher": "The Chanzo"
+    },
+    {
+      "uuid": "5272150e-1b6b-4fa9-b073-f285a712c4f0",
+      "title": "Trump calls Virginia election ‘rigged’ after redistricting referendum",
+      "published_at": "2026-04-22T20:16:47.000Z",
+      "publisher": "Al Jazeera"
+    },
+    {
+      "uuid": "c8a3ab2a-a327-4c8c-8a79-b34241217efa",
+      "title": "Ghanaians not safe in South Africa - Community leader raises alarm over Xenophobic attacks",
+      "published_at": "2026-04-22T20:15:00.000Z",
+      "publisher": "CitiNewsroom.com"
+    },
+    {
+      "uuid": "7431448d-4014-43fa-9ce2-21fa94f46ec7",
+      "title": "Trump Official's Juicy Online Life Exposed As Insiders Draw Comparisons To Bryon Noem",
+      "published_at": "2026-04-22T20:13:59.000Z",
+      "publisher": "thelist.com"
+    },
+    {
+      "uuid": "d64b13f7-90f5-4acc-a755-847ccb94dcf3",
+      "title": "'I can't stop using it' - under-16s have their say on possible social media ban",
+      "published_at": "2026-04-22T20:13:44.000Z",
+      "publisher": "BBC"
+    },
+    {
+      "uuid": "9d2310c2-f4bc-4799-b9b9-ffed1b3d629e",
+      "title": "MrBeast’s company sued by former employee over alleged sexual harassment",
+      "published_at": "2026-04-22T20:13:04.000Z",
+      "publisher": "Global News"
+    },
+    {
+      "uuid": "16463a3d-e4e2-4b35-9cb5-5de9847b78a4",
+      "title": "The Strait of Hormuz chaos is just a ‘dry run’ for if war breaks out between the U.S. and China, Singapore foreign minister says",
+      "published_at": "2026-04-22T20:12:37.000Z",
+      "publisher": "Yahoo"
+    },
+    {
+      "uuid": "4c416102-ada2-470a-9218-8d2dfe0ed9c5",
+      "title": "Singapore foreign minister: Strait of Hormuz chaos a 'dry run' for if U.S.-China conflict emerges",
+      "published_at": "2026-04-22T20:12:00.000Z",
+      "publisher": "Fortune"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjAzZTdkZTcwZGVmMWE2N2M4ZmRlZjgwOGY5NWIyMjAwOTdlZDE4ZTBmZTM0ODM3NzdhNjQ5NTFkNDA0MjJhYTAiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjJUMjA6MTI6MDAuMDAwWiIsImxhc3RfaWQiOjI4Mzc1MTJ9"
+  }
+}

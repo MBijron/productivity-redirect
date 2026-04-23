@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "7a517eac-3b9d-4d04-9cbd-fd6499739182",
+      "title": "Elon Musk weigert verklaring af te leggen aan Frans Openbaar ministerie over mistanden Grok",
+      "published_at": "2026-04-20T19:47:46.000Z",
+      "publisher": "NRC"
+    },
+    {
+      "uuid": "16b9cbe1-e318-4bc3-9bc9-fd1d03d5f6c1",
+      "title": "Feyenoord-routinier droomt van WK-deelname: 'Als er nog een kleine kans is...'",
+      "published_at": "2026-04-20T19:47:00.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "bca2ddc8-6939-412f-997b-2569e8039c7f",
+      "title": "Kim en Wilko over hun KZK-avontuur: 'We discussiëren ook vier uur over een koffiemachine'",
+      "published_at": "2026-04-20T19:46:15.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "771fbb86-e0b7-4932-b04c-8dad45584b7e",
+      "title": "Amerikaanse prijsvechters vragen tijdelijke belastingverlichting om stijgende brandstofkosten op te vangen",
+      "published_at": "2026-04-20T19:45:20.000Z",
+      "publisher": "MarketScreener Nederland"
+    },
+    {
+      "uuid": "3a80ecb0-563b-4d9b-a30e-218fb3bf93be",
+      "title": "Kijken, kijken bij Kim en Wilko: 'Wennen aan al dat roze'",
+      "published_at": "2026-04-20T19:43:59.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "e3f35b22-7b81-4fbd-a3ef-0f604b230475",
+      "title": "Russell ziet geen titelgarantie voor Mercedes: \"Verstappen zei toen dat het al beslist was\"",
+      "published_at": "2026-04-20T19:43:27.000Z",
+      "publisher": "F1 Maximaal.nl"
+    },
+    {
+      "uuid": "4cb9cd76-c1b7-4f63-bae1-8db6d5f4a5b9",
+      "title": "Koppel uit 'Kopen Zonder Kijken' kan het maar niet eens worden",
+      "published_at": "2026-04-20T19:43:05.000Z",
+      "publisher": "LINDA.nl"
+    },
+    {
+      "uuid": "920a841f-2371-48c3-9e9e-929ee6527695",
+      "title": "Trump-tarieven ongeldig: bedrijven krijgen geld terug",
+      "published_at": "2026-04-20T19:43:00.000Z",
+      "publisher": "Newsbit"
+    },
+    {
+      "uuid": "5dda1728-1876-4dd2-93ce-3682db6f0f25",
+      "title": "Sterke start voor Vandewinkel in Madrid",
+      "published_at": "2026-04-20T19:42:03.000Z",
+      "publisher": "tennisplaza.be"
+    },
+    {
+      "uuid": "b58e0b5a-bdad-452b-80c6-a44666efa2e3",
+      "title": "Zeiss toont datagedreven technologie op Hannover Messe",
+      "published_at": "2026-04-20T19:40:10.000Z",
+      "publisher": "MetaalNieuws"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-19T20:32:46Z",
+      "published_before": "2026-04-20T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImQ5ODVkOGNlNmJkNTNlMmEyNjNkOGQwNTM5OGQyOGZhMDZlMTNlMWM0MDk2NGQ1MTQ2OGU2MDQ1ZjU2ZmY4MmQiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjBUMTk6NDA6MTAuMDAwWiIsImxhc3RfaWQiOjI5MjcxNzd9"
+  }
+}

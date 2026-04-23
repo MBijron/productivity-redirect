@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "86e0748a-cf53-44ca-bbfc-91768f58b602",
+      "title": "Terugkijken: Kampong zet SCHC onder druk, Mikki Roberts belangrijk",
+      "published_at": "2026-04-19T20:17:06.000Z",
+      "publisher": "Tulp Hoofdklasse"
+    },
+    {
+      "uuid": "7ac9260a-682f-4ac4-af9d-bf15db62c47f",
+      "title": "Yung Felix legt uit hoe zijn virale TikToks ervoor zorgen dat mensen middelvingers naar hem opsteken: \"Chill man\"",
+      "published_at": "2026-04-19T20:15:57.000Z",
+      "publisher": "Puna.nl"
+    },
+    {
+      "uuid": "634a55b0-71c1-4503-8e20-e19c6ca5271f",
+      "title": "'Mooiste pleister die er is': AZ spoelt bekerfrustratie weg tegen NEC",
+      "published_at": "2026-04-19T20:12:18.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "c565846b-f725-4751-84bb-5ddba71cf1c7",
+      "title": "Huiberts dankt oud-collega na bekerwinst: 'Deze is ook voor hem, honderd procent'",
+      "published_at": "2026-04-19T20:12:00.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "2b949db1-ad0f-4cbb-9fe9-423f33263bb3",
+      "title": "Bauke Mollema houdt nare nasmaak over aan laatste Amstel Gold Race: fiets zoon gestolen in Maastricht",
+      "published_at": "2026-04-19T20:10:52.000Z",
+      "publisher": "In de Leiderstrui"
+    },
+    {
+      "uuid": "ed0ebf85-cb9d-4f62-b6c7-00425dde9ae1",
+      "title": "In een roes speelt AZ de pijn van vorig jaar weg: spectaculaire 5-1 zege op NEC in bekerfinale",
+      "published_at": "2026-04-19T20:06:56.000Z",
+      "publisher": "NRC"
+    },
+    {
+      "uuid": "e2b9bb5a-3982-4a5a-8501-c88cd39a6c02",
+      "title": "Nieuwe afleveringen Euphoria eindelijk van start, dit is wanneer je kunt kijken",
+      "published_at": "2026-04-19T20:05:00.000Z",
+      "publisher": "Bright"
+    },
+    {
+      "uuid": "4eb1c54f-3021-4662-b3ad-6ae8d3484239",
+      "title": "Zien: kinderen Viola Holt strooien haar as uit op bijzondere locatie",
+      "published_at": "2026-04-19T20:04:02.000Z",
+      "publisher": "Shownieuws"
+    },
+    {
+      "uuid": "b2a9125a-f26f-48b5-b265-0692f03022a9",
+      "title": "James leidt Lakers naar verrassende overwinning op Rockets in play-offs",
+      "published_at": "2026-04-19T20:03:50.000Z",
+      "publisher": "Times of Suriname"
+    },
+    {
+      "uuid": "2dfc47a7-3135-4bc6-b548-40330a334e9f",
+      "title": "6,6 miljard dollar verdampt na grootste cryptohack van 2026",
+      "published_at": "2026-04-19T20:02:35.000Z",
+      "publisher": "Crypto Insiders"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-18T20:32:46Z",
+      "published_before": "2026-04-19T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjI1NTZiZTAxNWUwMTgzYWM0OTY1Y2Q4MjhmMDVjN2Q2ZjRlMzAzYTFjMDUxNzkxZTIzMDVlODkwMDJlZmI1MjYiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTlUMjA6MDI6MzUuMDAwWiIsImxhc3RfaWQiOjIyNTQ3ODF9"
+  }
+}

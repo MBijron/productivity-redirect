@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "1d576bfa-31f6-485e-bf33-bcaa254196eb",
+      "title": "Almeerse Ton filmt sinds 2013 afvaldumpingen voor zijn deur: 'Het is niet meer mijn straat, maar de vuilnisbeltstraat'",
+      "published_at": "2026-04-22T20:22:07.000Z",
+      "publisher": "Omroep Flevoland"
+    },
+    {
+      "uuid": "d75d348e-8943-45dd-b8db-be92e640a181",
+      "title": "Recordstanden op Wall Street na verlenging wapenstilstand",
+      "published_at": "2026-04-22T20:21:55.000Z",
+      "publisher": "nieuws.nl"
+    },
+    {
+      "uuid": "777736f5-f8b2-4303-86c2-b283892a387f",
+      "title": "Chipmaker TSMC wil geavanceerdste ASML-machines pas in 2029 kopen",
+      "published_at": "2026-04-22T20:21:55.000Z",
+      "publisher": "nieuws.nl"
+    },
+    {
+      "uuid": "00c90f69-f558-474b-9234-343bdc989124",
+      "title": "Rode Kruis vreest toename mensen in voedselnood door stijgende prijzen",
+      "published_at": "2026-04-22T20:21:35.000Z",
+      "publisher": "RTV Utrecht"
+    },
+    {
+      "uuid": "a3babbb8-6a12-415a-81da-d3bdd06e4196",
+      "title": "Verstappen eerder weg uit de Formule 1? Norris geeft duidelijke hint na onderonsje",
+      "published_at": "2026-04-22T20:21:02.000Z",
+      "publisher": "F1 Maximaal.nl"
+    },
+    {
+      "uuid": "4883cf52-9cf0-4f39-a4f2-16f7fb6079a6",
+      "title": "Erfgoeddag 2026 brengt humor en erfgoed samen in het Pajottenland en de Zennevallei",
+      "published_at": "2026-04-22T20:20:00.000Z",
+      "publisher": "Persinfo"
+    },
+    {
+      "uuid": "013ddce8-37d1-44e1-bcc7-978068e35480",
+      "title": "Pot geeft heldere uitleg waarom hij net als Advocaat stopte bij Curaçao",
+      "published_at": "2026-04-22T20:18:41.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "2840b9d7-3859-41ee-9273-c1e2b5e38073",
+      "title": "Amerikaanse wapenvoorraden uitgeput na conflict met Iran, wat tot bezorgdheid leidt",
+      "published_at": "2026-04-22T20:17:21.000Z",
+      "publisher": "Business AM"
+    },
+    {
+      "uuid": "d3b20afc-80ce-4b5b-92c7-b803b13f22ec",
+      "title": "Apollo 8 verliest tweede finaleduel | Mannen Ravijn missen play-offs",
+      "published_at": "2026-04-22T20:15:37.000Z",
+      "publisher": "RTV Oost"
+    },
+    {
+      "uuid": "ec66f238-dc44-459b-a525-65e1ce2af0f6",
+      "title": "Wall Street opgelucht door verlengde wapenstilstand",
+      "published_at": "2026-04-22T20:06:27.000Z",
+      "publisher": "Het Financieele Dagblad"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjA2MTQ4MmE4ZGMxN2YwNTdiZGEzYWE1YjVjZTgyNjFlZGFiYzgyMzJkZDcxNWI5MGYzYTkzMGVhM2M0NzFhYTEiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjJUMjA6MDY6MjcuMDAwWiIsImxhc3RfaWQiOjI5MTM5MTR9"
+  }
+}

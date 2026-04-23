@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "4c6f2708-8e8b-4d10-aa52-f3636e0fbf93",
+      "title": "U.S. to Bar World Cup Attendees Tied to Antisemitism Abroad, Envoy Says",
+      "published_at": "2026-04-19T19:45:00.000Z",
+      "publisher": "Haaretz"
+    },
+    {
+      "uuid": "2dac34c9-e069-480a-900f-4a52abb13e5d",
+      "title": "Trump says Iranian-flagged vessel trying to breach blockade taken in US custody: 'Blew hole in engine room' | World News",
+      "published_at": "2026-04-19T19:40:52.000Z",
+      "publisher": "Hindustan Times"
+    },
+    {
+      "uuid": "fb75ba09-ba80-4115-a0e4-c9e4762f2f65",
+      "title": "Woman arrested after car driven into pedestrians in central London",
+      "published_at": "2026-04-19T19:38:00.000Z",
+      "publisher": "The Guardian"
+    },
+    {
+      "uuid": "6dbff075-921a-4f92-ba22-1b9f3c7f667a",
+      "title": "Trump says U.S. struck and seized Iranian-flagged cargo ship in Gulf of Oman",
+      "published_at": "2026-04-19T19:37:47.000Z",
+      "publisher": "CNBC"
+    },
+    {
+      "uuid": "f8540d17-1859-487d-8891-d1686400fbd2",
+      "title": "Brazil's Lula lashes out at US, describes Iran war as 'madness'",
+      "published_at": "2026-04-19T19:37:29.000Z",
+      "publisher": "Yahoo"
+    },
+    {
+      "uuid": "4d353ceb-37d0-4d95-bdcb-5c84048f2a62",
+      "title": "Uzbekistan, Rwanda establish diplomatic relations",
+      "published_at": "2026-04-19T19:34:15.000Z",
+      "publisher": "Xinhua"
+    },
+    {
+      "uuid": "a0948e08-3c5f-449d-9e23-fb2feca92b79",
+      "title": "Vance Begs for Pope’s Prayers After Relentless Trump Attacks",
+      "published_at": "2026-04-19T19:33:00.000Z",
+      "publisher": "The Daily Beast"
+    },
+    {
+      "uuid": "e0609394-74f9-447b-b6c0-ae2674f06ed7",
+      "title": "The Latest: 8 children dead after a mass shooting in Louisiana, police say",
+      "published_at": "2026-04-19T19:31:32.000Z",
+      "publisher": "CHEK News"
+    },
+    {
+      "uuid": "a66fba8f-9b8b-4396-8381-299a4d310c1a",
+      "title": "Iran rebuffs Trump announcement of new peace talks, state news agency reports",
+      "published_at": "2026-04-19T19:30:12.000Z",
+      "publisher": "CNA"
+    },
+    {
+      "uuid": "8458259d-4bcc-4bd9-98f4-220a35ad70a1",
+      "title": "Iranian woman, 44, selling drones, bombs for the regime, arrested in US",
+      "published_at": "2026-04-19T19:29:42.000Z",
+      "publisher": "India Today"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-18T20:32:46Z",
+      "published_before": "2026-04-19T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjhhNTI1YmUxZjY4MjI0ZDNiNzcxMDkzOTJmMDcxZWJkYTAzNzA5YWZiOWNkODk1ZWU4OTgxYjI3ZDcyZGU1MzciLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTlUMTk6Mjk6NDIuMDAwWiIsImxhc3RfaWQiOjIyNjU3MDd9"
+  }
+}

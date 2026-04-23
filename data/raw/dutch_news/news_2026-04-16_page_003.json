@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "dff620bb-e14b-4f81-8d70-b9c8b72f8378",
+      "title": "Uitzinnige NEC-directeur Van Schaik belt live in bij VI: 'Heb plots veel vrienden'",
+      "published_at": "2026-04-17T20:04:14.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "12c616c2-1312-4fac-a619-7fceb4bb0c75",
+      "title": "Michael Saylor lacht weer: Strategy uit het rood dankzij Bitcoin-stijging",
+      "published_at": "2026-04-17T20:02:00.000Z",
+      "publisher": "Newsbit"
+    },
+    {
+      "uuid": "61b857c0-8e12-419e-b934-417d6fdc8df0",
+      "title": "Video | Hoogtepunten openingsdag Pirelli Dutch Round – WorldSBK, WorldSSP en WorldSPB",
+      "published_at": "2026-04-17T20:00:06.000Z",
+      "publisher": "Racesport.nl"
+    },
+    {
+      "uuid": "428324e6-ce08-44aa-9b82-ff3c6854e887",
+      "title": "Ratingbureau Moody's verlaagt kredietwaardigheid van België, premier De Wever: \"Dit valt helaas niet uit de lucht\"",
+      "published_at": "2026-04-17T20:00:02.000Z",
+      "publisher": "VRT"
+    },
+    {
+      "uuid": "96b800fa-2d02-4675-8780-82c2f9e337c4",
+      "title": "Actieweek roept consument op om aardappelen te redden van verspilling",
+      "published_at": "2026-04-17T19:58:33.000Z",
+      "publisher": "RD.nl"
+    },
+    {
+      "uuid": "30497250-9f76-4a73-9990-90cf4bfd3c75",
+      "title": "Actieweek roept consument op om aardappelen te redden van verspilling",
+      "published_at": "2026-04-17T19:58:33.000Z",
+      "publisher": "RD.nl"
+    },
+    {
+      "uuid": "8cbb1148-d4e8-4388-a364-5872bd70e519",
+      "title": "O'Niel helpt Jong Ajax aan overwinning in Eindhoven",
+      "published_at": "2026-04-17T19:57:41.000Z",
+      "publisher": "ajax.nl"
+    },
+    {
+      "uuid": "1bd10652-3bc6-48bf-8657-80ad72af38f8",
+      "title": "Vitesse heeft periodetitel niet meer in eigen hand, ADO vernedert RKC",
+      "published_at": "2026-04-17T19:57:00.000Z",
+      "publisher": "Voetbal International"
+    },
+    {
+      "uuid": "e326d3f4-d988-49a8-9190-c259c61159ad",
+      "title": "Drama voor RWDM: geplaagde traditieclub degradeert uit Challenger Pro League",
+      "published_at": "2026-04-17T19:56:12.000Z",
+      "publisher": "sporza.be"
+    },
+    {
+      "uuid": "5a8dfaa6-8d17-4d0a-824d-89d43c42e266",
+      "title": "Iran dreigt sluiting zeestraat bij aanhoudende Amerikaanse blokkade • Nederlandse reders willen garanties voor veiligheid",
+      "published_at": "2026-04-17T19:55:00.000Z",
+      "publisher": "NOS"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-16T20:32:46Z",
+      "published_before": "2026-04-17T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImRjZmE1MzcyNzNmODljMGFkOTFjNDRhNjQyOTEzOWM3YWRkZjY1NWM5NGUyNWFlZTQ0ODUxM2Q1Mzk4Zjc1MTciLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTdUMTk6NTU6MDAuMDAwWiIsImxhc3RfaWQiOjIwMTY1NjV9"
+  }
+}

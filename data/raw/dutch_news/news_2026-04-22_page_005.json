@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "c7548f95-76f0-42cc-a78a-dc312efe9b20",
+      "title": "Fabrizio Romano geeft Ajax-fans hoop: Amsterdammers serieus voor Ceballos",
+      "published_at": "2026-04-23T18:18:12.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "629fdda8-e6ad-4921-b7c9-f98a5a444c80",
+      "title": "Enschedese school sluit deuren uit angst voor examenstunt",
+      "published_at": "2026-04-23T18:13:39.000Z",
+      "publisher": "RTV Oost"
+    },
+    {
+      "uuid": "2cc30775-1cc3-424c-b320-c05123117833",
+      "title": "LEGO Shrek is echt en komt uit op 1 juni",
+      "published_at": "2026-04-23T18:11:57.000Z",
+      "publisher": "IGN Benelux"
+    },
+    {
+      "uuid": "7f2c110f-338a-4e16-b84f-3c0488ae86a0",
+      "title": "Valt er tenminste één treffer bij Go Ahead Eagles-AZ? • Van den Berg in basis van PSV",
+      "published_at": "2026-04-23T18:11:50.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "c14cb282-79de-426c-9820-7d87d76aaae6",
+      "title": "Overheid neemt Duitse cloudleverancier in de arm, wil minder afhankelijk zijn van de VS",
+      "published_at": "2026-04-23T18:09:19.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "6033edb0-2e09-4abf-a621-78d87ffdde97",
+      "title": "Expert: Zwaardere stroomaansluiting voor woning niet altijd vereist",
+      "published_at": "2026-04-23T18:04:42.000Z",
+      "publisher": "RD.nl"
+    },
+    {
+      "uuid": "92e479ff-44a5-46b5-b42d-3cc123197e87",
+      "title": "VI Live: PEC mist smaakmaker in Eindhoven, nog geen goals in Deventer",
+      "published_at": "2026-04-23T18:03:57.000Z",
+      "publisher": "Voetbal International"
+    },
+    {
+      "uuid": "a09b437a-dbdd-476d-af43-233ff7fd709d",
+      "title": "Energiepakket is beperkt en dat is maar goed ook",
+      "published_at": "2026-04-23T18:00:26.000Z",
+      "publisher": "Het Financieele Dagblad"
+    },
+    {
+      "uuid": "2eb6da93-310d-420a-96bb-8d73b516e71e",
+      "title": "Horner ontvangt steun van oude rivaal: \"Dat zou me verbazen!\"",
+      "published_at": "2026-04-23T18:00:00.000Z",
+      "publisher": "RacingNews365"
+    },
+    {
+      "uuid": "b78833e5-2b86-4c6f-b722-f7224b743975",
+      "title": "Reusachtige vleesetende octopussen kraakten 100 miljoen jaar geleden hun prooien met volle kracht",
+      "published_at": "2026-04-23T18:00:00.000Z",
+      "publisher": "NRC"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-22T20:32:46Z",
+      "published_before": "2026-04-23T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImFiYTBjYjhmZmMzZmJlZTJkNjg2MGY1YWNkMTYxZjJhOWUzZDU5YTUzMTNjMTkwOTRlYzkyODRmMGVmY2ZjNTAiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjNUMTg6MDA6MDAuMDAwWiIsImxhc3RfaWQiOjMwMjM2MzN9"
+  }
+}

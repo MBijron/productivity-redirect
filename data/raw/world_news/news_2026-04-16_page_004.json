@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "4c3c76dd-4040-4c08-bf5f-dfc5753d69b9",
+      "title": "AFC/M23 To Release 311 Captured Congolese Soldiers",
+      "published_at": "2026-04-17T20:00:49.000Z",
+      "publisher": "Taarifa Rwanda"
+    },
+    {
+      "uuid": "3438bdf8-b5f1-4e25-af17-f46852f7a55b",
+      "title": "Oil and gas prices tumble as Iran pledges to reopen Strait of Hormuz",
+      "published_at": "2026-04-17T20:00:46.000Z",
+      "publisher": "The Irish Times"
+    },
+    {
+      "uuid": "bb030e9a-73ad-472b-9008-afc2eb114504",
+      "title": "More hard yards to cross before peace",
+      "published_at": "2026-04-17T20:00:39.000Z",
+      "publisher": "The New Indian Express"
+    },
+    {
+      "uuid": "6c746ee6-7065-42a3-b5f6-0daad4f37ff7",
+      "title": "Etihad March 2027 Africa Network Expansion",
+      "published_at": "2026-04-17T20:00:17.000Z",
+      "publisher": "AeroRoutes"
+    },
+    {
+      "uuid": "1e082844-1a8e-4b3d-a6ee-562c573c5dfc",
+      "title": "Keir Starmer faces ‘judgment day’ as Mandelson vetting debacle grows",
+      "published_at": "2026-04-17T20:00:00.000Z",
+      "publisher": "The Guardian"
+    },
+    {
+      "uuid": "ba1fc8bc-d57f-4c60-9f1f-cdc1d15d466c",
+      "title": "Oil prices drop below $90 as Iran reopens Strait of Hormuz",
+      "published_at": "2026-04-17T19:59:00.000Z",
+      "publisher": "TheCable"
+    },
+    {
+      "uuid": "3dc3bd62-bb64-428f-9d25-30660e7310f9",
+      "title": "Trump’s Iran war victory boast has echoes of Bush’s ill-fated ‘mission accomplished’ claim",
+      "published_at": "2026-04-17T19:58:00.000Z",
+      "publisher": "The Guardian"
+    },
+    {
+      "uuid": "5e8c56b2-c874-4eae-88d0-834b71ee3a10",
+      "title": "Convoy of oil tankers cross Strait of Hormuz as Trump says he has ‘good news’ on Iran",
+      "published_at": "2026-04-17T19:57:37.000Z",
+      "publisher": "The Irish Independent"
+    },
+    {
+      "uuid": "c631e28f-0758-4b6b-8a3f-d3fcc161672c",
+      "title": "Iran war live updates: Trump says US will go into Iran to remove 'nuclear dust'",
+      "published_at": "2026-04-17T19:54:41.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    },
+    {
+      "uuid": "fed6316b-83c5-4e3c-82e4-c17678a4060b",
+      "title": "Israel Strikes Lebanon Less Than an Hour After Trump Says It's 'PROHIBITED' From More Attacks",
+      "published_at": "2026-04-17T19:53:15.000Z",
+      "publisher": "Common Dreams"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-16T20:32:46Z",
+      "published_before": "2026-04-17T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImFmOTQzYmVhMzg3OTk4ZDIzNzdmZWZhNzczNjFkYjI2MmZiYTczZDAyYWE5ZDc4MDEwNjU5NmM1NzQ5NTI2OWUiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTdUMTk6NTM6MTUuMDAwWiIsImxhc3RfaWQiOjE5NjczNjR9"
+  }
+}

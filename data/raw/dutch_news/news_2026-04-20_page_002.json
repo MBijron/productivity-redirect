@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "03e11c41-c432-4b9c-8cd9-7e60bb2265cf",
+      "title": "Nieuwe match voor Rob na 'nee' in Married at First Sight",
+      "published_at": "2026-04-21T20:19:30.000Z",
+      "publisher": "Vandaag Inside"
+    },
+    {
+      "uuid": "852e08de-9095-44f0-a4cc-2e3f6e4d10d3",
+      "title": "Ophokplicht voor pluimvee vervalt voor provincie Groningen",
+      "published_at": "2026-04-21T20:18:35.000Z",
+      "publisher": "RTV Noord"
+    },
+    {
+      "uuid": "be5a90d8-d0c3-4f1a-b226-ae1c0420893b",
+      "title": "Trump verlengt bestand met Iran, maar voor hoelang blijft vaag",
+      "published_at": "2026-04-21T20:15:49.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "5b5923fe-1053-4e6f-affe-8931e3f9e67b",
+      "title": "Iran: twee schepen in beslag genomen in Straat van Hormuz",
+      "published_at": "2026-04-21T20:12:00.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "6f9f16ff-5d66-4f92-9fe1-18951fdf89a2",
+      "title": "Veel vragen Kamer over wens Lelystad Airport in 2027 te openen",
+      "published_at": "2026-04-21T20:11:53.000Z",
+      "publisher": "nieuws.nl"
+    },
+    {
+      "uuid": "5e52bc67-b78d-4bfe-9b77-58ec7b53ebfd",
+      "title": "Kyle deelt aangrijpend verhaal in MAFS: 'Het leven is kort en vluchtig'",
+      "published_at": "2026-04-21T20:11:20.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "9386ae8e-9c25-467f-b7f6-9c71e6380692",
+      "title": "De elektrische motorfietsen van Brabus zijn niet zo duur als je zou verwachten",
+      "published_at": "2026-04-21T20:08:15.000Z",
+      "publisher": "TopGear Nederland"
+    },
+    {
+      "uuid": "c2e943f0-cb29-4bd2-80d3-31d90951ccab",
+      "title": "Drake verstopt releasedatum nieuw album in berg ijsblokken",
+      "published_at": "2026-04-21T20:07:59.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "0ede9d46-c8b9-496a-8225-dc35506278f0",
+      "title": "'Anderlecht moet vrezen: droomtransfer gekaapt'",
+      "published_at": "2026-04-21T20:07:00.000Z",
+      "publisher": "VoetbalNieuws.be"
+    },
+    {
+      "uuid": "6bf9f8ac-cdda-403c-a3c9-049ad00b5ba6",
+      "title": "Duizenden fans juichen en joelen voor bekerwinnaar AZ bij huldiging",
+      "published_at": "2026-04-21T20:04:26.000Z",
+      "publisher": "NOS"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-20T20:32:46Z",
+      "published_before": "2026-04-21T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImE0ZDNlZWMzM2E4YTMzZDQ0NTk1OTlhZGJiZTU1YzQ2OTBmMGI3YzRkZGM1MGJkYjM2ZjM1ZmE2ODY4MGQzOTkiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjFUMjA6MDQ6MjYuMDAwWiIsImxhc3RfaWQiOjI2MzcyNTd9"
+  }
+}
