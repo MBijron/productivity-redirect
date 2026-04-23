@@ -346,6 +346,58 @@
         return wrapperElement;
     }
 
+    function splitParagraphs(text) {
+        if (typeof text !== "string") {
+            return [];
+        }
+
+        const trimmedText = text.trim();
+
+        if (!trimmedText) {
+            return [];
+        }
+
+        const blankLineParagraphs = trimmedText
+            .split(/\r?\n\s*\r?\n/u)
+            .map(function (paragraph) {
+                return paragraph.trim();
+            })
+            .filter(Boolean);
+
+        if (blankLineParagraphs.length > 1) {
+            return blankLineParagraphs;
+        }
+
+        return trimmedText
+            .split(/\r?\n/u)
+            .map(function (paragraph) {
+                return paragraph.trim();
+            })
+            .filter(Boolean);
+    }
+
+    function renderParagraphBlock(text, blockClassName, paragraphClassName) {
+        const paragraphs = splitParagraphs(text);
+
+        if (paragraphs.length === 0) {
+            return null;
+        }
+
+        const blockElement = globalThis.document.createElement("div");
+
+        blockElement.className = blockClassName;
+
+        paragraphs.forEach(function (paragraph) {
+            const paragraphElement = globalThis.document.createElement("p");
+
+            paragraphElement.className = paragraphClassName;
+            paragraphElement.textContent = paragraph;
+            blockElement.appendChild(paragraphElement);
+        });
+
+        return blockElement;
+    }
+
     function getNewsAvailability(summary) {
         const accessRecord = readNewsAccessRecord();
         const summaryVersion = buildSummaryAccessVersion(summary);
@@ -453,16 +505,15 @@
             const titleElement = globalThis.document.createElement("h2");
             const descriptionElement = globalThis.document.createElement("p");
             const metaElement = globalThis.document.createElement("p");
-            const summaryElement = globalThis.document.createElement("p");
             const storyListElement = globalThis.document.createElement("div");
             const topStoriesElement = renderListSection("Top stories", section.topStories);
             const themesElement = renderListSection("Themes", section.themes);
+            const summaryElement = renderParagraphBlock(section.summary, "news-section-summary", "news-section-summary-paragraph");
 
             sectionElement.className = "news-section";
             titleElement.className = "news-section-title";
             descriptionElement.className = "news-section-description";
             metaElement.className = "news-section-meta";
-            summaryElement.className = "news-section-summary";
             storyListElement.className = "news-story-list";
             titleElement.textContent = section.title;
             sectionElement.appendChild(titleElement);
@@ -481,8 +532,9 @@
             }
 
             if (typeof section.summary === "string" && section.summary && section.summary !== section.description) {
-                summaryElement.textContent = section.summary;
-                sectionElement.appendChild(summaryElement);
+                if (summaryElement) {
+                    sectionElement.appendChild(summaryElement);
+                }
             }
 
             if (topStoriesElement) {

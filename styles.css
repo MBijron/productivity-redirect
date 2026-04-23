@@ -585,6 +585,7 @@ body.news-page {
 .news-section-description,
 .news-section-meta,
 .news-section-summary,
+.news-section-summary-paragraph,
 .news-story-title,
 .news-story-meta,
 .news-story-excerpt,
@@ -613,6 +614,11 @@ body.news-page {
 }
 
 .news-section-summary {
+    display: grid;
+    gap: 0.85rem;
+}
+
+.news-section-summary-paragraph {
     line-height: 1.7;
     color: var(--text-1);
 }
