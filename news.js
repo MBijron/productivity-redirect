@@ -51,6 +51,18 @@
         }
     }
 
+    function writeNewsAccessRecord(weekId, summaryVersion) {
+        try {
+            globalThis.localStorage.setItem(newsAccessStorageKey, JSON.stringify({
+                weekId,
+                summaryVersion,
+                availableUntil: Date.now() + 24 * 60 * 60 * 1000
+            }));
+        } catch {
+            // Ignore storage failures.
+        }
+    }
+
     function formatDisplayDate(dateValue, timeZone) {
         try {
             return new Intl.DateTimeFormat("en-GB", {
@@ -94,6 +106,18 @@
         }
 
         return `${timeWindow.start.slice(0, 10)}:${timeWindow.end.slice(0, 10)}`;
+    }
+
+    function buildSummaryAccessVersion(summary) {
+        if (!summary || typeof summary.weekId !== "string" || !summary.weekId) {
+            return "";
+        }
+
+        if (typeof summary.generatedAt === "string" && summary.generatedAt) {
+            return `${summary.weekId}:${summary.generatedAt}`;
+        }
+
+        return summary.weekId;
     }
 
     function getHostnameLabel(urlValue) {
@@ -324,6 +348,7 @@
 
     function getNewsAvailability(summary) {
         const accessRecord = readNewsAccessRecord();
+        const summaryVersion = buildSummaryAccessVersion(summary);
 
         if (!accessRecord) {
             return { state: "fresh" };
@@ -332,6 +357,14 @@
         if (accessRecord.weekId !== summary.weekId) {
             clearNewsAccessRecord();
             return { state: "fresh" };
+        }
+
+        if (summaryVersion && accessRecord.summaryVersion !== summaryVersion) {
+            writeNewsAccessRecord(summary.weekId, summaryVersion);
+            return {
+                state: "open",
+                availableUntil: Date.now() + 24 * 60 * 60 * 1000
+            };
         }
 
         if (!Number.isFinite(accessRecord.availableUntil)) {

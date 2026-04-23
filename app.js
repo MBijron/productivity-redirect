@@ -66,10 +66,23 @@
         }
     }
 
-    function writeNewsAccessRecord(weekId) {
+    function buildSummaryAccessVersion(summary) {
+        if (!summary || typeof summary.weekId !== "string" || !summary.weekId) {
+            return "";
+        }
+
+        if (typeof summary.generatedAt === "string" && summary.generatedAt) {
+            return `${summary.weekId}:${summary.generatedAt}`;
+        }
+
+        return summary.weekId;
+    }
+
+    function writeNewsAccessRecord(weekId, summaryVersion) {
         try {
             globalThis.localStorage.setItem(newsAccessStorageKey, JSON.stringify({
                 weekId,
+                summaryVersion,
                 availableUntil: Date.now() + newsAccessDurationMs
             }));
         } catch {
@@ -146,6 +159,7 @@
 
         return {
             weekId,
+            generatedAt: typeof referenceRecord.generated_at === "string" ? referenceRecord.generated_at : "",
             sections: records
         };
     }
@@ -227,6 +241,7 @@
 
     function getNewsAvailability(summary) {
         const accessRecord = readNewsAccessRecord();
+        const summaryVersion = buildSummaryAccessVersion(summary);
 
         if (!accessRecord) {
             return { state: "fresh" };
@@ -235,6 +250,14 @@
         if (accessRecord.weekId !== summary.weekId) {
             clearNewsAccessRecord();
             return { state: "fresh" };
+        }
+
+        if (summaryVersion && accessRecord.summaryVersion !== summaryVersion) {
+            writeNewsAccessRecord(summary.weekId, summaryVersion);
+            return {
+                state: "open",
+                availableUntil: Date.now() + newsAccessDurationMs
+            };
         }
 
         if (!Number.isFinite(accessRecord.availableUntil)) {
@@ -316,7 +339,7 @@
             }
 
             if (availability.state === "fresh") {
-                writeNewsAccessRecord(summary.weekId);
+                writeNewsAccessRecord(summary.weekId, buildSummaryAccessVersion(summary));
             }
 
             openTarget(newsLink.dataset.target || defaultTargetUrl);
