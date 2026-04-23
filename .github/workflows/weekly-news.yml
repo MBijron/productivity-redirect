@@ -44,6 +44,9 @@ jobs:
           }
           JSON
 
+      - name: Remove previous generated JSONL
+        run: rm -f weekly-news.jsonl
+
       - name: Fetch FreeNewsAPI data
         env:
           FREENEWSAPI_TOKEN: ${{ secrets.FREENEWSAPI_TOKEN }}
@@ -66,12 +69,21 @@ jobs:
         run: |
           set -euo pipefail
           : "${GH_TOKEN:?COPILOT_GITHUB_TOKEN secret is required}"
-          rm -f weekly-news.jsonl
+          chmod +x scripts/article_context.py scripts/validate_weekly_news_json.py
 
           PROMPT=$(cat <<'PROMPT'
           Read data/summary-input.json and overwrite weekly-news.jsonl in the repository root.
 
           Requirements:
+          - Your only write task in this step is to overwrite weekly-news.jsonl with the final JSONL output.
+          - Do not modify any other files.
+          - The only shell commands you may run in this step are ./scripts/article_context.py and ./scripts/validate_weekly_news_json.py.
+          - Use ./scripts/article_context.py only to inspect fuller API-backed article bodies for a specific cluster when data/summary-input.json alone is not enough.
+          - Use ./scripts/validate_weekly_news_json.py --input weekly-news.jsonl only after you have written weekly-news.jsonl and only to check whether the JSONL validates.
+          - If ./scripts/validate_weekly_news_json.py reports an error, fix weekly-news.jsonl and rerun the same validator until it passes.
+          - Do not run git status, git add, git diff, git commit, git push, git log, or any other git command. A later workflow step handles commit and push.
+          - Do not run any other shell, Python, Node, wc, sed, cat, permission-probing, or diagnostic commands.
+          - Do not call scripts/build_summary.py directly in this step. A later workflow step validates weekly-news.jsonl and builds news-summary.json.
           - Write like a newsreader dictating the week's bulletin, not like an analyst reflecting on a dataset.
           - Prioritize the kinds of developments people talk about in the office: wars, government decisions, public-safety issues, science and technology shifts, health, education, institutional failures, cyber incidents, major hacks, major outages, disasters, and major cultural changes.
           - Treat data/summary-input.json as the full evidence pack. Each section contains aggregate coverage signals, deterministic story_candidates, and a curated detail evidence set; do not try to mention every item.
@@ -89,7 +101,6 @@ jobs:
           - Keep sports in the background. Do not give sports major spotlight unless the data leaves no stronger public-interest alternative. For dutch_news especially, prefer Netherlands-focused or Netherlands-relevant public-interest stories over match reports, transfer chatter, or athlete personality coverage.
           - If major hacks, cyber incidents, disasters, accidents, infrastructure failures, or other clear public-safety emergencies appear in a section's evidence, they must be reflected somewhere in that section's summary or article picks.
           - Do not let one noisy day dominate the result if coverage_by_day shows meaningful activity across multiple dates.
-          - If tool execution is available, you may call python scripts/article_context.py with section/date/keyword filters to inspect fuller API-backed article bodies for a specific cluster before writing the final summary. Do not use any non-API scraping.
           - Output exactly three or four non-empty lines.
           - Each line must be a single valid JSON object.
           - Line 1 must have section set to world_news.
@@ -126,7 +137,8 @@ jobs:
           copilot \
             --model "claude-sonnet-4.6" \
             --allow-tool='write' \
-            --allow-all-paths \
+            --allow-tool='shell(./scripts/article_context.py)' \
+            --allow-tool='shell(./scripts/validate_weekly_news_json.py)' \
             -p "$PROMPT"
 
       - name: Validate JSONL and build browser summary
@@ -148,7 +160,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add weekly-news.jsonl news-summary.json data/
+          git add weekly-news.jsonl news-summary.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
