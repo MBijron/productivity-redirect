@@ -475,7 +475,8 @@ body.news-page {
     display: block;
     min-height: 100%;
     max-height: none;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .news-shell {
@@ -485,6 +486,8 @@ body.news-page {
     min-height: 100dvh;
     display: grid;
     place-items: center;
+    width: 100%;
+    max-width: 100%;
     padding: clamp(1rem, 4vw, 2.4rem);
 }
 
@@ -561,6 +564,15 @@ body.news-page {
     gap: 1rem;
 }
 
+.news-card,
+.news-content,
+.news-sections,
+.news-section,
+.news-story,
+.news-story-details {
+    min-width: 0;
+}
+
 .news-intro {
     font-size: 1.06rem;
     line-height: 1.7;
@@ -593,6 +605,21 @@ body.news-page {
 .news-summary-list-title,
 .news-summary-list-items {
     margin: 0;
+}
+
+.news-title,
+.news-intro,
+.news-section-title,
+.news-section-description,
+.news-section-summary-paragraph,
+.news-story-title,
+.news-story-excerpt,
+.news-story-detail-paragraph,
+.news-message,
+.news-note,
+.news-generated,
+.news-status {
+    overflow-wrap: anywhere;
 }
 
 .news-section-title {
@@ -725,10 +752,60 @@ body.news-page {
 @media (max-width: 640px) {
     .news-topbar {
         flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .news-shell {
+        padding: 0.7rem;
+        place-items: start stretch;
     }
 
     .news-card {
         width: 100%;
-        border-radius: 24px;
+        max-width: 100%;
+        gap: 1rem;
+        padding: 1rem 0.85rem 1.15rem;
+        border-radius: 22px;
+    }
+
+    .news-content {
+        gap: 0.85rem;
+    }
+
+    .news-sections {
+        gap: 1rem;
+    }
+
+    .news-section {
+        gap: 0.7rem;
+        padding: 0.9rem 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    .news-message {
+        padding: 0.9rem 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    .news-summary-list-items {
+        padding-left: 1rem;
+    }
+
+    .news-story-details {
+        padding: 0.75rem 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    .news-back {
+        align-self: flex-start;
     }
 }
