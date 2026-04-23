@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "95073856-d522-4459-b209-26523f4abb01",
+      "title": "Israeli strike on vehicle in southern Lebanon leaves two journalists wounded",
+      "published_at": "2026-04-22T20:11:51.000Z",
+      "publisher": "Sky News Australia"
+    },
+    {
+      "uuid": "7410945e-18a3-48b3-b6c1-c47fd105438f",
+      "title": "Missionaries return to African nation of Burundi",
+      "published_at": "2026-04-22T20:09:50.000Z",
+      "publisher": "Church News"
+    },
+    {
+      "uuid": "482f19b3-abc2-4aea-a0be-4ccfe0a26ab6",
+      "title": "Women Business Leaders on How To Solve AI’s Inclusivity Problem",
+      "published_at": "2026-04-22T20:09:12.000Z",
+      "publisher": "Time Magazine"
+    },
+    {
+      "uuid": "cc55b048-145d-4c10-b331-80d40d4a7a02",
+      "title": "\"Let the pope have his say\": Pennsylvania Catholics caught between Trump and Pope Leo",
+      "published_at": "2026-04-22T20:08:00.000Z",
+      "publisher": "CBS News"
+    },
+    {
+      "uuid": "40ae70f5-0196-41ba-8a1c-87590ab91979",
+      "title": "The U.K. just banned smoking for life for youth. Should Canada do the same?",
+      "published_at": "2026-04-22T20:07:50.000Z",
+      "publisher": "Global News"
+    },
+    {
+      "uuid": "4b134d12-e829-4428-afea-75a038285c1a",
+      "title": "DHS Counterterrorism Official Accused of Living Double Life Funded by “Sugar Daddies”",
+      "published_at": "2026-04-22T20:07:43.000Z",
+      "publisher": "Yahoo"
+    },
+    {
+      "uuid": "a7fa5e56-9a2c-41e8-99da-5bf22c641f51",
+      "title": "South Africa positions tourism as a key economic driver ahead of Africa's Travel Indaba 2026",
+      "published_at": "2026-04-22T20:06:56.000Z",
+      "publisher": "en.travel2latam.com"
+    },
+    {
+      "uuid": "8a86fef9-3f20-4c9c-b888-17a6fd0c2c5e",
+      "title": "Center for Children & Families offers support after shooting that killed eight children",
+      "published_at": "2026-04-22T20:05:00.000Z",
+      "publisher": "KSLA"
+    },
+    {
+      "uuid": "d1ea97a8-895e-4387-87b7-648baae6af8e",
+      "title": "DHS bigwig put on leave after ex-boyfriend accuses glitzy terror official of $40K sugar baby scheme",
+      "published_at": "2026-04-22T20:05:00.000Z",
+      "publisher": "New York Post"
+    },
+    {
+      "uuid": "aded2dfc-7b6e-45f4-970e-dc02e80ca2ce",
+      "title": "Trump envoy’s bizarre plan to have Italy replace Iran at World Cup",
+      "published_at": "2026-04-22T20:02:00.000Z",
+      "publisher": "7NEWS"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjAzZTdkZTcwZGVmMWE2N2M4ZmRlZjgwOGY5NWIyMjAwOTdlZDE4ZTBmZTM0ODM3NzdhNjQ5NTFkNDA0MjJhYTAiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjJUMjA6MDI6MDAuMDAwWiIsImxhc3RfaWQiOjI4ODY3MDd9"
+  }
+}

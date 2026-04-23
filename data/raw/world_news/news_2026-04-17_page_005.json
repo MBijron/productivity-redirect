@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "7bbcc8a6-7c66-4a4b-af28-1cf84458159a",
+      "title": "Engineer accused of ‘inciting’ Noida protesters held at TN station",
+      "published_at": "2026-04-18T19:41:00.000Z",
+      "publisher": "The Times of India"
+    },
+    {
+      "uuid": "992f96a6-3b8e-45bb-a4dd-06366c105783",
+      "title": "Ukrainian police shoot and kill a gunman who killed at least 6 and took hostages in a supermarket",
+      "published_at": "2026-04-18T19:39:32.000Z",
+      "publisher": "Yahoo"
+    },
+    {
+      "uuid": "53df78e7-c964-4574-af31-f0e5a996aad5",
+      "title": "UN Chinese Language Day marked in Sofia with singing contest",
+      "published_at": "2026-04-18T19:37:45.000Z",
+      "publisher": "Xinhua"
+    },
+    {
+      "uuid": "6013de30-a6d0-4f0d-90d0-578b9088a23c",
+      "title": "Why clearing mines from Strait of Hormuz might prove tricky for US",
+      "published_at": "2026-04-18T19:37:40.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    },
+    {
+      "uuid": "375a0095-df5c-429d-b473-9aa10bba31e1",
+      "title": "Morocco’s Stalled Asylum Law Leaves Sudanese Refugees in Legal Limbo",
+      "published_at": "2026-04-18T19:37:07.000Z",
+      "publisher": "Space Daily"
+    },
+    {
+      "uuid": "8d8ae149-722a-44eb-a7fc-b022c40185e5",
+      "title": "Grave diggers explain 56 bodies",
+      "published_at": "2026-04-18T19:37:00.000Z",
+      "publisher": "Trinidad Express Newspapers"
+    },
+    {
+      "uuid": "9d479421-3196-4446-aada-9432a81f8922",
+      "title": "No let-up in queues despite hike",
+      "published_at": "2026-04-18T19:36:57.000Z",
+      "publisher": "The Daily Star"
+    },
+    {
+      "uuid": "96ffab94-ae5e-4136-98ad-db1664aad43a",
+      "title": "Items found near Israeli embassy in UK 'non-hazardous'",
+      "published_at": "2026-04-18T19:34:35.000Z",
+      "publisher": "The Canberra Times"
+    },
+    {
+      "uuid": "99e29282-2cab-4e4f-9343-8ed24d2a000b",
+      "title": "Pope Leo XIV downplays feud with Trump: ‘Not in my interest’ to debate him",
+      "published_at": "2026-04-18T19:34:33.000Z",
+      "publisher": "The Times of Israel"
+    },
+    {
+      "uuid": "fd17b02d-146b-4906-8223-994d18033fe1",
+      "title": "Iran pushed back enemy in recent war using asymmetric warfare strategy: Qalibaf",
+      "published_at": "2026-04-18T19:34:00.000Z",
+      "publisher": "PressTV"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-17T20:32:46Z",
+      "published_before": "2026-04-18T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImZmODYyNjg2Y2E2OTY3NTU0MGNmNTkxNGRlOTFlNTZmOWVlMjBkZmM5OGZiODY5ZGYwOWU3YjZmYTg3YjQ4YWMiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMThUMTk6MzQ6MDAuMDAwWiIsImxhc3RfaWQiOjIyMTMzNDF9"
+  }
+}

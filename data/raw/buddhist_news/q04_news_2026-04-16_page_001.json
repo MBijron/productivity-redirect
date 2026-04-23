@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "6d3f54a6-c8af-468c-bb1c-b4b01bd30d37",
+      "title": "Our favourite Thailand islands for every type of traveller",
+      "published_at": "2026-04-17T19:47:00.000Z",
+      "publisher": "The Independent"
+    },
+    {
+      "uuid": "85589eaa-f06e-441b-ac5e-31a16d5138f6",
+      "title": "Prime Minister Anutin apologises for comments made by army commander in South to mend fences",
+      "published_at": "2026-04-17T18:47:03.000Z",
+      "publisher": "Thai Examiner"
+    },
+    {
+      "uuid": "057bb22e-4067-4f4f-8e6f-0937f1ccedd5",
+      "title": "To capture 'SNL' creator, 'Lorne' filmmaker had to hide a dozen microphones in Lorne Michaels' office",
+      "published_at": "2026-04-17T18:05:30.000Z",
+      "publisher": "Yahoo News Canada"
+    },
+    {
+      "uuid": "ddc62d89-0823-4763-bd79-f6c4b8d6147c",
+      "title": "Why many of Hungary’s religious groups will be celebrating Viktor Orbán’s election loss",
+      "published_at": "2026-04-17T15:16:05.000Z",
+      "publisher": "The Conversation"
+    },
+    {
+      "uuid": "8813bcba-8cc9-430d-aa49-a403afc79aff",
+      "title": "Cluster Anions of Hydrated Polycyclic Aromatic Hydrocarbons: “Magic” Water Tetramer",
+      "published_at": "2026-04-17T14:49:44.000Z",
+      "publisher": "astrobiology.com"
+    },
+    {
+      "uuid": "6ec249f3-84ca-46dc-b171-2fef2598f2b5",
+      "title": "Homogeneous Accretion Of The Earth In The Inner Solar System",
+      "published_at": "2026-04-17T14:48:45.000Z",
+      "publisher": "astrobiology.com"
+    },
+    {
+      "uuid": "efa38c9b-7413-4c6a-87d0-f2cee9bd7b04",
+      "title": "Orpheus: A Hopper Mission To Explore Volcanic Pits and Caves In Cereberus Fossae on Mars.",
+      "published_at": "2026-04-17T14:48:16.000Z",
+      "publisher": "astrobiology.com"
+    },
+    {
+      "uuid": "4ce18c99-117e-446e-8529-17ff327b8d1c",
+      "title": "As a Catholic, I’ve struggled with the church - but I applaud the pope’s call for peace | Margaret Sullivan",
+      "published_at": "2026-04-17T14:02:00.000Z",
+      "publisher": "The Guardian"
+    },
+    {
+      "uuid": "1e498cd6-a456-4677-ae6d-653200c44c02",
+      "title": "Director Jessica Arthur returns to Melbourne",
+      "published_at": "2026-04-17T14:00:00.000Z",
+      "publisher": "The Saturday Paper"
+    },
+    {
+      "uuid": "97c1dddc-a5cd-4029-b2e0-70949cee07b0",
+      "title": "BAM makes U-turn by naming Jie Yu as Pearly's replacement",
+      "published_at": "2026-04-17T09:25:54.000Z",
+      "publisher": "nst.com.my"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-16T20:32:46Z",
+      "published_before": "2026-04-17T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": "buddhist",
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjRkZWYwNTc4YzM5Y2ZlMWYwMTJiZDA5MzQwNGVlYjg3YmI3MjFiN2Y3NjExMTQwOGE4N2JlYWJjMGIwYzEzNjQiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTdUMDk6MjU6NTQuMDAwWiIsImxhc3RfaWQiOjE4NzkyMzF9"
+  }
+}

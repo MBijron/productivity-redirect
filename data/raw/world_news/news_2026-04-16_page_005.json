@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "252d6224-e95f-4f74-aa1e-ec1b61f24136",
+      "title": "Pope Leo and Trump, the battle for America’s soul",
+      "published_at": "2026-04-17T19:49:46.000Z",
+      "publisher": "The Hindu"
+    },
+    {
+      "uuid": "d4c97f39-d1dc-41ce-b148-2f1f305907cc",
+      "title": "Tabiat bridge turns red to mark World Hemophilia Day",
+      "published_at": "2026-04-17T19:47:22.000Z",
+      "publisher": "Tehran Times"
+    },
+    {
+      "uuid": "f1efa8e2-5f06-4710-944e-0e7f78af9fff",
+      "title": "Pope Leo to visit Angola as African tour continues",
+      "published_at": "2026-04-17T19:47:22.000Z",
+      "publisher": "The Catholic Herald"
+    },
+    {
+      "uuid": "51197bf8-057a-44c3-8160-91cf4230dded",
+      "title": "Swan Hellenic Grows West Africa Itineraries in 2026-27",
+      "published_at": "2026-04-17T19:47:01.000Z",
+      "publisher": "Cruise Industry News"
+    },
+    {
+      "uuid": "6d3f54a6-c8af-468c-bb1c-b4b01bd30d37",
+      "title": "Our favourite Thailand islands for every type of traveller",
+      "published_at": "2026-04-17T19:47:00.000Z",
+      "publisher": "The Independent"
+    },
+    {
+      "uuid": "1fb569f5-47b8-4760-89a1-ac28c1656823",
+      "title": "Zambia scraps bail for sex crimes suspects",
+      "published_at": "2026-04-17T19:46:05.000Z",
+      "publisher": "dw.com"
+    },
+    {
+      "uuid": "8ec0b14c-8533-453e-a240-4dd46724da37",
+      "title": "Ashly Robinson fundraiser generates USD 58,000 surpassing target. Her body to be airlifted from Zanzibar",
+      "published_at": "2026-04-17T19:44:23.000Z",
+      "publisher": "The Tanzania Times"
+    },
+    {
+      "uuid": "ea62ab28-b6be-498e-bcec-c98e034d6e22",
+      "title": "Middle East crisis live: Iran reopens strait of Hormuz but US blockade remains",
+      "published_at": "2026-04-17T19:42:00.000Z",
+      "publisher": "The Guardian"
+    },
+    {
+      "uuid": "1c2402b0-c201-40f2-b4ac-27a7f638a341",
+      "title": "Here's What Happened Today: Friday",
+      "published_at": "2026-04-17T19:41:00.000Z",
+      "publisher": "The Journal"
+    },
+    {
+      "uuid": "6f52ff33-1fc0-44f1-8643-f721b08db96e",
+      "title": "NATO scrambles jets to intercept 'heavily armed' Russian aircraft near airspace",
+      "published_at": "2026-04-17T19:40:00.000Z",
+      "publisher": "Daily Star"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-16T20:32:46Z",
+      "published_before": "2026-04-17T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImFmOTQzYmVhMzg3OTk4ZDIzNzdmZWZhNzczNjFkYjI2MmZiYTczZDAyYWE5ZDc4MDEwNjU5NmM1NzQ5NTI2OWUiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTdUMTk6NDA6MDAuMDAwWiIsImxhc3RfaWQiOjE5NDEwMTV9"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "c31ff4f3-74c9-4177-b842-711a44526f01",
+      "title": "EU-leiders achten tijd rijp voor toetreding Oekraïne, Jetten wil nog geen datum noemen",
+      "published_at": "2026-04-23T18:51:18.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "3a64bb3b-c689-48b6-91b4-a57aab1ccbe6",
+      "title": "Wouter Goes loopt het veld op en hoort vreselijk geluid uit het publiek",
+      "published_at": "2026-04-23T18:50:04.000Z",
+      "publisher": "FCUpdate.nl"
+    },
+    {
+      "uuid": "ff8876f4-f3d4-4365-94fd-af954272e671",
+      "title": "Romano: 'Ceballos vertrekt bij Real Madrid, Ajax kent concurrentie van twee clubs'",
+      "published_at": "2026-04-23T18:50:00.000Z",
+      "publisher": "Ajax Showtime"
+    },
+    {
+      "uuid": "c88b3056-d4cd-4365-a688-48674dbe7f21",
+      "title": "Cruijff verslikt zich: 12 miljoen euro per jaar",
+      "published_at": "2026-04-23T18:48:11.000Z",
+      "publisher": "Soccernews.nl"
+    },
+    {
+      "uuid": "5720fba4-212f-4758-bb9b-c8cf785d680b",
+      "title": "Vink geniet van één PSV-speler: 'Hij wordt ieder jaar beter, maakt mijn werk leuk'",
+      "published_at": "2026-04-23T18:45:37.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "58627911-21d3-4e1a-b6c9-9006143a8e68",
+      "title": "Ouders van biergooier Gerard Joling laten van zich horen: ‘Klaar met media-aandacht’",
+      "published_at": "2026-04-23T18:45:00.000Z",
+      "publisher": "LINDA.nl"
+    },
+    {
+      "uuid": "bc4a5673-e6e2-45ad-948a-f25df67a0cd6",
+      "title": "Brankele Frank: Op de bank voor je uit staren is ook productief",
+      "published_at": "2026-04-23T18:44:54.000Z",
+      "publisher": "RD.nl"
+    },
+    {
+      "uuid": "5d400d89-7e09-4218-a8c3-b99b2bb67a69",
+      "title": "PSV tegen PEC zonder Saibari, Veerman terug in de basis",
+      "published_at": "2026-04-23T18:43:59.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "f65549bc-cefd-4f7c-996c-bad9bbda9cfe",
+      "title": "VI Live: Bosz verklaart keuze voor basisdebutanten tegen PEC Zwolle",
+      "published_at": "2026-04-23T18:43:59.000Z",
+      "publisher": "Voetbal International"
+    },
+    {
+      "uuid": "23d69dcb-e631-41b8-9690-732119becb24",
+      "title": "Bekerwinnaar AZ vier dagen na finale doelpuntloos gelijk bij Go Ahead",
+      "published_at": "2026-04-23T18:42:28.000Z",
+      "publisher": "NOS"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-22T20:32:46Z",
+      "published_before": "2026-04-23T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImFiYTBjYjhmZmMzZmJlZTJkNjg2MGY1YWNkMTYxZjJhOWUzZDU5YTUzMTNjMTkwOTRlYzkyODRmMGVmY2ZjNTAiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjNUMTg6NDI6MjguMDAwWiIsImxhc3RfaWQiOjMwMzM2NTd9"
+  }
+}

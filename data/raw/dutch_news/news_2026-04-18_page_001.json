@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "2fd90a0b-d41a-471b-9549-6f26a3edbba5",
+      "title": "‘AZ – NEC krijgt dramatisch staartje’",
+      "published_at": "2026-04-19T20:31:00.000Z",
+      "publisher": "Soccernews.nl"
+    },
+    {
+      "uuid": "e149cd23-2147-4a58-bab1-f91bf2034b53",
+      "title": "Wout van Aert WV 2026",
+      "published_at": "2026-04-19T20:30:02.000Z",
+      "publisher": "WielerVerhaal"
+    },
+    {
+      "uuid": "f9c62b6a-c9fe-4a00-8552-a0c993286c3b",
+      "title": "De oude Emma blikt in A Woman of Substance terug op haar jeugd",
+      "published_at": "2026-04-19T20:29:22.000Z",
+      "publisher": "TVgids.nl"
+    },
+    {
+      "uuid": "9eb37923-1cbe-4501-9557-f5ee2ede4114",
+      "title": "Sam Lowes voltooit droomweekend op Assen met hattrick aan podiumplaatsen",
+      "published_at": "2026-04-19T20:28:10.000Z",
+      "publisher": "Racesport.nl"
+    },
+    {
+      "uuid": "799215a5-a59e-478f-9a4c-50583db9c981",
+      "title": "Oprichter JetBlue waarschuwt voor mogelijk faillissement",
+      "published_at": "2026-04-19T20:26:32.000Z",
+      "publisher": "Zakenreisnieuws"
+    },
+    {
+      "uuid": "8c3be32f-8b1e-46ac-a812-a8fc45b20c47",
+      "title": "Kees Smit krijgt draai om de oren bij Studio Voetbal: 'Als ik eerlijk mag zijn...'",
+      "published_at": "2026-04-19T20:24:13.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "794ee631-68b4-44ae-a78b-522bca962c31",
+      "title": "Uitgelezen kans voor FC Twente? NEC onder hoogspanning naar Enschede",
+      "published_at": "2026-04-19T20:24:00.000Z",
+      "publisher": "Twente Insite"
+    },
+    {
+      "uuid": "92193aec-fa28-45ea-a9b5-c0bf38550269",
+      "title": "De Oranjezondag: Wil Leeroy Echteld aanblijven als hoofdtrainer bij AZ: 'Ja, duidelijk'",
+      "published_at": "2026-04-19T20:19:33.000Z",
+      "publisher": "KIJK"
+    },
+    {
+      "uuid": "97865fdc-8ad9-45d1-9029-488274819c34",
+      "title": "Jordy Clasie is lyrisch en spreekt zich duidelijk uit na bekerstunt AZ: 'Hij moet blijven'",
+      "published_at": "2026-04-19T20:18:00.000Z",
+      "publisher": "Voetbalzone"
+    },
+    {
+      "uuid": "448500ff-6b57-40b2-8a09-6a1b49a2f0bd",
+      "title": "Hockey | Dames | HGC wint verrassend ruim in derby tegen HDM",
+      "published_at": "2026-04-19T20:17:23.000Z",
+      "publisher": "Haagse Topsport"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-18T20:32:46Z",
+      "published_before": "2026-04-19T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjI1NTZiZTAxNWUwMTgzYWM0OTY1Y2Q4MjhmMDVjN2Q2ZjRlMzAzYTFjMDUxNzkxZTIzMDVlODkwMDJlZmI1MjYiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTlUMjA6MTc6MjMuMDAwWiIsImxhc3RfaWQiOjIyNTU3MDR9"
+  }
+}

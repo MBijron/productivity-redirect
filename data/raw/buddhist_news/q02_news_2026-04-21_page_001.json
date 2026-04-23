@@ -1,0 +1,25 @@
+{
+  "data": [],
+  "meta": {
+    "page_size": 10,
+    "returned": 0,
+    "has_more": false,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": "tibetan buddhism",
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": null,
+    "next_cursor": null
+  }
+}

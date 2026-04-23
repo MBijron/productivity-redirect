@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "388fb75c-1485-402a-9546-5ced75a05ab6",
+      "title": "ADO geeft kampioenschap meer kleur, Vitesse morst in strijd om periodetitel",
+      "published_at": "2026-04-17T19:54:18.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "683a42d2-a3f3-495d-bae3-53dc8bf559b0",
+      "title": "Ilse DeLange blundert tijdens knockout in The voice of Holland: 'Amateur!'",
+      "published_at": "2026-04-17T19:53:01.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "abb58073-fe95-4638-bd30-a5a48754e3c2",
+      "title": "Windrose XP Gids: Snel Levelen",
+      "published_at": "2026-04-17T19:50:24.000Z",
+      "publisher": "games.gg"
+    },
+    {
+      "uuid": "6911770f-cc09-46cf-99cb-4cec15d38944",
+      "title": "Opening sequence van IO Interactives' 007 First Light onthuld",
+      "published_at": "2026-04-17T19:50:00.000Z",
+      "publisher": "Gameliner"
+    },
+    {
+      "uuid": "3c0b8239-d87c-430c-8e3a-c52307cd512c",
+      "title": "112-nieuws: Gewonde bij ongeluk met mes | Verdachten in brand steken man langer vast",
+      "published_at": "2026-04-17T19:50:00.000Z",
+      "publisher": "RTV Utrecht"
+    },
+    {
+      "uuid": "795a6848-bb2b-47d9-adbf-a3822ad698a9",
+      "title": "Jong Ajax trekt weinig enerverend duel met Jong PSV met minimaal verschil naar zich toe",
+      "published_at": "2026-04-17T19:50:00.000Z",
+      "publisher": "Ajax Showtime"
+    },
+    {
+      "uuid": "06af841d-3053-4b60-b01a-5131c12868be",
+      "title": "TOP Oss - FC Den Bosch stilgelegd door blauwe rook ondanks supportersverbod",
+      "published_at": "2026-04-17T19:47:39.000Z",
+      "publisher": "Omroep Brabant"
+    },
+    {
+      "uuid": "db776b38-a382-473f-b4a6-a2636096324a",
+      "title": "Behoud van showtuin Eco-care - Loek Gorris op de Kaardebol",
+      "published_at": "2026-04-17T19:47:25.000Z",
+      "publisher": "actie.degoedezaak.org"
+    },
+    {
+      "uuid": "d3bf991c-ada3-4758-a522-8fd229713955",
+      "title": "Na 'Justice 4 Pawel' moet Albert Heijn uitzendkracht in dienst nemen",
+      "published_at": "2026-04-17T19:44:28.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "c66e08e4-d3b2-4722-839d-46b6265e1252",
+      "title": "Uitzendkracht in gelijk gesteld in rechtszaak tegen ontslag door Albert Heijn",
+      "published_at": "2026-04-17T19:44:28.000Z",
+      "publisher": "NOS"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-16T20:32:46Z",
+      "published_before": "2026-04-17T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImRjZmE1MzcyNzNmODljMGFkOTFjNDRhNjQyOTEzOWM3YWRkZjY1NWM5NGUyNWFlZTQ0ODUxM2Q1Mzk4Zjc1MTciLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTdUMTk6NDQ6MjguMDAwWiIsImxhc3RfaWQiOjE5MzczODF9"
+  }
+}

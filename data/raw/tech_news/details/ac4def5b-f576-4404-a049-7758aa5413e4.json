@@ -1,0 +1,25 @@
+{
+  "data": {
+    "uuid": "ac4def5b-f576-4404-a049-7758aa5413e4",
+    "title": "Apple rolls out iOS 26.4.2 to fix a flaw that allowed the FBI to access push notifications",
+    "thumbnail": "https://s.yimg.com/ny/api/res/1.2/3.1jc_MnE8TzmJL_TnSUKQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/engadget_703/ac985f7bf52080558952ed10e78973bd",
+    "publisher": "Yahoo News Canada",
+    "authors": [
+      "Ian Carlos Campbell"
+    ],
+    "topics": [
+      "mobile",
+      "technology"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-04-22T20:11:53.000Z",
+    "original_url": "https://ca.news.yahoo.com/apple-rolls-ios-26-4-201153051.html",
+    "incipit": "Ian Carlos CampbellWed, April 22, 2026 at 8:11 p.m. UTC2 min readApple's latest iOS update fixes a flaw in its notification database that made it possible for law enforcement to view deleted push...",
+    "body": "Ian Carlos Campbell Wed, April 22, 2026 at 8:11 p.m. UTC 2 min read Apple's latest iOS update fixes a flaw in its notification database that made it possible for law enforcement to view deleted push notifications on a person's iPhone or iPad. The security flaw was one way law enforcement agencies like the FBI could circumvent Apple's strict stance towards user privacy, the Electronic Frontier Foundation writes , particularly since the company has required a court order to share notification data since 2023. According to Apple's update notes, iOS 26.4.2 introduces \"improved data redaction\" to address an issue where \"notifications marked for deletion could be unexpectedly retained on the device.\" The update is available now on \"iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later and iPad mini 5th generation and later,\" Apple says. The FBI's use of this particular iOS notification flaw was first reported on by 404 Media , who learned the agency used a tool to access Signal notification data stored locally on an iPhone even after it was deleted. Signal CEO Meredith Whitaker later acknowledged the issue on Bluesky , writing that \"notifications for deleted [messages] shouldn't remain in any OS notification database, and we've asked Apple to address this.\" At the time, Whitaker directed Signal users to adjust their settings so that push notifications from the app didn’t include the name of the messenger or message content. The privacy of your notifications is vulnerable in at least two places, according to the EFF. In the cloud, where they get routed through a company's servers and likely partially logged in metadata, and on the local storage of the phone where they're received. Apple's update should ideally make deleted notifications appropriately inaccessible, but limiting what's actually visible in notifications in the first place is also worth considering."
+  }
+}

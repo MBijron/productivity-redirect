@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "af063f9c-a773-4fb8-9ab0-9437fe473968",
+      "title": "Instagram tests a new ‘Instants’ app for sharing disappearing photos",
+      "published_at": "2026-04-23T20:03:53.000Z",
+      "publisher": "TechCrunch"
+    },
+    {
+      "uuid": "7977517c-1bcd-4bbe-bfc5-80d67b2cacda",
+      "title": "Asha Sharma declares 'We are Xbox' in Microsoft Gaming rebranding statement",
+      "published_at": "2026-04-23T20:00:00.000Z",
+      "publisher": "Shacknews"
+    },
+    {
+      "uuid": "ef6aaf8c-553c-4cf4-81df-6048d5f67e47",
+      "title": "Fair City on Friday: 'Not if I have an arrest warrant...'",
+      "published_at": "2026-04-23T20:00:00.000Z",
+      "publisher": "RTE.ie"
+    },
+    {
+      "uuid": "d7962de2-2ad2-4718-95d1-150f28ab7185",
+      "title": "LG's Micro RGB TVs Boast Big Screens, Big Colors and Big Prices",
+      "published_at": "2026-04-23T19:57:00.000Z",
+      "publisher": "CNET"
+    },
+    {
+      "uuid": "e17216ee-d35c-4047-b2bc-aeab6ac5b605",
+      "title": "Xbox Is Officially 'Reevaluating' What To Do About Exclusivity",
+      "published_at": "2026-04-23T19:55:00.000Z",
+      "publisher": "Pure Xbox"
+    },
+    {
+      "uuid": "4ecaaf37-e1ca-4db5-86fa-3473e805daca",
+      "title": "Cut in half: Adidas Adizero Adios Pro Evo 3 Review (2026)",
+      "published_at": "2026-04-23T19:52:30.000Z",
+      "publisher": "RunRepeat"
+    },
+    {
+      "uuid": "11d66434-6b90-4c38-b70a-a57232bdbf03",
+      "title": "Xbox’s New Boss Lays Out Her Vision For Fixing A Broken Brand: ‘Players Are Frustrated’",
+      "published_at": "2026-04-23T19:50:06.000Z",
+      "publisher": "Kotaku"
+    },
+    {
+      "uuid": "c9e3e363-61e7-477b-a5ec-f6cb1ad806c1",
+      "title": "The sequel to one of my favorite underrated Xbox RPGs has unveiled its release date in a fantastic new trailer",
+      "published_at": "2026-04-23T19:44:24.000Z",
+      "publisher": "Windows Central"
+    },
+    {
+      "uuid": "68ec5bae-6f73-46c9-87e8-863dca95bafc",
+      "title": "Xbox CEO Asha Sharma Admits “Players Are Frustrated,” Lays Out the Plan for the Next Era of Xbox",
+      "published_at": "2026-04-23T19:36:00.000Z",
+      "publisher": "Wccftech"
+    },
+    {
+      "uuid": "0e91056b-d410-4859-b145-41dad06ad80e",
+      "title": "Microsoft Gaming Changes Name to Xbox: ‘Our New North Star Will Be Daily Active Players,’ Execs Say in Staff Memo",
+      "published_at": "2026-04-23T19:30:00.000Z",
+      "publisher": "Variety"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-22T20:32:46Z",
+      "published_before": "2026-04-23T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjM4YWYyYzMyMDQyYWM4MDE4ZDg1ZWE5N2MwMTA4YWZjNTFmMDBiZjAyMDdlZWJmNDVlYjBhNGUyZjRmZDg5ODUiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjNUMTk6MzA6MDAuMDAwWiIsImxhc3RfaWQiOjMwMzI4NjZ9"
+  }
+}

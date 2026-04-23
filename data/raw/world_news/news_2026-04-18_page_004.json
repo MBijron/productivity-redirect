@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "f9387e2c-dd41-425c-84a7-ec416885d088",
+      "title": "Uzbekistan, Rwanda establish diplomatic relations",
+      "published_at": "2026-04-19T19:57:12.000Z",
+      "publisher": "China.org"
+    },
+    {
+      "uuid": "3fcd73dd-8ed8-4468-a4d7-e9ffce436119",
+      "title": "Zelensky announces 10-year Drone Deal with Gulf states, plans joint production and exports",
+      "published_at": "2026-04-19T19:57:04.000Z",
+      "publisher": "mezha.net"
+    },
+    {
+      "uuid": "592ba0ca-22c4-48f4-91b6-958d7eac49d8",
+      "title": "Trump says US seized Iran-flagged ship trying to get past Hormuz blockade",
+      "published_at": "2026-04-19T19:56:18.000Z",
+      "publisher": "Al Jazeera"
+    },
+    {
+      "uuid": "56122714-f16c-40fd-a479-3138d829c8df",
+      "title": "Talks, ceasefire in peril as Trump grapples with Iran’s new sheriffs in town",
+      "published_at": "2026-04-19T19:53:57.000Z",
+      "publisher": "The Age"
+    },
+    {
+      "uuid": "98783c9d-584e-4c0f-8f4b-b83c4d4697f5",
+      "title": "Talks, ceasefire in peril as Trump grapples with Iran’s new sheriffs in town",
+      "published_at": "2026-04-19T19:53:57.000Z",
+      "publisher": "SMH.com.au"
+    },
+    {
+      "uuid": "3da60a18-50f2-4f97-8e72-95675e095ee5",
+      "title": "Etihad Deepens Ethiopian Airlines Partnership with Six New Destinations",
+      "published_at": "2026-04-19T19:53:12.000Z",
+      "publisher": "ethiopiatoday.net"
+    },
+    {
+      "uuid": "3061ba20-351b-45ad-a19d-cd2b22abd0d0",
+      "title": "Trump says U.S. military attacked an Iranian ship, casting doubt over peace talks",
+      "published_at": "2026-04-19T19:52:59.000Z",
+      "publisher": "MS NOW"
+    },
+    {
+      "uuid": "6e59a66d-195b-4aca-bf6a-39ad03924a44",
+      "title": "Pope Leo voices 'solidarity' with Ukraine amid escalating attacks on civilians",
+      "published_at": "2026-04-19T19:52:18.000Z",
+      "publisher": "The Kyiv Independent"
+    },
+    {
+      "uuid": "5c20e0d3-c603-472b-b399-fdcd436d5e3b",
+      "title": "Fulbright Foreign Student Programme for Master’s Degrees in the United States",
+      "published_at": "2026-04-19T19:50:52.000Z",
+      "publisher": "Al-Fanar Media"
+    },
+    {
+      "uuid": "a5ba1fbd-583c-4f00-b1c2-3ea6071ed0a0",
+      "title": "‘Israeli’ soldier seen destroying statue of Jesus in Lebanon",
+      "published_at": "2026-04-19T19:46:54.000Z",
+      "publisher": "Roya News"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-18T20:32:46Z",
+      "published_before": "2026-04-19T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjhhNTI1YmUxZjY4MjI0ZDNiNzcxMDkzOTJmMDcxZWJkYTAzNzA5YWZiOWNkODk1ZWU4OTgxYjI3ZDcyZGU1MzciLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTlUMTk6NDY6NTQuMDAwWiIsImxhc3RfaWQiOjIyODc0ODZ9"
+  }
+}

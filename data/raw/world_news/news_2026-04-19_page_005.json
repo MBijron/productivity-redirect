@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "3ac57c2f-4a59-4da7-8881-e204a8e2569e",
+      "title": "The jolt was so intense that it shook buildings in far away Tokyo and spurred authorities to issue tsunami warnings for much of the northeast coast",
+      "published_at": "2026-04-20T20:04:22.000Z",
+      "publisher": "IslanderNews.com"
+    },
+    {
+      "uuid": "db22ba4d-7f13-4c04-8c42-940a528c4313",
+      "title": "How Likely Are U.S.-Iran Peace Talks in Islamabad?",
+      "published_at": "2026-04-20T20:03:08.000Z",
+      "publisher": "Foreign Policy"
+    },
+    {
+      "uuid": "7821e4e3-84cc-405c-aa9c-855c84400a69",
+      "title": "Day 52 | US Navy fired on and seized Iranian-flagged vessel in the Gulf of Oman",
+      "published_at": "2026-04-20T20:02:14.000Z",
+      "publisher": "Roya News"
+    },
+    {
+      "uuid": "2d5547e2-9db2-40e9-b692-7025ecdf7d35",
+      "title": "Daniel Kinahan arrest gives ‘sense of pride’ to gardaí who policed feud, conference hears",
+      "published_at": "2026-04-20T20:01:40.000Z",
+      "publisher": "The Irish Times"
+    },
+    {
+      "uuid": "53fb1419-4485-4b43-9c1d-073114de35a3",
+      "title": "What we know about the Iranian ship seized by the US",
+      "published_at": "2026-04-20T20:01:16.000Z",
+      "publisher": "BBC"
+    },
+    {
+      "uuid": "12456862-6cd6-454e-9d66-26cb276f2e46",
+      "title": "Chad deploys 1,500 troops to Haiti",
+      "published_at": "2026-04-20T20:00:56.000Z",
+      "publisher": "Latest news from Azerbaijan"
+    },
+    {
+      "uuid": "a6742413-95ab-4812-956b-5788cc12f90d",
+      "title": "Morocco’s Prince Moulay Rachid Opens 18th SIAM in Meknes",
+      "published_at": "2026-04-20T20:00:21.000Z",
+      "publisher": "Barlaman Today"
+    },
+    {
+      "uuid": "2192ffa3-48d5-496b-893d-f55d9dc36673",
+      "title": "What to know about Timmy, the humpback whale that's sick and stranded in the Baltic Sea",
+      "published_at": "2026-04-20T20:00:10.000Z",
+      "publisher": "ABC7 Los Angeles"
+    },
+    {
+      "uuid": "eeccec35-b047-446e-92bb-cd6588a84ad5",
+      "title": "Pacific airlines scale back as global fuel shortage bites",
+      "published_at": "2026-04-20T20:00:00.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    },
+    {
+      "uuid": "4622b6a9-d69d-47d4-b87b-b184b406c0dd",
+      "title": "LIVE UPDATES: Donald Trump says he's 'highly unlikely' to prolong ceasefire; Iran will decide 'how to proceed' as ceasefire deadline looms; Shipping traffic comes to a near-standstill through the Strait",
+      "published_at": "2026-04-20T20:00:00.000Z",
+      "publisher": "9News"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-19T20:32:46Z",
+      "published_before": "2026-04-20T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjNiZmNjODc4ZjBiYmRkMTQ2NDI5NTdlNmIzZjM5YzNjNWY0OTY5YTk2YjE2MzJjMzMxZWQ4M2U5MzRjYTcyMjYiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjBUMjA6MDA6MDAuMDAwWiIsImxhc3RfaWQiOjI0NDQ4MzN9"
+  }
+}

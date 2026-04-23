@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "519bf8c7-7f16-48b7-b90f-a0f7f62dc94c",
+      "title": "NTE: Neverness to Everness Will Get Persona 5 Music",
+      "published_at": "2026-04-20T20:00:00.000Z",
+      "publisher": "Siliconera"
+    },
+    {
+      "uuid": "434f3c00-057a-4aa6-bb05-b654b74908be",
+      "title": "Usher in Euro Summer With an Italian Bob, the Easy Breezy Cut Trending This Spring",
+      "published_at": "2026-04-20T20:00:00.000Z",
+      "publisher": "Yahoo News Canada"
+    },
+    {
+      "uuid": "b755aff6-96ed-41f2-97eb-179efa60db04",
+      "title": "New Mac releases could be delayed due to RAM shortages",
+      "published_at": "2026-04-20T19:57:00.000Z",
+      "publisher": "MobileSyrup"
+    },
+    {
+      "uuid": "ab8e9203-6bf8-4543-a63b-439379103931",
+      "title": "Lenovo Legion Go S Receives 75% Price Hike",
+      "published_at": "2026-04-20T19:56:08.000Z",
+      "publisher": "Steam Deck HQ"
+    },
+    {
+      "uuid": "a8bd6418-c50b-4f56-9a13-44186d1c5ce5",
+      "title": "Claude Desktop changes software permissions without consent",
+      "published_at": "2026-04-20T19:56:00.000Z",
+      "publisher": "theregister.com"
+    },
+    {
+      "uuid": "b5fd03bf-2d64-4562-bae2-f90ebe398124",
+      "title": "Bremont’s Supernova Chronograph is Heading to the Moon and Never Coming Back",
+      "published_at": "2026-04-20T19:52:53.000Z",
+      "publisher": "Man of Many"
+    },
+    {
+      "uuid": "50da028f-e246-4b8a-9a54-da3fa301b8b5",
+      "title": "Apple To Make Drastic Changes To Its Base iPhone 18 That Could Threaten Its Popularity Next Year",
+      "published_at": "2026-04-20T19:52:00.000Z",
+      "publisher": "Wccftech"
+    },
+    {
+      "uuid": "23db1eec-7eaf-442b-b022-e6eda7422065",
+      "title": "Sony Adds Age Verification to Some PlayStation Online Features",
+      "published_at": "2026-04-20T19:50:07.000Z",
+      "publisher": "VICE"
+    },
+    {
+      "uuid": "bd31ccdc-b157-49de-abaf-062bbe866569",
+      "title": "Forza Horizon 6 has reportedly pre-sold 500,000 copies on Steam a month before launch | News-in-brief",
+      "published_at": "2026-04-20T19:50:03.000Z",
+      "publisher": "GamesIndustry.biz"
+    },
+    {
+      "uuid": "048f5afa-ed92-4a62-b511-629b33ce82d3",
+      "title": "Gemini Live gets a minimalist app redesign that lets you do more",
+      "published_at": "2026-04-20T19:49:23.000Z",
+      "publisher": "Digital Trends"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-19T20:32:46Z",
+      "published_before": "2026-04-20T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjA0NzExZjUwMGFmNjBhMDY2MDJmNjgyYzY2YTM1MWRjOTFjMWMyYWQ2YzhkZjU5ODVkYTM0NTFjNTcwZGY0MGEiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjBUMTk6NDk6MjMuMDAwWiIsImxhc3RfaWQiOjI0NDI4NjF9"
+  }
+}

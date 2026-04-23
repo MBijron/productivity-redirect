@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "99777939-c500-45a1-84a5-5c2a70ec238b",
+      "title": "Verstappen wijst Gerard Joling af, Formule 1-coureur betrokken bij grote escortrel Italië | GPFans Recap",
+      "published_at": "2026-04-21T19:45:32.000Z",
+      "publisher": "gpfans.com"
+    },
+    {
+      "uuid": "84fced60-821e-4fe2-b919-2f789659976f",
+      "title": "Zelensky meldt reparatie van pijpleiding waar Oekraïne en Hongarije over ruzieden",
+      "published_at": "2026-04-21T19:42:01.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "5dacd770-1d41-4fe3-b60f-847379210cc7",
+      "title": "Kabinet onderzoekt of Amerikaanse rapper Ye geweigerd kan worden",
+      "published_at": "2026-04-21T19:41:40.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "f175d60f-c08c-4808-862b-683856cb3e58",
+      "title": "MAFS-Bruidegom Kyle gooide het roer om na overlijden van vriend",
+      "published_at": "2026-04-21T19:41:33.000Z",
+      "publisher": "RTL.nl"
+    },
+    {
+      "uuid": "25fc0246-38a6-44bf-9242-f168f7c6f2b8",
+      "title": "Zeeuws-Vlaamse slijter waarschuwt voor accijnsplan: ‘Dit jaagt klanten de grens over’",
+      "published_at": "2026-04-21T19:40:15.000Z",
+      "publisher": "Omroep Zeeland"
+    },
+    {
+      "uuid": "bd53aad4-5c71-4fef-a62b-c02ee555795b",
+      "title": "Controverse in paddock: Lando Norris mag niet over Max Verstappen praten",
+      "published_at": "2026-04-21T19:40:09.000Z",
+      "publisher": "GP33"
+    },
+    {
+      "uuid": "372bdf63-8770-4f6f-bce8-a175bf5fecf4",
+      "title": "Tien jaar na dood van Prince blikt Kim terug op bijzondere shows in Rotterdam",
+      "published_at": "2026-04-21T19:37:57.000Z",
+      "publisher": "rijnmond.nl"
+    },
+    {
+      "uuid": "6bd29e61-24af-4132-bca6-f17200cd1334",
+      "title": "Teamambassadeur verafschuwt Formule 1-regels: \"Druist in tegen 'modus operandi' van een coureur\"",
+      "published_at": "2026-04-21T19:34:54.000Z",
+      "publisher": "F1 Maximaal.nl"
+    },
+    {
+      "uuid": "5b053e89-92cc-47c3-87ec-291173e6c02b",
+      "title": "Galatasaray hakt knoop door over toekomst van Noa Lang",
+      "published_at": "2026-04-21T19:33:00.000Z",
+      "publisher": "Voetbalzone"
+    },
+    {
+      "uuid": "7bf4ea60-8642-4429-9b34-0b6d078964b4",
+      "title": "Deze uiterst vermakelijke scifi-thriller doet het goed op Netflix, en een aanrader is het!",
+      "published_at": "2026-04-21T19:31:12.000Z",
+      "publisher": "FilmTotaal"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-20T20:32:46Z",
+      "published_before": "2026-04-21T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImE0ZDNlZWMzM2E4YTMzZDQ0NTk1OTlhZGJiZTU1YzQ2OTBmMGI3YzRkZGM1MGJkYjM2ZjM1ZmE2ODY4MGQzOTkiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjFUMTk6MzE6MTIuMDAwWiIsImxhc3RfaWQiOjI2NjI0MTh9"
+  }
+}

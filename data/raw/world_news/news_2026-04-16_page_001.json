@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "8f9c75c3-0ac2-4a75-b5e9-44e9ec4d37bc",
+      "title": "Trump expects Iran war to end this weekend, report says",
+      "published_at": "2026-04-17T20:29:58.000Z",
+      "publisher": "WJLA"
+    },
+    {
+      "uuid": "46dfff14-d109-4f15-a0f4-4aaca83a5393",
+      "title": "Palestinian Prisoner’s Day: What happened in Palestine on April 17, 1971?",
+      "published_at": "2026-04-17T20:29:54.000Z",
+      "publisher": "Al Jazeera"
+    },
+    {
+      "uuid": "3babb047-cd48-4208-b2ee-c119e037abd7",
+      "title": "Influencer Warns Putin, Says Russians Could Soon Erupt",
+      "published_at": "2026-04-17T20:29:16.000Z",
+      "publisher": "Kyiv Post"
+    },
+    {
+      "uuid": "5799dc87-3f44-42ab-b5c0-b598ca4ad2b5",
+      "title": "As Strait of Hormuz reopens, Europe looks to secure shipping",
+      "published_at": "2026-04-17T20:27:07.000Z",
+      "publisher": "dw.com"
+    },
+    {
+      "uuid": "f40936c7-8a54-41cc-b378-00689867b3c3",
+      "title": "Europe looks to secure shipping in Strait of Hormuz",
+      "published_at": "2026-04-17T20:27:06.000Z",
+      "publisher": "dw.com"
+    },
+    {
+      "uuid": "50506a88-88f0-40ad-bf96-8a528c1640ad",
+      "title": "Fields of dependency",
+      "published_at": "2026-04-17T20:27:04.000Z",
+      "publisher": "Africa Is a Country"
+    },
+    {
+      "uuid": "9b3ac4ee-e55d-42b9-ba9f-69c07f666144",
+      "title": "US Catholics unsettled by Trump’s feud with Pope",
+      "published_at": "2026-04-17T20:23:36.000Z",
+      "publisher": "Punch Newspapers"
+    },
+    {
+      "uuid": "b0d7ca27-4b07-4042-a4f8-abbbba853dea",
+      "title": "Oil prices drop more than 10% and U.S. stocks soar after Iran reopens the Strait of Hormuz",
+      "published_at": "2026-04-17T20:23:35.000Z",
+      "publisher": "BNN Bloomberg"
+    },
+    {
+      "uuid": "5f0bc0b5-fd90-43f5-87ff-d8e617270404",
+      "title": "As Trump promotes a new ceasefire, many in Lebanon fear a bad deal",
+      "published_at": "2026-04-17T20:21:09.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    },
+    {
+      "uuid": "faa2304c-ac60-4f33-b00d-75616e8658bb",
+      "title": "Disarming the resistance in Lebanon unlikely to be easy for Trump",
+      "published_at": "2026-04-17T20:21:09.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-16T20:32:46Z",
+      "published_before": "2026-04-17T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImFmOTQzYmVhMzg3OTk4ZDIzNzdmZWZhNzczNjFkYjI2MmZiYTczZDAyYWE5ZDc4MDEwNjU5NmM1NzQ5NTI2OWUiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTdUMjA6MjE6MDkuMDAwWiIsImxhc3RfaWQiOjE5NTEzMjZ9"
+  }
+}

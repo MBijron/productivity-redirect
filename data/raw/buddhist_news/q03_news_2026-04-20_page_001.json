@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "uuid": "99d6dc1f-c42f-4786-b4d3-24a86963bdfe",
+      "title": "Lewis Hamilton reflects on huge F1 mistake: 'That was an absolute disaster'",
+      "published_at": "2026-04-21T19:14:00.000Z",
+      "publisher": "gpfans.com"
+    },
+    {
+      "uuid": "9a0846a2-54c2-4f15-803a-fb43ad587b48",
+      "title": "Exclusive | Inside the last original house in Brooklyn Heights — built in the 1700s",
+      "published_at": "2026-04-21T17:45:00.000Z",
+      "publisher": "New York Post"
+    },
+    {
+      "uuid": "7cd25bf3-c972-466c-baab-9b72006bb90d",
+      "title": "Quantum 101",
+      "published_at": "2026-04-21T10:43:19.000Z",
+      "publisher": "ChinaTalk | Jordan Schneider"
+    },
+    {
+      "uuid": "5264b94d-2286-423d-a4e3-4f18e1e34eb2",
+      "title": "CAPF Retirement Benefits Ruling: Delhi High Court Decision on Retirement Age, Pension Benefits, 2019 Cut-Off Rule and Eligibility - https://indianmasterminds.com",
+      "published_at": "2026-04-21T10:22:12.000Z",
+      "publisher": "Indian Masterminds"
+    },
+    {
+      "uuid": "a954a10d-68e8-47cd-87d9-d2f8abf2c36b",
+      "title": "Global filmmakers on collaboration, culture and storytelling",
+      "published_at": "2026-04-21T08:39:11.000Z",
+      "publisher": "news.cgtn.com"
+    },
+    {
+      "uuid": "96138e31-a3e7-4229-8f84-888ec4c3ff62",
+      "title": "Top 5 Biggest Food Trends for 2026",
+      "published_at": "2026-04-21T07:49:11.000Z",
+      "publisher": "Jagran Josh"
+    },
+    {
+      "uuid": "863c5f08-6bd0-45c4-b51c-3af69f406d5d",
+      "title": "Xinhua photos of the day",
+      "published_at": "2026-04-21T02:28:44.000Z",
+      "publisher": "Xinhua"
+    },
+    {
+      "uuid": "55272751-c7f4-4cfd-a117-524e9bf22f2e",
+      "title": "Despite surging costs, Everest still draws climbers to Nepal as China’s north side stays shut",
+      "published_at": "2026-04-21T01:55:00.000Z",
+      "publisher": "The Straits Times"
+    },
+    {
+      "uuid": "610c8882-ecd7-4ba1-944e-4101e02e02cc",
+      "title": "Kriigerkvlt (Feat. Heilung) Announce Signing with Season of Mist with New Single \"Mahakala\"",
+      "published_at": "2026-04-21T00:44:37.000Z",
+      "publisher": "MetalSucks"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 9,
+    "has_more": false,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-20T20:32:46Z",
+      "published_before": "2026-04-21T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": "tibetan",
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": null,
+    "next_cursor": null
+  }
+}

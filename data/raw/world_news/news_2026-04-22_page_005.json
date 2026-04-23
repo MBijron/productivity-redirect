@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "b9fd4050-5d44-4ca0-9395-ac9aaedddf97",
+      "title": "Museveni Calls for Strategic Infrastructure Investment to Drive Africa’s Industrial Transformation",
+      "published_at": "2026-04-23T18:15:19.000Z",
+      "publisher": "SoftPower News"
+    },
+    {
+      "uuid": "56bb1969-e4ed-4075-b0d0-39be171ccf33",
+      "title": "'This is now terminal': UK braces for prospect of sixth PM in seven years",
+      "published_at": "2026-04-23T18:13:47.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    },
+    {
+      "uuid": "1bfea0ca-99e4-49e2-9104-d101b516f371",
+      "title": "Pope Leo condemns killing of Iran’s anti-regime protesters after Trump criticism",
+      "published_at": "2026-04-23T18:10:57.000Z",
+      "publisher": "The Times of Israel"
+    },
+    {
+      "uuid": "0a69a036-30fe-470a-b1ff-8d65f5da4794",
+      "title": "How will a Hungary without Orbán impact Ukraine?",
+      "published_at": "2026-04-23T18:10:56.000Z",
+      "publisher": "The Week"
+    },
+    {
+      "uuid": "90954d4f-a75f-4371-836a-5c9817ca83d2",
+      "title": "Ceasefire extended: What's next in the Iran war?",
+      "published_at": "2026-04-23T18:10:37.000Z",
+      "publisher": "dw.com"
+    },
+    {
+      "uuid": "900ac9ec-5093-4e46-a978-c7a1a4f378c4",
+      "title": "Museveni backs Dangote oil refinery in Tanzania",
+      "published_at": "2026-04-23T18:09:26.000Z",
+      "publisher": "The Independent Uganda"
+    },
+    {
+      "uuid": "e5317e50-af88-422b-9745-bec209163f4f",
+      "title": "Remain law-abiding — Ghana envoy urges citizens in South Africa",
+      "published_at": "2026-04-23T18:07:27.000Z",
+      "publisher": "CitiNewsroom.com"
+    },
+    {
+      "uuid": "fa43d0e1-db76-4ede-b42c-ebcc9dbd678b",
+      "title": "Israel denies it is attacking Iran after air defenses reportedly fire at 'hostile targets' over Tehran",
+      "published_at": "2026-04-23T18:05:57.000Z",
+      "publisher": "The Times of Israel"
+    },
+    {
+      "uuid": "983104e4-1844-4dc5-846a-3b425e27c38b",
+      "title": "Justice Department settles lawsuit brought by Trump-Russia probe subject Carter Page",
+      "published_at": "2026-04-23T18:05:20.000Z",
+      "publisher": "NBC News"
+    },
+    {
+      "uuid": "55a83331-cf9e-4665-aa27-8e8c26958043",
+      "title": "UK agrees ban on cigarette sales for people born after 2008",
+      "published_at": "2026-04-23T18:03:02.000Z",
+      "publisher": "NZ Herald"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-22T20:32:46Z",
+      "published_before": "2026-04-23T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjE5ODBiMWI0MGM4YjVhNzkzZGE0ZmFlYjdiODMyMDQzYmUxNWJlODk0OGQ2Y2FhNThhOGNjZmM3MjE2NTc3OGEiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjNUMTg6MDM6MDIuMDAwWiIsImxhc3RfaWQiOjMwMzM4NTJ9"
+  }
+}

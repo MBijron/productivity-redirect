@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "62e5ea3e-3efc-4f3a-bcdd-c6045ecb58f9",
+      "title": "Boise man: ‘Everyone was a target’ at deadly Mexico pyramid shooting",
+      "published_at": "2026-04-22T20:02:00.000Z",
+      "publisher": "Idaho Statesman"
+    },
+    {
+      "uuid": "0bb47657-a57a-4953-8335-92c21dffe2d6",
+      "title": "Family that served in every war involving Australia since WWI fights for promised land",
+      "published_at": "2026-04-22T20:01:59.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    },
+    {
+      "uuid": "246e0823-5697-45a9-80c7-c3a51e92dd07",
+      "title": "As Trump blinks first on Iran, a glimmer of hope emerges for peace in the Middle East",
+      "published_at": "2026-04-22T20:01:00.000Z",
+      "publisher": "The Independent"
+    },
+    {
+      "uuid": "055d0f5a-e4fd-4ae7-a84b-639a70541a5e",
+      "title": "Earth Day has changed since its 1970 roots. Here's what it means today in New York",
+      "published_at": "2026-04-22T20:01:00.000Z",
+      "publisher": "Utica Observer Dispatch"
+    },
+    {
+      "uuid": "a30f3b90-a67d-4926-95f7-d03993dfb17a",
+      "title": "White House indicates that Iran talks focused strictly on the nuclear file",
+      "published_at": "2026-04-22T20:00:54.000Z",
+      "publisher": "The Times of Israel"
+    },
+    {
+      "uuid": "70dcdf64-1f64-45b3-90e5-6b0cd9d8da83",
+      "title": "Nigeria Drops in Africa’s Digital Rights Score Index as South Africa Leads",
+      "published_at": "2026-04-22T20:00:04.000Z",
+      "publisher": "THISDAYLIVE"
+    },
+    {
+      "uuid": "a6bffe3f-56e8-4845-bd1f-e150047cd813",
+      "title": "Earth Day has changed since its 1970 roots. Here's what it means in New York today",
+      "published_at": "2026-04-22T19:58:00.000Z",
+      "publisher": "The Times Telegram"
+    },
+    {
+      "uuid": "c6f9ec21-62e3-451f-a31b-702641f10abf",
+      "title": "FICAC proposes removal of AG, Parliament oversight and whistleblower in constitutional reforms",
+      "published_at": "2026-04-22T19:57:49.000Z",
+      "publisher": "Fijivillage"
+    },
+    {
+      "uuid": "ab43a238-be50-4223-89e6-4699e3a3310c",
+      "title": "Japan Allows Lethal Weapons Exports, China Voices Strong Concern",
+      "published_at": "2026-04-22T19:57:42.000Z",
+      "publisher": "mexc.com"
+    },
+    {
+      "uuid": "d1f19f22-c206-4491-9b02-d83dee1f4637",
+      "title": "The Quiet Killer: 840,000 Annual Deaths Linked to Toxic Workplace \"Psychosocial\" Risks",
+      "published_at": "2026-04-22T19:55:53.000Z",
+      "publisher": "Daily Times Nigeria News"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjAzZTdkZTcwZGVmMWE2N2M4ZmRlZjgwOGY5NWIyMjAwOTdlZDE4ZTBmZTM0ODM3NzdhNjQ5NTFkNDA0MjJhYTAiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjJUMTk6NTU6NTMuMDAwWiIsImxhc3RfaWQiOjI4MzQ1OTZ9"
+  }
+}

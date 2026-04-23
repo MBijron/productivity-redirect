@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "b2db1d23-567c-49c6-8c25-ddb64eb1902d",
+      "title": "„Wir bekommen sein Verrecken nicht mit“",
+      "published_at": "2026-04-19T20:16:55.000Z",
+      "publisher": "BILD"
+    },
+    {
+      "uuid": "eab7bd54-cad6-420f-89c9-9190d691dede",
+      "title": "‘We’re holding the victims and their families close in our prayers’ – Eight children killed in Louisiana mass shooting",
+      "published_at": "2026-04-19T20:15:00.000Z",
+      "publisher": "The Irish Independent"
+    },
+    {
+      "uuid": "2d56bbf1-e0f3-4afa-8827-1078d11579b2",
+      "title": "Eight children killed during shooting in US",
+      "published_at": "2026-04-19T20:14:16.000Z",
+      "publisher": "SMH.com.au"
+    },
+    {
+      "uuid": "7b63d890-219a-42ae-a280-639bb7ba61d1",
+      "title": "US-Iran war live updates: Trump says US seized Iranian ship in Strait of Hormuz; US delegation will head to Pakistan for second round of negotiations; Tehran rejects US peace talks",
+      "published_at": "2026-04-19T20:13:24.000Z",
+      "publisher": "SMH.com.au"
+    },
+    {
+      "uuid": "a71938e1-f921-432e-9d74-7c027a927209",
+      "title": "UK police exploring Iran ties to string of arson attacks targeting Jews in London",
+      "published_at": "2026-04-19T20:13:00.000Z",
+      "publisher": "New York Post"
+    },
+    {
+      "uuid": "423d5da6-8cf5-4071-bcf5-4bcd18fe3efd",
+      "title": "Ukraine pushes for European missile defence system",
+      "published_at": "2026-04-19T20:10:22.000Z",
+      "publisher": "The Canberra Times"
+    },
+    {
+      "uuid": "d774cc8f-28bb-4de2-9ecf-5758d7aa5372",
+      "title": "8 children dead after mass shooting in Louisiana, police say",
+      "published_at": "2026-04-19T20:09:13.000Z",
+      "publisher": "CBC"
+    },
+    {
+      "uuid": "222639df-9e0a-41e2-9976-8e4a41b90025",
+      "title": "This fuel crisis could last for a while. It’s time for a new approach to fuel use - end it",
+      "published_at": "2026-04-19T20:07:51.000Z",
+      "publisher": "The Conversation"
+    },
+    {
+      "uuid": "c4bcfc15-aa4f-4f13-adce-605b5cf9b3f6",
+      "title": "Where are the unauthorized weapons verified as being outside of the RFMF's official inventory?",
+      "published_at": "2026-04-19T20:06:53.000Z",
+      "publisher": "Fijivillage"
+    },
+    {
+      "uuid": "83f859a2-7cc6-45a5-b0df-f4d0cd9fbe18",
+      "title": "Iran says it currently has ‘no plans’ to attend next round of talks with US: state media",
+      "published_at": "2026-04-19T20:04:39.000Z",
+      "publisher": "The Times of Israel"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-18T20:32:46Z",
+      "published_before": "2026-04-19T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjhhNTI1YmUxZjY4MjI0ZDNiNzcxMDkzOTJmMDcxZWJkYTAzNzA5YWZiOWNkODk1ZWU4OTgxYjI3ZDcyZGU1MzciLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTlUMjA6MDQ6MzkuMDAwWiIsImxhc3RfaWQiOjIyNTQ3NDl9"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "e181890e-a9c6-4bb3-8dfe-53e10ffb917c",
+      "title": "Iran gives Trump an ultimatum and issues new threat after derailing peace talks",
+      "published_at": "2026-04-21T20:03:00.000Z",
+      "publisher": "The Independent"
+    },
+    {
+      "uuid": "2d53e54c-c4b1-46bd-abed-5901cb8503eb",
+      "title": "All we know 'massive battery' Great Pyramid of Giza theory emerges",
+      "published_at": "2026-04-21T20:03:00.000Z",
+      "publisher": "Daily Star"
+    },
+    {
+      "uuid": "8473335e-8a2b-4e03-bd90-7a6192d32a25",
+      "title": "The courage to see: Understanding our call to care for creation",
+      "published_at": "2026-04-21T20:01:40.000Z",
+      "publisher": "SSM Health"
+    },
+    {
+      "uuid": "314c75cb-73be-44f4-ad5f-828d4977ea2a",
+      "title": "Report Exposes Hidden Fossil Fuel Costs Siphoning Off $12 Trillion From Society Every Year",
+      "published_at": "2026-04-21T20:01:24.000Z",
+      "publisher": "Common Dreams"
+    },
+    {
+      "uuid": "206e1d7f-2531-4483-b245-6e2fb69b4f35",
+      "title": "Thousands of civil servants should be allowed work from home more due to fuel prices and congestion, says union",
+      "published_at": "2026-04-21T20:01:00.000Z",
+      "publisher": "The Journal"
+    },
+    {
+      "uuid": "bee6d6ac-3f4e-42b6-ad5f-2c30b803abb2",
+      "title": "UN candidate Bachelet sticks with women’s rights defense in face of US opposition",
+      "published_at": "2026-04-21T20:00:32.000Z",
+      "publisher": "ThePrint"
+    },
+    {
+      "uuid": "e262aa31-3579-4e68-b88e-ebfa9d138730",
+      "title": "Gov’t targets 1,500 MW electricity generation capacity by 2040",
+      "published_at": "2026-04-21T20:00:09.000Z",
+      "publisher": "NTV Uganda"
+    },
+    {
+      "uuid": "f7b0b8c4-3e05-4759-9dda-f3fcb0be2bc7",
+      "title": "Pacific could use region's strategic value in fuel negotiations",
+      "published_at": "2026-04-21T20:00:00.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    },
+    {
+      "uuid": "c86ab5de-1973-45cc-b898-8bf030f26a16",
+      "title": "Tensons between Australia and Vanuatu over ties with China",
+      "published_at": "2026-04-21T20:00:00.000Z",
+      "publisher": "Australian Broadcasting Corporation"
+    },
+    {
+      "uuid": "ed980b0b-221e-461c-803e-30de6bc845e9",
+      "title": "Theme Park Employee Dies After Being Trapped Between Seats and Pole of Ride for 5 Hours",
+      "published_at": "2026-04-21T19:58:32.000Z",
+      "publisher": "Yahoo News Canada"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-20T20:32:46Z",
+      "published_before": "2026-04-21T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjU2Y2UyMzUyMTYwY2RkOTFlYWE4MWJiOWYyODExMjJiN2JhNDExYmFmMjY5ZDExZTAwZTQ5YmU1MjQ3MTgwY2MiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjFUMTk6NTg6MzIuMDAwWiIsImxhc3RfaWQiOjI2NDkyMDN9"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": "freenewsapi",
+  "generated_at": "2026-04-23T20:36:02Z",
+  "time_window": {
+    "start": "2026-04-16T20:32:46Z",
+    "end": "2026-04-23T20:32:46Z"
+  },
+  "sections": [
+    {
+      "section": "world_news",
+      "filters": {
+        "language": "en",
+        "topic": "world"
+      },
+      "output": "data/world_gdelt.json",
+      "article_count": 320,
+      "detailed_article_count": 27,
+      "selected_story_candidate_count": 18,
+      "listing_truncated": true
+    },
+    {
+      "section": "dutch_news",
+      "filters": {
+        "country": "nl",
+        "language": "nl"
+      },
+      "output": "data/dutch_gdelt.json",
+      "article_count": 320,
+      "detailed_article_count": 26,
+      "selected_story_candidate_count": 18,
+      "listing_truncated": true
+    },
+    {
+      "section": "tech_news",
+      "filters": {
+        "language": "en",
+        "topic": "technology"
+      },
+      "output": "data/tech_gdelt.json",
+      "article_count": 280,
+      "detailed_article_count": 26,
+      "selected_story_candidate_count": 16,
+      "listing_truncated": true
+    }
+  ]
+}

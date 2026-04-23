@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "2552d8dd-cae2-42cd-ad6b-77757a21fece",
+      "title": "'Simonis nog één horde verwijderd van terugkeer als trainer naar Eredivisie'",
+      "published_at": "2026-04-22T20:31:23.000Z",
+      "publisher": "VoetbalPrimeur"
+    },
+    {
+      "uuid": "ac11a2ca-e249-43d5-b3f4-71e79728473e",
+      "title": "Zorgen om Yamal na vreemd moment: meteen na penaltygoal valt hij neer en vraagt hij om wissel",
+      "published_at": "2026-04-22T20:30:49.000Z",
+      "publisher": "sporza.be"
+    },
+    {
+      "uuid": "5480c2ed-eff6-43f5-8f8c-7ede0913eede",
+      "title": "Lamine Yamal scoort voor FC Barcelona en wordt direct gewisseld",
+      "published_at": "2026-04-22T20:30:00.000Z",
+      "publisher": "Voetbalzone"
+    },
+    {
+      "uuid": "0a586750-63b6-49cb-a3d2-e6637c846582",
+      "title": "Barcelona schrikt: Lamine Yamal gaat na penalty direct naar de grond",
+      "published_at": "2026-04-22T20:29:27.000Z",
+      "publisher": "FCUpdate.nl"
+    },
+    {
+      "uuid": "3ae0b534-6b49-4de8-8385-12324f8afe70",
+      "title": "Beursupdate: AEX op Wall Street",
+      "published_at": "2026-04-22T20:28:53.000Z",
+      "publisher": "Beursgorilla.nl"
+    },
+    {
+      "uuid": "d5b9bfad-0dc6-46ba-b413-2269fed6e54b",
+      "title": "LWD Basket wint op spectaculaire wijze van Donar Groningen",
+      "published_at": "2026-04-22T20:27:51.000Z",
+      "publisher": "Omrop Fryslân"
+    },
+    {
+      "uuid": "72c76e60-0039-439d-9bba-5ca0606e0c10",
+      "title": "Yamal vijftig dagen voor start van het WK geblesseerd van het veld",
+      "published_at": "2026-04-22T20:27:19.000Z",
+      "publisher": "Voetbal International"
+    },
+    {
+      "uuid": "46131f6e-5a11-49fb-8b38-303ef7bcc5ee",
+      "title": "Kijk omhoog! Vannacht grote kans om vallende sterren te spotten",
+      "published_at": "2026-04-22T20:25:03.000Z",
+      "publisher": "Hart van Nederland"
+    },
+    {
+      "uuid": "bb28b88e-c0ae-4b9e-818f-d6ec0ce4c23d",
+      "title": "Steun in Kamer voor energieplan met goedkopere trein en lagere vrachtwagenheffing",
+      "published_at": "2026-04-22T20:25:02.000Z",
+      "publisher": "NOS"
+    },
+    {
+      "uuid": "c2894001-678d-476d-98e6-c57de2192629",
+      "title": "Telstar geeft Sparta pak slaag (4-1) • Degradatiekandidaat klimt naar de veertiende plek",
+      "published_at": "2026-04-22T20:22:27.000Z",
+      "publisher": "NOS"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-21T20:32:46Z",
+      "published_before": "2026-04-22T20:32:46Z",
+      "language": "nl",
+      "country": "NL",
+      "topic": null,
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjA2MTQ4MmE4ZGMxN2YwNTdiZGEzYWE1YjVjZTgyNjFlZGFiYzgyMzJkZDcxNWI5MGYzYTkzMGVhM2M0NzFhYTEiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjJUMjA6MjI6MjcuMDAwWiIsImxhc3RfaWQiOjI4NDUxMDN9"
+  }
+}

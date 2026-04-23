@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "8d36aaae-848a-4c49-a87e-87753791e754",
+      "title": "What’s new in Firefox mobile: Less clutter, more control and a free built-in VPN",
+      "published_at": "2026-04-21T20:13:05.000Z",
+      "publisher": "blog.mozilla.org"
+    },
+    {
+      "uuid": "e0699e7c-1d5d-4c89-aa7e-693abb98c944",
+      "title": "ISS astronauts are in the middle of a tech overhaul",
+      "published_at": "2026-04-21T20:12:02.000Z",
+      "publisher": "The Verge"
+    },
+    {
+      "uuid": "f546b89d-48bd-446b-b5e5-9fc0d39f2abb",
+      "title": "Some Canadian Kindle users' devices may be discontinued by Amazon soon",
+      "published_at": "2026-04-21T20:12:00.000Z",
+      "publisher": "Daily Hive"
+    },
+    {
+      "uuid": "cb4c3f7a-e694-4288-8519-6863be54232e",
+      "title": "I Ran Over 70 Miles in This Shoe to Train for a Marathon. Here’s How It Performed on the Road.",
+      "published_at": "2026-04-21T20:12:00.000Z",
+      "publisher": "Men's Health"
+    },
+    {
+      "uuid": "924c2da5-6e2d-42ca-a17c-efe19dbe3da6",
+      "title": "Apple lost its vision under Tim Cook",
+      "published_at": "2026-04-21T20:10:19.000Z",
+      "publisher": "UnHerd"
+    },
+    {
+      "uuid": "353bb64b-a1ae-4bba-9ee0-66e65c693ac6",
+      "title": "Popular calorie tracker briefly pulled from App Store over IAP and billing violations",
+      "published_at": "2026-04-21T20:07:00.000Z",
+      "publisher": "9to5Mac"
+    },
+    {
+      "uuid": "e8e58d6b-3f45-4038-819b-e6dcb2d2b2e1",
+      "title": "Google Ads Advisor can now fix policy violations before campaigns go down",
+      "published_at": "2026-04-21T20:06:04.000Z",
+      "publisher": "PPC Land"
+    },
+    {
+      "uuid": "3b36c129-28d1-4452-a46c-a072725e21b3",
+      "title": "Capcom Games Have Already Generated A Whopping $400 Million Revenue on Steam Alone in 2026",
+      "published_at": "2026-04-21T20:03:26.000Z",
+      "publisher": "Tech4Gamers"
+    },
+    {
+      "uuid": "24246d5b-34d1-4473-8245-ebdcf6f2e60a",
+      "title": "Panasonic Introduces a New Everyday Carry Prime Lens With Lightweight Versatility",
+      "published_at": "2026-04-21T20:03:12.000Z",
+      "publisher": "No Film School"
+    },
+    {
+      "uuid": "0042871d-8371-47e0-9418-5650afa3338f",
+      "title": "10 Hacks Every Apple CarPlay User Should Know",
+      "published_at": "2026-04-21T20:00:00.000Z",
+      "publisher": "Lifehacker"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-20T20:32:46Z",
+      "published_before": "2026-04-21T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImQzZGYyNjg3NTMzZDcxMDM2MTQwYmUzMGQxNWMwYWM4OGY1YTIzMjkzYmRhZTYwMTBjMjI3OWRhOTgyN2M4MmMiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjFUMjA6MDA6MDAuMDAwWiIsImxhc3RfaWQiOjI2NTk5ODF9"
+  }
+}

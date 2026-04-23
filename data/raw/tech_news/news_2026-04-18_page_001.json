@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "uuid": "dc37ecbb-863c-49a5-bfe8-f9ac1cec90be",
+      "title": "I keep finding vibe coded apps that leak user data, and I'm not even looking for it",
+      "published_at": "2026-04-19T20:30:21.000Z",
+      "publisher": "XDA"
+    },
+    {
+      "uuid": "a35c88b5-9590-4892-af5e-9ff7a02bb5f2",
+      "title": "Samsung Galaxy Z TriFold 2 Surprisingly Already In The Works, Report Claims",
+      "published_at": "2026-04-19T20:30:11.000Z",
+      "publisher": "Yahoo News Singapore"
+    },
+    {
+      "uuid": "c6c36747-417e-430c-bc29-109b60428934",
+      "title": "DaVinci Resolve 21 Hands-On at NAB 2026: Photo Page, IntelliSearch, and CineFocus in Action",
+      "published_at": "2026-04-19T20:23:40.000Z",
+      "publisher": "CineD"
+    },
+    {
+      "uuid": "149f4f4a-ad47-49ac-980b-4702a2525485",
+      "title": "Someone has already created a Steam Machine competitor, and it costs a pretty penny",
+      "published_at": "2026-04-19T20:13:46.000Z",
+      "publisher": "XDA"
+    },
+    {
+      "uuid": "c6c64274-6734-42d4-8278-71dfb1dbc7ef",
+      "title": "Google moves redesigned Gemini live to Gemini app home",
+      "published_at": "2026-04-19T20:12:26.000Z",
+      "publisher": "NewsBytes"
+    },
+    {
+      "uuid": "e862fedf-77fb-48b7-88fe-40a019ec5c74",
+      "title": "Grand Seiko Ushio 300 Diver: Beneath the waves, on your wrist",
+      "published_at": "2026-04-19T20:12:19.000Z",
+      "publisher": "Le Nouveau Réveil"
+    },
+    {
+      "uuid": "5e7987f1-a612-4ca4-9a4e-e1a496012f61",
+      "title": "Nikon teases the beginning of a new chapter",
+      "published_at": "2026-04-19T20:11:00.000Z",
+      "publisher": "Yahoo Tech"
+    },
+    {
+      "uuid": "aadb3574-6f6b-4334-91b4-9b0b861bfd22",
+      "title": "6 ways your smartwatch is lying to you, according to science",
+      "published_at": "2026-04-19T20:08:38.000Z",
+      "publisher": "The Conversation"
+    },
+    {
+      "uuid": "75bb472a-2619-45e9-9d2b-6d179370234e",
+      "title": "A legend returns in the latest Warhammer 40k preview",
+      "published_at": "2026-04-19T20:06:37.000Z",
+      "publisher": "wargamer.com"
+    },
+    {
+      "uuid": "3ef532c4-a99b-4c07-9623-65aa68017a44",
+      "title": "Apple Revealed New Siri Release Date For iPhone, Latest Report Claims",
+      "published_at": "2026-04-19T20:00:00.000Z",
+      "publisher": "Yahoo News Canada"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-18T20:32:46Z",
+      "published_before": "2026-04-19T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "offset": 0,
+    "next_offset": 10,
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImU0NTg0YTZiOTUyNWNlMzIxNWE4OTE4OGNkOWM1ODQ1ZTNmYWRhMDQxY2JlNzkyYzdiNThhNDQ3YzJlMTI2Y2YiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMTlUMjA6MDA6MDAuMDAwWiIsImxhc3RfaWQiOjIyNTkxNDd9"
+  }
+}

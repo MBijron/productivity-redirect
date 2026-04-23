@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "2b633b60-c019-4503-9f45-3f6d11c093db",
+      "title": "Apple Store Earth Day promotion",
+      "published_at": "2026-04-18T19:30:00.000Z",
+      "publisher": "Appleosophy"
+    },
+    {
+      "uuid": "5c72b304-7981-4581-9f89-2f51610a4c48",
+      "title": "Indie App Spotlight: ‘QuakeInfo’ is a fast and easy way to monitor ongoing earthquakes",
+      "published_at": "2026-04-18T19:30:00.000Z",
+      "publisher": "9to5Mac"
+    },
+    {
+      "uuid": "c270823d-1660-4719-85e0-d7fe8b06845e",
+      "title": "2026 Fusion Redblacks U11 vs NS Stars U11 - Videos",
+      "published_at": "2026-04-18T19:29:42.000Z",
+      "publisher": "FloHockey"
+    },
+    {
+      "uuid": "939ed69b-0f2a-4db5-874b-53da7d5f7cf4",
+      "title": "All Gemini users can now access Notebook projects on the web without paying a dime",
+      "published_at": "2026-04-18T19:28:56.000Z",
+      "publisher": "Digital Trends"
+    },
+    {
+      "uuid": "fa16fa20-99bb-4454-b241-c88b9d83f420",
+      "title": "Marathon On Sale For The First Time Amid Free-To-Play Debate",
+      "published_at": "2026-04-18T19:26:07.000Z",
+      "publisher": "Kotaku"
+    },
+    {
+      "uuid": "11973b73-b39d-459a-bf22-ce2109b52f85",
+      "title": "Marathon's Mercy Kits Are Being Used For The Cruelest Trolling",
+      "published_at": "2026-04-18T19:26:07.000Z",
+      "publisher": "Kotaku"
+    },
+    {
+      "uuid": "f4c380ce-ca6f-4689-87af-6ed0fff41302",
+      "title": "Realme C81 specs, color options surface online",
+      "published_at": "2026-04-18T19:22:04.000Z",
+      "publisher": "Gizmochina"
+    },
+    {
+      "uuid": "120b6ed8-3806-41cb-93bd-4b7721a86ae6",
+      "title": "Google Chrome Finally Has Vertical Tabs - Here's How To Use Them",
+      "published_at": "2026-04-18T19:21:20.000Z",
+      "publisher": "AOL.com"
+    },
+    {
+      "uuid": "1fdfd8af-d4de-4eb7-8bf6-7d11de8ec30b",
+      "title": "Resident Evil Requiem Mercenaries Rumors Gain Traction After Alleged Datamine Leak Reveals Tense New Music",
+      "published_at": "2026-04-18T19:07:52.000Z",
+      "publisher": "IGN"
+    },
+    {
+      "uuid": "a8d0dde3-5e05-45a6-b0f6-47e74e2fa14c",
+      "title": "Tomodachi Life: Living the Dream devs say Mii system took seven years to refine",
+      "published_at": "2026-04-18T19:07:29.000Z",
+      "publisher": "The Express Tribune"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-17T20:32:46Z",
+      "published_before": "2026-04-18T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "technology",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjViYWU4NjY0MDhjMzc1YmZkOGVkYmIwYTQ5ODFhNjhlYjY1YzhlYzhiMDA1MzRiYTA5M2ZkMGI3Y2M2ZDg4MzgiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMThUMTk6MDc6MjkuMDAwWiIsImxhc3RfaWQiOjIyMjY0MjR9"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "uuid": "7c990729-cbac-410f-a6c4-60e0a6a9bf6c",
+      "title": "The Serious but Not Literal Blockade",
+      "published_at": "2026-04-21T20:26:15.000Z",
+      "publisher": "Lawfare"
+    },
+    {
+      "uuid": "3981b3a6-28f2-4a3e-b5d9-0609f3d3abc2",
+      "title": "Trump announces extending Iran ceasefire but says blockade remains",
+      "published_at": "2026-04-21T20:26:15.000Z",
+      "publisher": "Al Jazeera"
+    },
+    {
+      "uuid": "8038d27b-961d-4928-a8bf-36f885f21532",
+      "title": "African Space Agency highlights Angola’s progress at NewSpace Africa 2026",
+      "published_at": "2026-04-21T20:24:35.000Z",
+      "publisher": "Tech Review Africa"
+    },
+    {
+      "uuid": "a5439e7b-7812-426b-aa7c-fb3be57bad5a",
+      "title": "Olly Robbins’ account of Mandelson vetting piles pressure on Starmer",
+      "published_at": "2026-04-21T20:24:00.000Z",
+      "publisher": "The Guardian"
+    },
+    {
+      "uuid": "33e4d7fb-0d1b-4876-85f6-a8a238acb37b",
+      "title": "PM Discusses Peace Strategy and Implementation of Juba Agreement with Darfur Governor",
+      "published_at": "2026-04-21T20:23:09.000Z",
+      "publisher": "Sudan Horizon"
+    },
+    {
+      "uuid": "51e0104b-e5b9-487f-a6d0-98eaf8c661ba",
+      "title": "Israeli Army Strikes 'Terrorists' in South Lebanon for Ceasefire Violation",
+      "published_at": "2026-04-21T20:21:24.000Z",
+      "publisher": "ekhbary.com"
+    },
+    {
+      "uuid": "c31c5a21-d120-4453-a656-b5ba73648522",
+      "title": "Fewer approve of Trump’s handling of the economy",
+      "published_at": "2026-04-21T20:20:00.000Z",
+      "publisher": "AP-NORC"
+    },
+    {
+      "uuid": "2ec02134-e872-4e4b-9cb1-50ee8fb366e7",
+      "title": "China Abolishes Tariffs for 53 African Nations Starting May: Strategic Move to Boost Trade",
+      "published_at": "2026-04-21T20:19:49.000Z",
+      "publisher": "ekhbary.com"
+    },
+    {
+      "uuid": "2b866c50-4fd8-4094-b50b-261b9ac22d54",
+      "title": "Trump extends ceasefire with Iran indefinitely, until \"discussions are concluded\"",
+      "published_at": "2026-04-21T20:19:00.000Z",
+      "publisher": "CBS News"
+    },
+    {
+      "uuid": "08056689-ea1b-48a4-aa6c-a2973cb43416",
+      "title": "ISHR urges stronger protections for civil society in UN guidance on freedom of association",
+      "published_at": "2026-04-21T20:18:23.000Z",
+      "publisher": "International Service for Human Rights"
+    }
+  ],
+  "meta": {
+    "page_size": 10,
+    "returned": 10,
+    "has_more": true,
+    "order_by": "recent",
+    "filters": {
+      "published_after": "2026-04-20T20:32:46Z",
+      "published_before": "2026-04-21T20:32:46Z",
+      "language": "en",
+      "country": null,
+      "topic": "world",
+      "publisher_uuid": null,
+      "author_uuid": null,
+      "q": null,
+      "in_title": null,
+      "in_body": null,
+      "in_subtitle": null
+    },
+    "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjU2Y2UyMzUyMTYwY2RkOTFlYWE4MWJiOWYyODExMjJiN2JhNDExYmFmMjY5ZDExZTAwZTQ5YmU1MjQ3MTgwY2MiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDQtMjFUMjA6MTg6MjMuMDAwWiIsImxhc3RfaWQiOjI3NDI2NDR9"
+  }
+}
