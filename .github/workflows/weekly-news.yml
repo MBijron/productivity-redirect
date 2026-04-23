@@ -1,0 +1,159 @@
+name: Weekly News Summary
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-news-summary
+  cancel-in-progress: false
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Trust workspace for Copilot CLI
+        run: |
+          mkdir -p "$HOME/.copilot"
+          cat > "$HOME/.copilot/config.json" <<JSON
+          {
+            "trusted_folders": ["${{ github.workspace }}"]
+          }
+          JSON
+
+      - name: Fetch FreeNewsAPI data
+        env:
+          FREENEWSAPI_TOKEN: ${{ secrets.FREENEWSAPI_TOKEN }}
+        run: |
+          set -euo pipefail
+          : "${FREENEWSAPI_TOKEN:?FREENEWSAPI_TOKEN secret is required}"
+          python scripts/fetch_gdelt.py --output-dir data
+
+      - name: Prepare Copilot input
+        run: |
+          set -euo pipefail
+          python scripts/build_summary.py prepare \
+            --input-dir data \
+            --output data/summary-input.json
+
+      - name: Summarize with Copilot CLI
+        env:
+          GH_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          : "${GH_TOKEN:?COPILOT_GITHUB_TOKEN secret is required}"
+          rm -f weekly-news.jsonl
+
+          PROMPT=$(cat <<'PROMPT'
+          Read data/summary-input.json and overwrite weekly-news.jsonl in the repository root.
+
+          Requirements:
+          - Write like a newsreader dictating the week's bulletin, not like an analyst reflecting on a dataset.
+          - Prioritize the kinds of developments people talk about in the office: wars, government decisions, public-safety issues, science and technology shifts, health, education, institutional failures, cyber incidents, major hacks, major outages, disasters, and major cultural changes.
+          - Treat data/summary-input.json as the full evidence pack. Each section contains aggregate coverage signals, deterministic story_candidates, and a curated detail evidence set; do not try to mention every item.
+          - story_candidates are pre-ranked before summarization and should be treated as the default agenda for what mattered during the week. Prefer candidates marked included=true unless the detailed evidence clearly shows a ranking mistake.
+          - Use story_candidates to avoid coverage gaps, reduce sports and entertainment noise, and prefer the latest supported status of evolving stories.
+          - For each section, use top_sources and top_topics to understand the dominant coverage mix, use coverage_by_day to understand how the week is distributed across dates, use listing_items to detect repeated headlines and recurring developments, and use detailed_articles as the default source for article-level facts and article objects.
+          - Use story_candidates.score, score_breakdown, category, item_count, distinct_dates, latest_status_signal, and include_reason to understand why a cluster was elevated or filtered.
+          - When story_candidates contain a later update and an earlier context item for the same cluster, write the later supported status as current and use the earlier item only to explain the evolution.
+          - The goal is a genuinely informative weekly briefing, not a rough sketch. Explain what mattered across the full week and how the coverage evolved from earlier days to later days when the data supports that.
+          - Resolve evolving stories chronologically. When later coverage clearly updates, reverses, closes, or contradicts an earlier report, write the latest supported status as the current state and describe the earlier report as part of the story's evolution rather than as the final outcome.
+          - Do not present an early-week status as still true if later articles in the same section show that the situation changed. For example, if a route, ceasefire, investigation, outage, or policy appears to reopen and later appears to close again, report the latest supported state and mention the reversal when it matters.
+          - Compress the input aggressively: cluster similar listing_items together, ignore obvious one-off novelty items unless they represent a major theme, and prioritize developments that recur across publishers or fit the strongest topic patterns.
+          - Deduplicate story clusters in articles. Do not choose two article objects that mainly describe the same development from the same angle unless the later one is needed to show a meaningful status change.
+          - Ignore finance, economy, markets, debt, currency, earnings, and investing angles unless one is absolutely inseparable from a larger non-finance story. Do not choose finance or economy as themes, top stories, or representative article picks.
+          - Keep sports in the background. Do not give sports major spotlight unless the data leaves no stronger public-interest alternative. For dutch_news especially, prefer Netherlands-focused or Netherlands-relevant public-interest stories over match reports, transfer chatter, or athlete personality coverage.
+          - If major hacks, cyber incidents, disasters, accidents, infrastructure failures, or other clear public-safety emergencies appear in a section's evidence, they must be reflected somewhere in that section's summary or article picks.
+          - Do not let one noisy day dominate the result if coverage_by_day shows meaningful activity across multiple dates.
+          - If tool execution is available, you may call python scripts/article_context.py with section/date/keyword filters to inspect fuller API-backed article bodies for a specific cluster before writing the final summary. Do not use any non-API scraping.
+          - Output exactly three or four non-empty lines.
+          - Each line must be a single valid JSON object.
+          - Line 1 must have section set to world_news.
+          - Line 2 must have section set to dutch_news.
+          - Line 3 must have section set to tech_news.
+          - Line 4 may have section set to buddhist_news only if data/summary-input.json contains a buddhist_news section and the evidence is strong enough to support a grounded briefing. Otherwise omit line 4 entirely.
+          - Use only the provided data. Do not invent facts, URLs, titles, dates, source countries, languages, publishers, topics, or article details.
+          - Each JSON object must contain these keys: generated_at, section, time_window, article_count, sources, top_stories, themes, overall_take, summary, articles.
+          - time_window must contain start and end in UTC ISO 8601 format.
+          - article_count must represent the total seven-day matched coverage for that section.
+          - sources must contain 5 to 10 major publishers drawn from top_sources, ordered by relevance to the section's coverage.
+          - top_stories must contain 10 to 12 objects with headline and rationale. Each headline should describe a dominant development or story cluster, not a single minor article.
+          - themes must contain 10 to 12 short strings representing the strongest recurring coverage themes.
+          - overall_take must be 2 to 4 sentences that sound like a concise newsreader introduction to the section.
+          - summary must be a long-form weekly bulletin written as exactly 4 substantial paragraphs for each section.
+          - summary must be roughly 650 to 900 words for world_news, dutch_news, and tech_news, and roughly 420 to 600 words for buddhist_news if present.
+          - The 4 paragraphs together must show the totality of the week, not just one or two developments. Use recurring signals from listing_items, temporal spread from coverage_by_day, and concrete evidence from detailed_articles.
+          - articles may be a curated subset, but every article object must come from the supplied detailed_articles collection.
+          - articles must contain 10 to 12 representative items for world_news, dutch_news, and tech_news, and 8 to 10 representative items for buddhist_news if present. Choose them from detailed_articles to cover the section's main developments, not just the first items in the file.
+          - When multiple dates are available, the selected articles should span at least 4 distinct UTC dates whenever the data supports that.
+          - Each article object must contain url, title, date, sourcecountry, language, and short_summary.
+          - Each article object must also include detail_paragraphs, an array of at least 3 substantial paragraphs that explain the most important facts, stakes, and developments from that article using only the API-backed article body or incipit.
+          - short_summary and detail_paragraphs must strip site chrome and boilerplate. Do not include login prompts, subscription nags, navigation labels, newsletter prompts, social prompts, photo credits, timestamps-as-copy, liveblog UI labels, or generic "read more" text unless they are part of the news itself.
+          - When an article body is a liveblog or contains mixed updates, extract only the substantive news updates needed for the chosen cluster and ignore surrounding interface text.
+          - short_summary must stay factual, concise, and attributable to the supplied metadata only. Prefer one sentence per article.
+          - Preserve the original article title text exactly as provided.
+          - dutch_news must be written in Dutch for overall_take, summary, themes, top_stories.headline, top_stories.rationale, short_summary, and detail_paragraphs. Preserve original article titles and metadata exactly as supplied.
+          - tech_news should focus on the most important technical developments of the week, especially software development, AI, developer tooling, cybersecurity, major platforms, infrastructure, and technically significant launches or breakthroughs.
+          - buddhist_news, if present, should focus on Tibetan Buddhism and closely related institutions, people, and developments. If the evidence is too thin or noisy to support that focus cleanly, omit the section instead of forcing it.
+          - Keep the output machine-readable and neutral. Do not wrap it in markdown fences or add commentary before or after the JSON lines.
+          PROMPT
+          )
+
+          copilot \
+            --model "claude-sonnet-4.6" \
+            --allow-tool='write' \
+            --allow-all-paths \
+            -p "$PROMPT"
+
+      - name: Validate JSONL and build browser summary
+        run: |
+          set -euo pipefail
+          python scripts/build_summary.py validate --input weekly-news.jsonl --site-output news-summary.json
+
+      - name: Upload story diagnostics
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: weekly-news-diagnostics
+          path: |
+            data/story-candidate-diagnostics.json
+            data/summary-input.json
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add weekly-news.jsonl news-summary.json data/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update weekly news summary"
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"

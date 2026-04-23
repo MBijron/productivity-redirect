@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#58764f">
+    <title>Weekly News Summary</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="news-page">
+    <main class="news-shell">
+        <section class="news-card" aria-labelledby="news-title">
+            <div class="news-topbar">
+                <div>
+                    <p class="news-kicker">Calm catch-up</p>
+                    <h1 class="news-title" id="news-title">Weekly news summary</h1>
+                </div>
+                <a class="news-back" href="./index.html">Back to actions</a>
+            </div>
+
+            <p class="news-status" id="news-status">Checking your access window…</p>
+            <p class="news-message" id="news-message" hidden></p>
+
+            <article class="news-content" id="news-content" hidden>
+                <p class="news-generated" id="news-generated"></p>
+                <p class="news-intro" id="news-intro"></p>
+                <div class="news-sections" id="news-sections"></div>
+                <p class="news-note" id="news-note"></p>
+            </article>
+        </section>
+    </main>
+
+    <script src="./news.js" defer></script>
+</body>
+</html>
