@@ -2,6 +2,8 @@
     const newsSummaryUrl = "./weekly-news.jsonl";
     const legacyNewsSummaryUrl = "./news-summary.json";
     const newsAccessStorageKey = "weekly-news-access";
+    const newsScrollStorageKey = "weekly-news-scroll";
+    const scrollSaveIntervalMs = 1000;
     const requiredSections = ["world_news", "dutch_news", "tech_news"];
     const allowedSections = new Set(["world_news", "dutch_news", "tech_news", "buddhist_news"]);
     const displayOrder = ["dutch_news", "world_news", "tech_news", "buddhist_news"];
@@ -18,9 +20,45 @@
     const introElement = globalThis.document.getElementById("news-intro");
     const sectionsElement = globalThis.document.getElementById("news-sections");
     const noteElement = globalThis.document.getElementById("news-note");
+    let activeSummaryVersion = "";
+    let pendingScrollY = 0;
+    let lastSavedScrollY = null;
+    let scrollChanged = false;
+    let scrollSaveHandle = null;
 
     if (!statusElement || !messageElement || !contentElement || !generatedElement || !introElement || !sectionsElement || !noteElement) {
         return;
+    }
+
+    function readSavedScrollRecord() {
+        try {
+            const rawValue = globalThis.localStorage.getItem(newsScrollStorageKey);
+
+            if (!rawValue) {
+                return null;
+            }
+
+            const parsedValue = JSON.parse(rawValue);
+
+            if (!parsedValue || typeof parsedValue !== "object") {
+                return null;
+            }
+
+            return parsedValue;
+        } catch {
+            return null;
+        }
+    }
+
+    function writeSavedScrollRecord(summaryVersion, scrollY) {
+        try {
+            globalThis.localStorage.setItem(newsScrollStorageKey, JSON.stringify({
+                summaryVersion,
+                scrollY
+            }));
+        } catch {
+            // Ignore storage failures.
+        }
     }
 
     function readNewsAccessRecord() {
@@ -118,6 +156,88 @@
         }
 
         return summary.weekId;
+    }
+
+    function getCurrentScrollY() {
+        return Math.max(0, Math.round(globalThis.scrollY || globalThis.pageYOffset || 0));
+    }
+
+    function persistScrollPositionIfNeeded() {
+        if (!activeSummaryVersion || !scrollChanged) {
+            return;
+        }
+
+        if (!Number.isFinite(pendingScrollY) || pendingScrollY === lastSavedScrollY) {
+            scrollChanged = false;
+            return;
+        }
+
+        writeSavedScrollRecord(activeSummaryVersion, pendingScrollY);
+        lastSavedScrollY = pendingScrollY;
+        scrollChanged = false;
+    }
+
+    function handleScrollChange() {
+        const currentScrollY = getCurrentScrollY();
+
+        if (currentScrollY !== pendingScrollY) {
+            pendingScrollY = currentScrollY;
+            scrollChanged = true;
+        }
+    }
+
+    function startScrollPersistence(summary) {
+        activeSummaryVersion = buildSummaryAccessVersion(summary);
+        pendingScrollY = getCurrentScrollY();
+        scrollChanged = false;
+
+        const savedRecord = readSavedScrollRecord();
+        lastSavedScrollY = savedRecord?.summaryVersion === activeSummaryVersion && Number.isFinite(savedRecord.scrollY)
+            ? savedRecord.scrollY
+            : null;
+
+        if (scrollSaveHandle !== null) {
+            globalThis.clearInterval(scrollSaveHandle);
+        }
+
+        globalThis.removeEventListener("scroll", handleScrollChange);
+        globalThis.removeEventListener("pagehide", persistScrollPositionIfNeeded);
+        globalThis.document.removeEventListener("visibilitychange", persistScrollPositionIfNeededOnHide);
+
+        if (!activeSummaryVersion) {
+            scrollSaveHandle = null;
+            return;
+        }
+
+        globalThis.addEventListener("scroll", handleScrollChange, { passive: true });
+        globalThis.addEventListener("pagehide", persistScrollPositionIfNeeded);
+        globalThis.document.addEventListener("visibilitychange", persistScrollPositionIfNeededOnHide);
+        scrollSaveHandle = globalThis.setInterval(persistScrollPositionIfNeeded, scrollSaveIntervalMs);
+    }
+
+    function persistScrollPositionIfNeededOnHide() {
+        if (globalThis.document.visibilityState === "hidden") {
+            persistScrollPositionIfNeeded();
+        }
+    }
+
+    function restoreSavedScrollPosition(summary) {
+        const summaryVersion = buildSummaryAccessVersion(summary);
+        const savedRecord = readSavedScrollRecord();
+
+        if (!summaryVersion || !savedRecord || savedRecord.summaryVersion !== summaryVersion || !Number.isFinite(savedRecord.scrollY)) {
+            return;
+        }
+
+        const targetScrollY = Math.max(0, Math.round(savedRecord.scrollY));
+        const applyScroll = function () {
+            globalThis.scrollTo(0, targetScrollY);
+        };
+
+        globalThis.requestAnimationFrame(function () {
+            globalThis.requestAnimationFrame(applyScroll);
+        });
+        globalThis.setTimeout(applyScroll, 180);
     }
 
     function getHostnameLabel(urlValue) {
@@ -559,6 +679,8 @@
         });
 
         noteElement.textContent = typeof summary.note === "string" ? summary.note : "";
+        restoreSavedScrollPosition(summary);
+        startScrollPersistence(summary);
     }
 
     async function loadWeeklySummary() {
