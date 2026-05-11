@@ -41,10 +41,8 @@ export class LauncherService {
   private readonly document: Document = inject(DOCUMENT);
   private readonly router: Router = inject(Router);
   private readonly window: Window | null = this.document.defaultView;
-  private redirectHandle: number | null = null;
   private popupHandle: number | null = null;
 
-  readonly redirectDelayMs: number = 1000;
   readonly showWatchPopup: WritableSignal<boolean> = signal(false);
   readonly actions: readonly LauncherAction[] = [
     {
@@ -133,27 +131,7 @@ export class LauncherService {
     }
   ];
 
-  startAutoRedirect(isPreviewMode: boolean): void {
-    if (isPreviewMode || !this.window) {
-      return;
-    }
-
-    this.cancelAutoRedirect();
-    this.redirectHandle = this.window.setTimeout(() => {
-      this.openTaskerTarget('tasker://assistantactions?task=OpenProductivity');
-    }, this.redirectDelayMs);
-  }
-
-  cancelAutoRedirect(): void {
-    if (this.redirectHandle !== null && this.window) {
-      this.window.clearTimeout(this.redirectHandle);
-      this.redirectHandle = null;
-    }
-  }
-
   launchAction(action: LauncherAction): void {
-    this.cancelAutoRedirect();
-
     if (action.id === 'open-breathing') {
       this.showBreathingPopup();
       this.window?.setTimeout((): void => this.openAction(action), 180);
