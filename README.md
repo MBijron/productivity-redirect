@@ -1,6 +1,6 @@
 # Productivity Redirect
 
-An Angular-based launcher for the Qashboard workflow and related shortcuts.
+An Angular-based launcher for the Q-board workflow and related shortcuts.
 
 ## Local development
 

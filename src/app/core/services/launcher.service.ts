@@ -51,7 +51,7 @@ export class LauncherService {
   readonly actions: readonly LauncherAction[] = [
     {
       id: 'open-elevate',
-      label: 'Open Qashboard',
+      label: 'Open Elevate',
       target: 'tasker://assistantactions?task=OpenProductivity',
       className: '',
       kind: 'tasker',

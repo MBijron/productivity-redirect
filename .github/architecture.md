@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Productivity Redirect is a standalone Angular application that serves as a shortcut launcher for the Qashboard workflow and a curated random Wikipedia experience.
+Productivity Redirect is a standalone Angular application that serves as a shortcut launcher for the Q-board workflow and a curated random Wikipedia experience.
 
 ## Runtime flow
 

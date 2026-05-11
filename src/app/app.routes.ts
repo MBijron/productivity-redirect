@@ -6,7 +6,7 @@ export const routes: Routes = [
 	{
 		path: '',
 		component: HomePageComponent,
-		title: 'Qashboard'
+		title: 'Q-board'
 	},
 	{
 		path: 'wikipedia',
