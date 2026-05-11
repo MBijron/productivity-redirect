@@ -1,0 +1,26 @@
+.button {
+	position: relative;
+}
+
+.button-label {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.button-usage {
+	position: absolute;
+	top: -0.35rem;
+	right: -0.15rem;
+	min-width: 1.55rem;
+	height: 1.55rem;
+	padding: 0 0.35rem;
+	border-radius: 999px;
+	background: rgba(255, 247, 240, 0.94);
+	color: var(--accent-strong);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.72rem;
+	font-weight: 800;
+	box-shadow: 0 8px 18px rgba(45, 22, 13, 0.22);
+}

@@ -1,6 +1,8 @@
 import { DOCUMENT } from '@angular/common';
 import { Injectable, WritableSignal, inject, signal } from '@angular/core';
 import { Router } from '@angular/router';
+import { DailyFactReminderService } from './daily-fact-reminder.service';
+import { ShortcutUsageStoreService } from './shortcut-usage-store.service';
 
 interface PathIconShape {
   type: 'path';
@@ -40,6 +42,8 @@ export interface LauncherAction {
 export class LauncherService {
   private readonly document: Document = inject(DOCUMENT);
   private readonly router: Router = inject(Router);
+  private readonly dailyFactReminderService: DailyFactReminderService = inject(DailyFactReminderService);
+  private readonly shortcutUsageStore: ShortcutUsageStoreService = inject(ShortcutUsageStoreService);
   private readonly window: Window | null = this.document.defaultView;
   private popupHandle: number | null = null;
 
@@ -132,6 +136,9 @@ export class LauncherService {
   ];
 
   launchAction(action: LauncherAction): void {
+    this.shortcutUsageStore.increment(action.id);
+    this.dailyFactReminderService.handleUserInteraction();
+
     if (action.id === 'open-breathing') {
       this.showBreathingPopup();
       this.window?.setTimeout((): void => this.openAction(action), 180);

@@ -25,17 +25,21 @@
 
     <div class="actions">
       @for (action of actions; track action.id) {
-        <app-shortcut-button [action]="action" (launch)="launchAction($event)" />
+        <app-shortcut-button
+          [action]="action"
+          [usageCount]="usageCount(action.id)"
+          (launch)="launchAction($event)"
+        />
       }
     </div>
 
     <div class="meta" aria-label="Launcher details">
       <div class="meta-row">
-        <span>Open one of your shortcuts when you are ready</span>
-        <span class="pill">Manual launch</span>
+        <span>Daily Fact used {{ dailyFactCount() }} time{{ dailyFactCount() === 1 ? '' : 's' }} today</span>
+        <span class="pill">Daily tracking on</span>
       </div>
       <p class="fine-print">
-        If your device asks for permission, allow the prompt to continue so the selected shortcut can open.
+        If notifications are allowed, the app will remind you after 3pm when Daily Fact has not been opened yet that day.
       </p>
     </div>
 

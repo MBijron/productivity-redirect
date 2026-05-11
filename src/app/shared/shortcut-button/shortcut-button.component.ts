@@ -10,6 +10,7 @@ import { LauncherAction } from '../../core/services/launcher.service';
 })
 export class ShortcutButtonComponent {
   readonly action: InputSignal<LauncherAction> = input.required<LauncherAction>();
+  readonly usageCount: InputSignal<number> = input(0);
   readonly launch: OutputEmitterRef<LauncherAction> = output<LauncherAction>();
 
   protected handleClick(): void {
