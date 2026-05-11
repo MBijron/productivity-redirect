@@ -1,4 +1,4 @@
-import { Component, DestroyRef, computed, inject } from '@angular/core';
+import { Component, DestroyRef, Signal, computed, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LauncherAction, LauncherService } from '../../core/services/launcher.service';
 import { ShortcutButtonComponent } from '../../shared/shortcut-button/shortcut-button.component';
@@ -11,13 +11,13 @@ import { WatchPopupComponent } from '../../shared/watch-popup/watch-popup.compon
   styleUrl: './home-page.component.css'
 })
 export class HomePageComponent {
-  private readonly launcherService = inject(LauncherService);
-  private readonly route = inject(ActivatedRoute);
-  private readonly destroyRef = inject(DestroyRef);
+  private readonly launcherService: LauncherService = inject(LauncherService);
+  private readonly route: ActivatedRoute = inject(ActivatedRoute);
+  private readonly destroyRef: DestroyRef = inject(DestroyRef);
 
-  protected readonly actions = this.launcherService.actions;
-  protected readonly redirectDelaySeconds = computed(() => this.launcherService.redirectDelayMs / 1000);
-  protected readonly showWatchPopup = this.launcherService.showWatchPopup;
+  protected readonly actions: readonly LauncherAction[] = this.launcherService.actions;
+  protected readonly redirectDelaySeconds: Signal<number> = computed(() => this.launcherService.redirectDelayMs / 1000);
+  protected readonly showWatchPopup: Signal<boolean> = this.launcherService.showWatchPopup;
 
   constructor() {
     // The home page owns the auto-redirect lifecycle so navigation away cancels it cleanly.

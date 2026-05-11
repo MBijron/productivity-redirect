@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable, inject, signal } from '@angular/core';
+import { Injectable, WritableSignal, inject, signal } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { firstValueFrom } from 'rxjs';
 
@@ -13,9 +13,9 @@ interface WikipediaParseResponse {
   providedIn: 'root'
 })
 export class WikipediaCuratorService {
-  private readonly http = inject(HttpClient);
-  private readonly sanitizer = inject(DomSanitizer);
-  private readonly parser = new DOMParser();
+  private readonly http: HttpClient = inject(HttpClient);
+  private readonly sanitizer: DomSanitizer = inject(DomSanitizer);
+  private readonly parser: DOMParser = new DOMParser();
 
   private readonly wikipediaOrigin = 'https://en.wikipedia.org';
   private readonly fallbackArticleUrl = `${this.wikipediaOrigin}/wiki/Special:Random`;
@@ -26,10 +26,10 @@ export class WikipediaCuratorService {
   private currentArticlePath = '';
   private featuredPoolPromise?: Promise<string[]>;
   private vitalSubpagesPromise?: Promise<string[]>;
-  private readonly vitalPoolPromisesByPage = new Map<string, Promise<string[]>>();
+  private readonly vitalPoolPromisesByPage: Map<string, Promise<string[]>> = new Map<string, Promise<string[]>>();
 
-  readonly isLoading = signal(false);
-  readonly articleUrl = signal<SafeResourceUrl>(this.sanitizer.bypassSecurityTrustResourceUrl('about:blank'));
+  readonly isLoading: WritableSignal<boolean> = signal(false);
+  readonly articleUrl: WritableSignal<SafeResourceUrl> = signal<SafeResourceUrl>(this.sanitizer.bypassSecurityTrustResourceUrl('about:blank'));
 
   reset(): void {
     this.isLoading.set(false);
@@ -168,7 +168,7 @@ export class WikipediaCuratorService {
   }
 
   private loadFeaturedPool(): Promise<string[]> {
-    if (this.featuredPoolPromise) {
+    if (this.featuredPoolPromise !== undefined) {
       return this.featuredPoolPromise;
     }
 
@@ -183,7 +183,7 @@ export class WikipediaCuratorService {
   }
 
   private loadVitalSubpages(): Promise<string[]> {
-    if (this.vitalSubpagesPromise) {
+    if (this.vitalSubpagesPromise !== undefined) {
       return this.vitalSubpagesPromise;
     }
 
@@ -200,7 +200,7 @@ export class WikipediaCuratorService {
   private loadVitalPool(pageName: string): Promise<string[]> {
     const existingPromise = this.vitalPoolPromisesByPage.get(pageName);
 
-    if (existingPromise) {
+    if (existingPromise !== undefined) {
       return existingPromise;
     }
 

@@ -1,5 +1,5 @@
 import { DOCUMENT } from '@angular/common';
-import { Injectable, inject, signal } from '@angular/core';
+import { Injectable, WritableSignal, inject, signal } from '@angular/core';
 import { Router } from '@angular/router';
 
 interface PathIconShape {
@@ -38,15 +38,15 @@ export interface LauncherAction {
   providedIn: 'root'
 })
 export class LauncherService {
-  private readonly document = inject(DOCUMENT);
-  private readonly router = inject(Router);
-  private readonly window = this.document.defaultView;
+  private readonly document: Document = inject(DOCUMENT);
+  private readonly router: Router = inject(Router);
+  private readonly window: Window | null = this.document.defaultView;
   private redirectHandle: number | null = null;
   private popupHandle: number | null = null;
 
-  readonly redirectDelayMs = 1000;
-  readonly showWatchPopup = signal(false);
-  readonly actions: LauncherAction[] = [
+  readonly redirectDelayMs: number = 1000;
+  readonly showWatchPopup: WritableSignal<boolean> = signal(false);
+  readonly actions: readonly LauncherAction[] = [
     {
       id: 'open-elevate',
       label: 'Open Elevate',
@@ -156,7 +156,7 @@ export class LauncherService {
 
     if (action.id === 'open-breathing') {
       this.showBreathingPopup();
-      this.window?.setTimeout(() => this.openAction(action), 180);
+      this.window?.setTimeout((): void => this.openAction(action), 180);
       return;
     }
 
@@ -187,7 +187,7 @@ export class LauncherService {
       this.window.clearTimeout(this.popupHandle);
     }
 
-    this.popupHandle = this.window?.setTimeout(() => {
+    this.popupHandle = this.window?.setTimeout((): void => {
       this.showWatchPopup.set(false);
       this.popupHandle = null;
     }, 1400) ?? null;

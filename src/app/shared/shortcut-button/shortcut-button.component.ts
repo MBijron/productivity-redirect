@@ -1,5 +1,5 @@
 import { NgClass } from '@angular/common';
-import { Component, input, output } from '@angular/core';
+import { Component, InputSignal, OutputEmitterRef, input, output } from '@angular/core';
 import { LauncherAction } from '../../core/services/launcher.service';
 
 @Component({
@@ -9,8 +9,8 @@ import { LauncherAction } from '../../core/services/launcher.service';
   styleUrl: './shortcut-button.component.css'
 })
 export class ShortcutButtonComponent {
-  readonly action = input.required<LauncherAction>();
-  readonly launch = output<LauncherAction>();
+  readonly action: InputSignal<LauncherAction> = input.required<LauncherAction>();
+  readonly launch: OutputEmitterRef<LauncherAction> = output<LauncherAction>();
 
   protected handleClick(): void {
     this.launch.emit(this.action());

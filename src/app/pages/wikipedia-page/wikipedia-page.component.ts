@@ -1,4 +1,5 @@
-import { Component, DestroyRef, inject } from '@angular/core';
+import { Component, DestroyRef, Signal, inject } from '@angular/core';
+import { SafeResourceUrl } from '@angular/platform-browser';
 import { WikipediaCuratorService } from '../../core/services/wikipedia-curator.service';
 
 @Component({
@@ -8,11 +9,11 @@ import { WikipediaCuratorService } from '../../core/services/wikipedia-curator.s
   styleUrl: './wikipedia-page.component.css'
 })
 export class WikipediaPageComponent {
-  private readonly wikipediaCurator = inject(WikipediaCuratorService);
-  private readonly destroyRef = inject(DestroyRef);
+  private readonly wikipediaCurator: WikipediaCuratorService = inject(WikipediaCuratorService);
+  private readonly destroyRef: DestroyRef = inject(DestroyRef);
 
-  protected readonly articleUrl = this.wikipediaCurator.articleUrl;
-  protected readonly isLoading = this.wikipediaCurator.isLoading;
+  protected readonly articleUrl: Signal<SafeResourceUrl> = this.wikipediaCurator.articleUrl;
+  protected readonly isLoading: Signal<boolean> = this.wikipediaCurator.isLoading;
 
   constructor() {
     // Load the first article immediately and reset state if this page is destroyed.

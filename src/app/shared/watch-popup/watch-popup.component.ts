@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, InputSignal, input } from '@angular/core';
 
 @Component({
   selector: 'app-watch-popup',
@@ -7,5 +7,5 @@ import { Component, input } from '@angular/core';
   styleUrl: './watch-popup.component.css'
 })
 export class WatchPopupComponent {
-  readonly visible = input(false);
+  readonly visible: InputSignal<boolean> = input(false);
 }
