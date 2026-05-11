@@ -162,7 +162,7 @@ export class ShortcutUsageStoreService {
     return {
       dailyDateKey: dailyDateKey === todayKey && dailyCounts ? dailyDateKey : todayKey,
       dailyCounts: dailyDateKey === todayKey && dailyCounts ? dailyCounts : {},
-      weeklyDateKey: parsedState.weeklyDateKey === weekKey && parsedState.weeklyCounts ? weekKey : weekKey,
+      weeklyDateKey: weekKey,
       weeklyCounts: parsedState.weeklyDateKey === weekKey && parsedState.weeklyCounts ? parsedState.weeklyCounts : {},
       dailyFactReminderShown: dailyDateKey === todayKey && parsedState.dailyFactReminderShown === true,
       lastUpdatedAt: parsedState.lastUpdatedAt ?? new Date().toISOString()

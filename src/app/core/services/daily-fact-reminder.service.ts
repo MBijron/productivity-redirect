@@ -36,7 +36,7 @@ export class DailyFactReminderService {
 
   private syncReminderSchedule(): void {
     this.clearReminderHandle();
-    this.usageStore.resetIfDayChanged();
+    this.usageStore.resetIfPeriodChanged();
 
     if (this.usageStore.hasUsed(DAILY_FACT_ACTION_ID) || this.usageStore.hasShownDailyFactReminder()) {
       return;
@@ -56,7 +56,7 @@ export class DailyFactReminderService {
   }
 
   private notifyIfNeeded(): void {
-    this.usageStore.resetIfDayChanged();
+    this.usageStore.resetIfPeriodChanged();
     if (this.usageStore.hasUsed(DAILY_FACT_ACTION_ID) || this.usageStore.hasShownDailyFactReminder()) {
       return;
     }
