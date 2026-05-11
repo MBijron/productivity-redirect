@@ -1,0 +1,44 @@
+<main class="shell">
+  <section class="card" aria-labelledby="title">
+    <div class="brand" aria-label="Elevate logo and name">
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" role="img" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="logo-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#fff1dd"></stop>
+              <stop offset="100%" stop-color="#fffaf5"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#logo-fill)" d="M18 42.5 32 17l14 25.5h-7.7L32 31.8 25.7 42.5z"></path>
+          <rect x="18" y="46" width="28" height="5" rx="2.5" fill="rgba(255,250,245,0.92)"></rect>
+        </svg>
+      </div>
+      <div class="brand-copy">
+        <p class="eyebrow">Productivity App</p>
+        <h1 id="title">Open Elevate</h1>
+      </div>
+    </div>
+
+    <p class="lede">
+      Elevate helps you jump straight into your focused workflow. This page will open Elevate after a short pause, or you can choose another action below first.
+    </p>
+
+    <div class="actions">
+      @for (action of actions; track action.id) {
+        <app-shortcut-button [action]="action" (launch)="launchAction($event)" />
+      }
+    </div>
+
+    <div class="meta" aria-label="Redirect details">
+      <div class="meta-row">
+        <span>Automatic redirect opens Elevate unless you pick an option first</span>
+        <span class="pill">{{ redirectDelaySeconds() }} second</span>
+      </div>
+      <p class="fine-print">
+        If your device asks for permission, allow the prompt to continue. Choosing a button cancels the automatic redirect and launches that action instead.
+      </p>
+    </div>
+
+    <app-watch-popup [visible]="showWatchPopup()" />
+  </section>
+</main>

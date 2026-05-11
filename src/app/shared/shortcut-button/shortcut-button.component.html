@@ -1,0 +1,33 @@
+<button
+  class="button"
+  type="button"
+  [ngClass]="action().className"
+  [attr.aria-label]="action().label"
+  (click)="handleClick()"
+>
+  <span class="button-icon" aria-hidden="true">
+    <svg [attr.viewBox]="action().icon.viewBox" focusable="false">
+      @for (shape of action().icon.shapes; track $index) {
+        @if (shape.type === 'path') {
+          <path
+            [attr.fill]="shape.fill"
+            [attr.stroke]="shape.stroke"
+            [attr.stroke-width]="shape.strokeWidth"
+            [attr.d]="shape.d"
+          ></path>
+        }
+        @if (shape.type === 'circle') {
+          <circle
+            [attr.cx]="shape.cx"
+            [attr.cy]="shape.cy"
+            [attr.r]="shape.r"
+            [attr.fill]="shape.fill"
+            [attr.stroke]="shape.stroke"
+            [attr.stroke-width]="shape.strokeWidth"
+          ></circle>
+        }
+      }
+    </svg>
+  </span>
+  <span>{{ action().label }}</span>
+</button>
