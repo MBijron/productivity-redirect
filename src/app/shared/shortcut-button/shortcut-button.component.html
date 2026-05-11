@@ -6,7 +6,7 @@
   (click)="handleClick()"
 >
   @if (usageCount() > 0) {
-    <span class="button-usage" aria-label="Used {{ usageCount() }} times today">{{ usageCount() }}</span>
+    <span class="button-usage" [attr.aria-label]="'Used ' + usageCount() + ' times today'">{{ usageCount() }}</span>
   }
   <span class="button-icon" aria-hidden="true">
     <svg [attr.viewBox]="action().icon.viewBox" focusable="false">
