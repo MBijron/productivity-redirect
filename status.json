@@ -5,7 +5,8 @@
   "secondaryTargets": [
     "tasker://assistantactions?task=StartBreathingExercise",
     "./wikipedia.html",
-    "./news.html",
+    "tasker://assistantactions?task=AiNewsSummary",
+    "tasker://assistantactions?task=AiWorldlyKnowledge",
     "tasker://assistantactions?task=OpenDuolingo",
     "tasker://assistantactions?task=OpenBooks"
   ]
