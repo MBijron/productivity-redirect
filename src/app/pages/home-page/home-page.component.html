@@ -11,10 +11,14 @@
           </defs>
           <path fill="url(#logo-fill)" d="M18 42.5 32 17l14 25.5h-7.7L32 31.8 25.7 42.5z"></path>
           <rect x="18" y="46" width="28" height="5" rx="2.5" fill="rgba(255,250,245,0.92)"></rect>
-        </svg>
+            @for (actionView of displayedActions(); track actionView.action.id) {
       </div>
-      <div class="brand-copy">
-        <p class="eyebrow">Better than news</p>
+                [action]="actionView.action"
+                [usageCount]="actionView.usageCount"
+                [usagePeriodLabel]="actionView.usagePeriodLabel"
+                [urgent]="actionView.urgent"
+                [faded]="actionView.faded"
+                [disabled]="actionView.disabled"
         <h1 id="title">Q-Board</h1>
       </div>
     </div>

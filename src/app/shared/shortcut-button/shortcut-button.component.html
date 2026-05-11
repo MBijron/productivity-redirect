@@ -1,12 +1,15 @@
 <button
-  class="button"
   type="button"
-  [ngClass]="action().className"
+  [ngClass]="buttonClasses()"
   [attr.aria-label]="action().label"
+  [disabled]="disabled()"
   (click)="handleClick()"
 >
+  @if (urgent()) {
+    <span class="button-alert" aria-hidden="true">!</span>
+  }
   @if (usageCount() > 0) {
-    <span class="button-usage" [attr.aria-label]="'Used ' + usageCount() + ' times today'">{{ usageCount() }}</span>
+    <span class="button-usage" [attr.aria-label]="usageAriaLabel()">{{ usageCount() }}</span>
   }
   <span class="button-icon" aria-hidden="true">
     <svg [attr.viewBox]="action().icon.viewBox" focusable="false">

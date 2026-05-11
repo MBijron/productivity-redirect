@@ -1,10 +1,48 @@
 .button {
 	position: relative;
+	overflow: visible;
 }
 
 .button-label {
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+.button-attention {
+	filter: saturate(1.12) brightness(1.08);
+	box-shadow: 0 18px 34px rgba(173, 47, 8, 0.3);
+}
+
+.button-muted {
+	opacity: 0.72;
+	filter: saturate(0.7);
+	box-shadow: 0 10px 18px rgba(45, 22, 13, 0.14);
+}
+
+.button:disabled {
+	cursor: not-allowed;
+	opacity: 0.46;
+	filter: saturate(0.4);
+	box-shadow: none;
+	transform: none;
+}
+
+.button-alert {
+	position: absolute;
+	top: -0.35rem;
+	left: -0.15rem;
+	min-width: 1.55rem;
+	height: 1.55rem;
+	padding: 0 0.35rem;
+	border-radius: 999px;
+	background: linear-gradient(180deg, #fff9da, #ffd567);
+	color: #7a4100;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.78rem;
+	font-weight: 900;
+	box-shadow: 0 8px 18px rgba(122, 65, 0, 0.28);
 }
 
 .button-usage {
