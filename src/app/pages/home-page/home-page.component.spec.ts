@@ -60,7 +60,7 @@ describe('HomePageComponent', () => {
 
     const fixture = TestBed.createComponent(HomePageComponent);
     const component = fixture.componentInstance as HomePageComponent & {
-      displayedActions: () => Array<{ action: LauncherAction; urgent: boolean }>;
+      displayedActions: () => { action: LauncherAction; urgent: boolean }[];
     };
 
     const orderedIds = component.displayedActions().map((item) => item.action.id);
@@ -79,7 +79,7 @@ describe('HomePageComponent', () => {
   it('marks news as urgent before first weekly click and disables it after three', () => {
     const fixture = TestBed.createComponent(HomePageComponent);
     const component = fixture.componentInstance as HomePageComponent & {
-      displayedActions: () => Array<{ action: LauncherAction; urgent: boolean; faded: boolean; disabled: boolean }>;
+      displayedActions: () => { action: LauncherAction; urgent: boolean; faded: boolean; disabled: boolean }[];
     };
 
     let news = component.displayedActions().find((item) => item.action.id === 'open-ai-news-summary');
